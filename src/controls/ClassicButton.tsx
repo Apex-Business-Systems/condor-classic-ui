@@ -1,13 +1,19 @@
-import type { ButtonHTMLAttributes, ReactNode } from "react";
+import { forwardRef, type ButtonHTMLAttributes, type ReactNode } from "react";
+
+import { joinClassNames } from "../utils/joinClassNames";
 
 export type ClassicButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   children: ReactNode;
 };
 
-export function ClassicButton({ children, type = "button", ...props }: ClassicButtonProps) {
-  return (
-    <button type={type} {...props}>
-      {children}
-    </button>
-  );
-}
+export const ClassicButton = forwardRef<HTMLButtonElement, ClassicButtonProps>(
+  ({ children, className, type = "button", ...props }, ref) => {
+    return (
+      <button ref={ref} type={type} className={joinClassNames("btn", className)} {...props}>
+        {children}
+      </button>
+    );
+  },
+);
+
+ClassicButton.displayName = "ClassicButton";

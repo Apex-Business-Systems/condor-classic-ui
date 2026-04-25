@@ -1,4 +1,6 @@
-import type { FieldsetHTMLAttributes, ReactNode } from "react";
+import { type FieldsetHTMLAttributes, type ReactNode } from "react";
+
+import { joinClassNames } from "../utils/joinClassNames";
 
 export type ClassicFieldsetProps = FieldsetHTMLAttributes<HTMLFieldSetElement> & {
   legend?: ReactNode;
@@ -6,10 +8,8 @@ export type ClassicFieldsetProps = FieldsetHTMLAttributes<HTMLFieldSetElement> &
 };
 
 export function ClassicFieldset({ legend, children, className, ...props }: ClassicFieldsetProps) {
-  const classes = ["padding", className].filter(Boolean).join(" ");
-
   return (
-    <fieldset className={classes} {...props}>
+    <fieldset className={joinClassNames("classic-fieldset", className)} {...props}>
       {legend ? <legend>{legend}</legend> : null}
       {children}
     </fieldset>
