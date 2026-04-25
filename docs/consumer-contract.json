@@ -8,7 +8,20 @@
   "assetBasePath": "/classic-stylesheets",
   "stylesheetExport": "@condor/classic-ui/styles.css",
   "themeProvider": "ClassicThemeProvider",
-  "themes": ["cde", "macos9", "win3x", "win9x", "winxp"],
+  "themes": [
+    "cde",
+    "macos9",
+    "win3x",
+    "win9x",
+    "winxp"
+  ],
+  "defaultSkinsByTheme": {
+    "cde": "default",
+    "macos9": "default",
+    "win3x": "3.1",
+    "win9x": "95",
+    "winxp": "default"
+  },
   "requiredConsumerBehavior": [
     "Import @condor/classic-ui/styles.css once",
     "Use ClassicThemeProvider for theme and skin stylesheet links",
@@ -21,27 +34,38 @@
     "changelogRequired": true,
     "releaseProcessDoc": "docs/RELEASE_PROCESS.md"
   },
-  "exports": {
+  "exportedSymbols": {
     "theme": [
       "CLASSIC_THEMES",
+      "ClassicTheme",
       "CLASSIC_THEME_SKINS",
       "CLASSIC_DEFAULT_SKIN_BY_THEME",
+      "ClassicSkin",
       "getSkinsForTheme",
       "getDefaultSkinForTheme",
       "isSkinValidForTheme",
-      "ClassicTheme",
-      "ClassicSkin"
+      "ClassicThemeProviderProps",
+      "ClassicThemeProvider"
     ],
     "controls": [
+      "ClassicButtonProps",
       "ClassicButton",
+      "ClassicInputProps",
       "ClassicInput",
+      "ClassicTextareaProps",
       "ClassicTextarea",
+      "ClassicSelectProps",
       "ClassicSelect",
+      "ClassicFieldsetProps",
       "ClassicFieldset"
     ],
-    "shell": [
+    "shell/layout": [
+      "ClassicWindowProps",
       "ClassicWindow",
+      "ClassicStatusBarProps",
       "ClassicStatusBar"
-    ]
+    ],
+    "dialog": [],
+    "table": []
   }
 }
