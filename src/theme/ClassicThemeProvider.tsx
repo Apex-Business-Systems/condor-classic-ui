@@ -1,9 +1,10 @@
 import { useEffect } from "react";
-import type { ClassicSkin, ClassicTheme } from "./classicThemes";
+import type { ClassicTheme } from "./classicThemes";
+import { isSkinValidForTheme } from "./classicThemes";
 
 export type ClassicThemeProviderProps = {
   theme: ClassicTheme;
-  skin: ClassicSkin;
+  skin?: string | null;
   assetBasePath?: string;
 };
 
@@ -30,13 +31,23 @@ export function ClassicThemeProvider({
     const skinLink = ensureStylesheetLink("classic-skin-link");
 
     themeLink.href = `${assetBasePath}/themes/${theme}/theme.css`;
-    skinLink.href = `${assetBasePath}/themes/${theme}/skins/${skin}.css`;
+
+    const validSkin = isSkinValidForTheme(theme, skin) ? skin : null;
+
+    if (validSkin) {
+      skinLink.disabled = false;
+      skinLink.href = `${assetBasePath}/themes/${theme}/skins/${validSkin}.css`;
+      document.documentElement.dataset.themeSkin = validSkin;
+      localStorage.setItem("condor.classic.skin", validSkin);
+    } else {
+      skinLink.disabled = true;
+      skinLink.removeAttribute("href");
+      delete document.documentElement.dataset.themeSkin;
+      localStorage.removeItem("condor.classic.skin");
+    }
 
     document.documentElement.dataset.themeProfile = theme;
-    document.documentElement.dataset.themeSkin = skin;
-
     localStorage.setItem("condor.classic.theme", theme);
-    localStorage.setItem("condor.classic.skin", skin);
   }, [theme, skin, assetBasePath]);
 
   return null;
