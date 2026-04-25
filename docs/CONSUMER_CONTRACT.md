@@ -52,6 +52,8 @@ cp -R node_modules/classic-stylesheets/themes public/classic-stylesheets/themes
 
 Use `ClassicThemeProvider` to load theme + skin stylesheets and apply runtime theme context.
 
+Accepted `theme` values: `cde`, `macos9`, `win3x`, `win9x`, `winxp`.
+
 ```tsx
 import { ClassicThemeProvider } from '@condor/classic-ui';
 
@@ -147,7 +149,10 @@ export function ExampleForm() {
   return (
     <ClassicFieldset legend="Preferences">
       <ClassicInput placeholder="Name" />
-      <ClassicSelect options={[{ label: 'Standard', value: 'standard' }]} />
+      <ClassicSelect defaultValue="95">
+        <option value="95">Windows 95</option>
+        <option value="98">Windows 98</option>
+      </ClassicSelect>
       <ClassicTextarea placeholder="Notes" />
       <ClassicButton>Save</ClassicButton>
     </ClassicFieldset>
@@ -240,13 +245,17 @@ done
 
 ## CAD integration notes
 
-For `condor-cad` integration, maintain a local copy of this contract in CAD docs.
+Use this exact dependency in `condor-cad/package.json`:
 
-- Recommended target path:
-
-```text
-condor-cad/docs/CONDOR_CLASSIC_UI_CONTRACT.md
+```json
+{
+  "dependencies": {
+    "@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
+  }
+}
 ```
 
+- Maintain a local copy of this contract in CAD docs.
+- Recommended target path: `condor-cad/docs/CONDOR_CLASSIC_UI_CONTRACT.md`.
 - Update the CAD-side snapshot whenever this contract changes.
 - Keep `@condor/classic-ui` pinned to an immutable Git tag/SHA in CAD `package.json`.
