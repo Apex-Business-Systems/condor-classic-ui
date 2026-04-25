@@ -1,6 +1,10 @@
 {
   "packageName": "@condor/classic-ui",
-  "privateGitDependency": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#main",
+  "privateGitDependency": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1",
+  "consumerPackageJsonRequirement": "Use immutable semantic tag or commit SHA only (no floating branch refs such as #main)",
+  "consumerPackageJsonExample": {
+    "@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
+  },
   "assetBasePath": "/classic-stylesheets",
   "stylesheetExport": "@condor/classic-ui/styles.css",
   "themeProvider": "ClassicThemeProvider",
@@ -9,8 +13,14 @@
     "Import @condor/classic-ui/styles.css once",
     "Use ClassicThemeProvider for theme and skin stylesheet links",
     "Do not duplicate CLASSIC_THEME_SKINS in consuming apps",
-    "Serve classic-stylesheets assets at /classic-stylesheets"
+    "Serve classic-stylesheets assets at /classic-stylesheets",
+    "Pin package installation to a semantic tag or commit SHA"
   ],
+  "releasePolicy": {
+    "tagFormat": "vMAJOR.MINOR.PATCH",
+    "changelogRequired": true,
+    "releaseProcessDoc": "docs/RELEASE_PROCESS.md"
+  },
   "exports": {
     "theme": [
       "CLASSIC_THEMES",
