@@ -1,2 +1,16 @@
 src/styles/condor-fonts-local.css
 public/local-fonts/
+
+# Node dependencies
+node_modules/
+
+# Package manager caches
+.npm/
+.yarn/
+.pnpm-store/
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+.DS_Store
