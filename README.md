@@ -16,7 +16,7 @@ Consumers install this package from the private repository via SSH URL and a pin
 ```json
 {
   "dependencies": {
-    "@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.0"
+    "@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
   }
 }
 ```
@@ -54,6 +54,8 @@ Example concrete paths:
 
 ### 3) Minimal React integration (`ClassicThemeProvider`)
 
+`theme` must be one of: `cde`, `macos9`, `win3x`, `win9x`, `winxp`.
+
 ```tsx
 import React from 'react';
 import { ClassicThemeProvider } from '@condor/classic-ui';
@@ -61,7 +63,7 @@ import '@condor/classic-ui/styles.css';
 
 export function Root() {
   return (
-    <ClassicThemeProvider theme="default" skin="light">
+    <ClassicThemeProvider theme="win9x" skin="95">
       <App />
     </ClassicThemeProvider>
   );
@@ -77,8 +79,8 @@ import { ClassicButton, ClassicInput } from '@condor/classic-ui';
 export function ExampleControls() {
   return (
     <div>
-      <ClassicInput label="Account" name="account" />
-      <ClassicButton variant="primary">Continue</ClassicButton>
+      <ClassicInput name="account" placeholder="Account" />
+      <ClassicButton>Continue</ClassicButton>
     </div>
   );
 }
@@ -101,17 +103,30 @@ To keep this package stable and reusable:
 4. Tag the release (`vX.Y.Z`) and push tag.
 5. Consumers pin that tag in `package.json`.
 
-### Initial `v0.1.0` process
+### `v0.1.1` process
 
 Once checks pass for the first consumable release:
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
 Then consumers can reference:
 
 ```json
-"@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.0"
+"@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
+```
+
+
+## CAD integration notes
+
+Use this exact dependency in `condor-cad/package.json`:
+
+```json
+{
+  "dependencies": {
+    "@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
+  }
+}
 ```

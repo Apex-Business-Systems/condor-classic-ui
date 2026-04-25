@@ -1,6 +1,4 @@
-import { ReactNode } from 'react';
-export type ClassicStatusBarProps = {
-    children: ReactNode;
-};
-export declare function ClassicStatusBar({ children }: ClassicStatusBarProps): import("react/jsx-runtime").JSX.Element;
+import { HTMLAttributes } from 'react';
+export type ClassicStatusBarProps = HTMLAttributes<HTMLDivElement>;
+export declare const ClassicStatusBar: import('react').ForwardRefExoticComponent<ClassicStatusBarProps & import('react').RefAttributes<HTMLDivElement>>;
 //# sourceMappingURL=ClassicStatusBar.d.ts.map

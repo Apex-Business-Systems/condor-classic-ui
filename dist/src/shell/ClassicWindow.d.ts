@@ -1,8 +1,4 @@
-import { ReactNode } from 'react';
-export type ClassicWindowProps = {
-    title: ReactNode;
-    active?: boolean;
-    children: ReactNode;
-};
-export declare function ClassicWindow({ title, active, children }: ClassicWindowProps): import("react/jsx-runtime").JSX.Element;
+import { HTMLAttributes } from 'react';
+export type ClassicWindowProps = HTMLAttributes<HTMLElement>;
+export declare const ClassicWindow: import('react').ForwardRefExoticComponent<ClassicWindowProps & import('react').RefAttributes<HTMLElement>>;
 //# sourceMappingURL=ClassicWindow.d.ts.map

@@ -46,6 +46,11 @@
       "getSkinsForTheme",
       "getDefaultSkinForTheme",
       "isSkinValidForTheme",
+      "CLASSIC_THEME_LINK_ID",
+      "CLASSIC_SKIN_LINK_ID",
+      "CLASSIC_THEME_STORAGE_KEY",
+      "CLASSIC_SKIN_STORAGE_KEY",
+      "ClassicThemePreferenceStorageKeys",
       "ClassicThemeProviderProps",
       "ClassicThemeProvider"
     ],
@@ -62,13 +67,51 @@
       "ClassicFieldset"
     ],
     "shell/layout": [
+      "ClassicDesktopProps",
+      "ClassicDesktop",
       "ClassicWindowProps",
       "ClassicWindow",
+      "ClassicWindowFrameProps",
+      "ClassicWindowFrame",
+      "ClassicWindowBodyProps",
+      "ClassicWindowBody",
+      "ClassicTitleBarProps",
+      "ClassicTitleBar",
       "ClassicStatusBarProps",
-      "ClassicStatusBar"
+      "ClassicStatusBar",
+      "ClassicPanelProps",
+      "ClassicPanel",
+      "ClassicMenuBarProps",
+      "ClassicMenuBar",
+      "ClassicMenuProps",
+      "ClassicMenu",
+      "ClassicMenuItemProps",
+      "ClassicMenuItem",
+      "ClassicMenuStripProps",
+      "ClassicMenuStrip"
     ],
-    "dialog": [],
-    "table": []
+    "dialog": [
+      "ClassicDialogProps",
+      "ClassicDialog",
+      "ClassicDialogTitleProps",
+      "ClassicDialogTitle",
+      "ClassicDialogBodyProps",
+      "ClassicDialogBody",
+      "ClassicDialogActionsProps",
+      "ClassicDialogActions"
+    ],
+    "table": [
+      "ClassicDetailedTableProps",
+      "ClassicDetailedTable",
+      "ClassicDetailedTableHeadProps",
+      "ClassicDetailedTableHead",
+      "ClassicDetailedTableBodyProps",
+      "ClassicDetailedTableBody",
+      "ClassicDetailedTableCellProps",
+      "ClassicDetailedTableCell",
+      "ClassicDetailedTableHeaderCellProps",
+      "ClassicDetailedTableHeaderCell"
+    ]
   },
   "themeProviderLinkIds": {
     "theme": "classic-theme-link",

@@ -185,32 +185,164 @@ function E({ legend: e, children: t, className: i, ...a }) {
 	});
 }
 //#endregion
+//#region src/shell/ClassicDesktop.tsx
+var D = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("main", {
+	ref: r,
+	className: x("desktop", e),
+	...t
+}));
+D.displayName = "ClassicDesktop";
+//#endregion
 //#region src/shell/ClassicWindow.tsx
-function D({ title: e, active: t = !0, children: i }) {
-	return /* @__PURE__ */ r("div", {
-		className: t ? "window active" : "window",
-		children: [/* @__PURE__ */ n("div", {
-			className: "title-bar",
-			children: /* @__PURE__ */ n("div", {
-				className: "title-bar-text",
-				children: e
-			})
-		}), /* @__PURE__ */ n("div", {
-			className: "window-body",
-			children: /* @__PURE__ */ n("div", {
-				className: "condor-window-content",
-				children: i
-			})
-		})]
-	});
-}
+var O = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("section", {
+	ref: r,
+	className: x("window", e),
+	...t
+}));
+O.displayName = "ClassicWindow";
+//#endregion
+//#region src/shell/ClassicWindowFrame.tsx
+var k = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("div", {
+	ref: r,
+	className: x("window-frame", e),
+	...t
+}));
+k.displayName = "ClassicWindowFrame";
+//#endregion
+//#region src/shell/ClassicWindowBody.tsx
+var A = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("div", {
+	ref: r,
+	className: x("window-body", e),
+	...t
+}));
+A.displayName = "ClassicWindowBody";
+//#endregion
+//#region src/shell/ClassicTitleBar.tsx
+var j = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("header", {
+	ref: r,
+	className: x("title-bar", e),
+	...t
+}));
+j.displayName = "ClassicTitleBar";
 //#endregion
 //#region src/shell/ClassicStatusBar.tsx
-function O({ children: e }) {
-	return /* @__PURE__ */ n("div", {
-		className: "status-bar",
-		children: e
-	});
-}
+var M = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("footer", {
+	ref: r,
+	className: x("status-bar", e),
+	...t
+}));
+M.displayName = "ClassicStatusBar";
 //#endregion
-export { o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, E as ClassicFieldset, C as ClassicInput, T as ClassicSelect, O as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, D as ClassicWindow, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
+//#region src/shell/ClassicPanel.tsx
+var N = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("section", {
+	ref: r,
+	className: x("panel", e),
+	...t
+}));
+N.displayName = "ClassicPanel";
+//#endregion
+//#region src/shell/ClassicMenuBar.tsx
+var P = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("nav", {
+	ref: r,
+	className: x("menu-bar", e),
+	...t
+}));
+P.displayName = "ClassicMenuBar";
+//#endregion
+//#region src/shell/ClassicMenu.tsx
+var F = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("ul", {
+	ref: r,
+	className: x("menu", e),
+	...t
+}));
+F.displayName = "ClassicMenu";
+//#endregion
+//#region src/shell/ClassicMenuItem.tsx
+var I = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("li", {
+	ref: r,
+	className: x("menu-item", e),
+	...t
+}));
+I.displayName = "ClassicMenuItem";
+//#endregion
+//#region src/shell/ClassicMenuStrip.tsx
+var L = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("ul", {
+	ref: r,
+	className: x("menu-strip", e),
+	...t
+}));
+L.displayName = "ClassicMenuStrip";
+//#endregion
+//#region src/table/ClassicDetailedTable.tsx
+var R = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("table", {
+	ref: r,
+	className: x("detailed-table", e),
+	...t
+}));
+R.displayName = "ClassicDetailedTable";
+//#endregion
+//#region src/table/ClassicDetailedTableHead.tsx
+var z = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("thead", {
+	ref: r,
+	className: x("detailed-table-head", e),
+	...t
+}));
+z.displayName = "ClassicDetailedTableHead";
+//#endregion
+//#region src/table/ClassicDetailedTableBody.tsx
+var B = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("tbody", {
+	ref: r,
+	className: x("detailed-table-body", e),
+	...t
+}));
+B.displayName = "ClassicDetailedTableBody";
+//#endregion
+//#region src/table/ClassicDetailedTableCell.tsx
+var V = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("td", {
+	ref: r,
+	className: x("detailed-table-cell", e),
+	...t
+}));
+V.displayName = "ClassicDetailedTableCell";
+//#endregion
+//#region src/table/ClassicDetailedTableHeaderCell.tsx
+var H = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("th", {
+	ref: r,
+	className: x("detailed-table-header-cell", e),
+	...t
+}));
+H.displayName = "ClassicDetailedTableHeaderCell";
+//#endregion
+//#region src/dialog/ClassicDialog.tsx
+var U = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("dialog", {
+	ref: r,
+	className: x("dialog", e),
+	...t
+}));
+U.displayName = "ClassicDialog";
+//#endregion
+//#region src/dialog/ClassicDialogTitle.tsx
+var W = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("h2", {
+	ref: r,
+	className: x("dialog-title", e),
+	...t
+}));
+W.displayName = "ClassicDialogTitle";
+//#endregion
+//#region src/dialog/ClassicDialogBody.tsx
+var G = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("div", {
+	ref: r,
+	className: x("dialog-body", e),
+	...t
+}));
+G.displayName = "ClassicDialogBody";
+//#endregion
+//#region src/dialog/ClassicDialogActions.tsx
+var K = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("footer", {
+	ref: r,
+	className: x("dialog-actions", e),
+	...t
+}));
+K.displayName = "ClassicDialogActions";
+//#endregion
+export { o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, N as ClassicPanel, T as ClassicSelect, M as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
