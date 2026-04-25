@@ -2,10 +2,13 @@
 
 Package: `@condor/classic-ui`
 
-Private Git dependency:
+Private Git dependency (immutable tag):
 
 ```json
-"@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#main"
+"@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
+```
+
+Consumer `package.json` must reference a specific immutable version (semantic tag or commit SHA), never a floating branch ref like `#main`.
 
 Runtime stylesheet asset base:
 
@@ -54,7 +57,15 @@ Product-specific workflows stay in consuming apps.
 Consumers must not duplicate theme/skin lists.
 Consumers must not manually inject theme/skin stylesheets if using ClassicThemeProvider.
 
+Release/versioning requirements:
+
+- Releases are cut with semantic version tags (for example: `v0.1.1`, `v0.2.0`, `v1.0.0`).
+- Consumers must install using a specific tag (or commit SHA if a tag is unavailable).
+- Every release must include a `CHANGELOG.md` entry documenting API/contract changes.
+- Detailed release procedure lives in `docs/RELEASE_PROCESS.md`.
+
 Then copy a snapshot of this into `condor-cad` as:
 
 ```text
 condor-cad/docs/CONDOR_CLASSIC_UI_CONTRACT.md
+```
