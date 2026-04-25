@@ -87,61 +87,86 @@ function l(e, t) {
 }
 //#endregion
 //#region src/theme/ClassicThemeProvider.tsx
-function u(e) {
+var u = "classic-theme-link", d = "classic-skin-link", f = "condor.classic.theme", p = "condor.classic.skin";
+function m(e) {
 	let t = document.getElementById(e);
 	return t || (t = document.createElement("link"), t.id = e, t.rel = "stylesheet", document.head.appendChild(t)), t;
 }
-function d({ theme: e, skin: n, assetBasePath: r = "/classic-stylesheets" }) {
+function h(e) {
+	return document.getElementById(e);
+}
+function g(e) {
+	return e.replace(/\/+$/, "");
+}
+function _(e, t) {
+	return `${g(e)}/themes/${t}/theme.css`;
+}
+function v(e, t, n) {
+	return `${g(e)}/themes/${t}/skins/${n}.css`;
+}
+function y(e) {
+	return e ? e === !0 ? {
+		theme: f,
+		skin: p
+	} : e : null;
+}
+function b({ theme: e, skin: n, assetBasePath: r = "/classic-stylesheets", persistPreferences: i = !1 }) {
 	return t(() => {
-		let t = u("classic-theme-link"), i = u("classic-skin-link");
-		t.href = `${r}/themes/${e}/theme.css`;
-		let a = l(e, n) ? n : null;
-		a ? (i.disabled = !1, i.href = `${r}/themes/${e}/skins/${a}.css`, document.documentElement.dataset.themeSkin = a, localStorage.setItem("condor.classic.skin", a)) : (i.disabled = !0, i.removeAttribute("href"), delete document.documentElement.dataset.themeSkin, localStorage.removeItem("condor.classic.skin")), document.documentElement.dataset.themeProfile = e, localStorage.setItem("condor.classic.theme", e);
+		let t = y(i), a = m(u), o = l(e, n) ? n : null;
+		if (a.disabled = !1, a.href = _(r, e), o) {
+			let n = m(d);
+			n.disabled = !1, n.href = v(r, e, o), document.documentElement.dataset.themeSkin = o, t?.skin && localStorage.setItem(t.skin, o);
+		} else {
+			let e = h(d);
+			e && (e.disabled = !0, e.removeAttribute("href"), e.remove()), delete document.documentElement.dataset.themeSkin, t?.skin && localStorage.removeItem(t.skin);
+		}
+		document.documentElement.dataset.themeProfile = e, t?.theme && localStorage.setItem(t.theme, e);
 	}, [
 		e,
 		n,
-		r
+		r,
+		i
 	]), null;
 }
 //#endregion
 //#region src/utils/joinClassNames.ts
-function f(...e) {
+function x(...e) {
 	return e.filter(Boolean).join(" ");
 }
 //#endregion
 //#region src/controls/ClassicButton.tsx
-var p = e(({ children: e, className: t, type: r = "button", ...i }, a) => /* @__PURE__ */ n("button", {
+var S = e(({ children: e, className: t, type: r = "button", ...i }, a) => /* @__PURE__ */ n("button", {
 	ref: a,
 	type: r,
-	className: f("btn", t),
+	className: x("btn", t),
 	...i,
 	children: e
 }));
-p.displayName = "ClassicButton";
+S.displayName = "ClassicButton";
 //#endregion
 //#region src/controls/ClassicInput.tsx
-var m = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("input", {
+var C = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("input", {
 	ref: r,
-	className: f("input", e),
+	className: x("input", e),
 	...t
 }));
-m.displayName = "ClassicInput";
+C.displayName = "ClassicInput";
 //#endregion
 //#region src/controls/ClassicTextarea.tsx
-var h = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("textarea", {
+var w = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("textarea", {
 	ref: r,
-	className: f("textarea", e),
+	className: x("textarea", e),
 	...t
 }));
-h.displayName = "ClassicTextarea";
+w.displayName = "ClassicTextarea";
 //#endregion
 //#region src/controls/ClassicSelect.tsx
-var g = e(({ children: e, className: t, size: i = 1, wrapperClassName: a, ...o }, s) => /* @__PURE__ */ r("div", {
-	className: f("dropdown", a),
+var T = e(({ children: e, className: t, size: i = 1, wrapperClassName: a, ...o }, s) => /* @__PURE__ */ r("div", {
+	className: x("dropdown", a),
 	children: [/* @__PURE__ */ n("select", {
 		ref: s,
 		size: i,
-		className: f("dropdown-select", t),
+		className: x("dropdown-select", t),
 		...o,
 		children: e
 	}), /* @__PURE__ */ n("span", {
@@ -149,19 +174,19 @@ var g = e(({ children: e, className: t, size: i = 1, wrapperClassName: a, ...o }
 		"aria-hidden": "true"
 	})]
 }));
-g.displayName = "ClassicSelect";
+T.displayName = "ClassicSelect";
 //#endregion
 //#region src/controls/ClassicFieldset.tsx
-function _({ legend: e, children: t, className: i, ...a }) {
+function E({ legend: e, children: t, className: i, ...a }) {
 	return /* @__PURE__ */ r("fieldset", {
-		className: f("classic-fieldset", i),
+		className: x("classic-fieldset", i),
 		...a,
 		children: [e ? /* @__PURE__ */ n("legend", { children: e }) : null, t]
 	});
 }
 //#endregion
 //#region src/shell/ClassicWindow.tsx
-function v({ title: e, active: t = !0, children: i }) {
+function D({ title: e, active: t = !0, children: i }) {
 	return /* @__PURE__ */ r("div", {
 		className: t ? "window active" : "window",
 		children: [/* @__PURE__ */ n("div", {
@@ -181,11 +206,11 @@ function v({ title: e, active: t = !0, children: i }) {
 }
 //#endregion
 //#region src/shell/ClassicStatusBar.tsx
-function y({ children: e }) {
+function O({ children: e }) {
 	return /* @__PURE__ */ n("div", {
 		className: "status-bar",
 		children: e
 	});
 }
 //#endregion
-export { o as CLASSIC_DEFAULT_SKIN_BY_THEME, i as CLASSIC_THEMES, a as CLASSIC_THEME_SKINS, p as ClassicButton, _ as ClassicFieldset, m as ClassicInput, g as ClassicSelect, y as ClassicStatusBar, h as ClassicTextarea, d as ClassicThemeProvider, v as ClassicWindow, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
+export { o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, E as ClassicFieldset, C as ClassicInput, T as ClassicSelect, O as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, D as ClassicWindow, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
