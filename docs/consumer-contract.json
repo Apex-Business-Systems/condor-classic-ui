@@ -1,0 +1,37 @@
+{
+  "packageName": "@condor/classic-ui",
+  "privateGitDependency": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#main",
+  "assetBasePath": "/classic-stylesheets",
+  "stylesheetExport": "@condor/classic-ui/styles.css",
+  "themeProvider": "ClassicThemeProvider",
+  "themes": ["cde", "macos9", "win3x", "win9x", "winxp"],
+  "requiredConsumerBehavior": [
+    "Import @condor/classic-ui/styles.css once",
+    "Use ClassicThemeProvider for theme and skin stylesheet links",
+    "Do not duplicate CLASSIC_THEME_SKINS in consuming apps",
+    "Serve classic-stylesheets assets at /classic-stylesheets"
+  ],
+  "exports": {
+    "theme": [
+      "CLASSIC_THEMES",
+      "CLASSIC_THEME_SKINS",
+      "CLASSIC_DEFAULT_SKIN_BY_THEME",
+      "getSkinsForTheme",
+      "getDefaultSkinForTheme",
+      "isSkinValidForTheme",
+      "ClassicTheme",
+      "ClassicSkin"
+    ],
+    "controls": [
+      "ClassicButton",
+      "ClassicInput",
+      "ClassicTextarea",
+      "ClassicSelect",
+      "ClassicFieldset"
+    ],
+    "shell": [
+      "ClassicWindow",
+      "ClassicStatusBar"
+    ]
+  }
+}
