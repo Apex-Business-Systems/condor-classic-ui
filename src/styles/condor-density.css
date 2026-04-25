@@ -98,10 +98,6 @@
   margin-top: 8px;
 }
 
-.condor-workstation .title-bar {
-  padding: 0.25em;
-}
-
 :root[data-theme-profile="win3x"] .condor-workstation {
   line-height: 1.05;
 }

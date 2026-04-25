@@ -44,6 +44,7 @@
   --condor-font-weight-title: 700;
 }
 
+/* TODO: Add bundled Condor CDE UI font when a redistributable Motif/CDE-like font is selected. */
 :root[data-theme-profile="cde"] {
   --condor-font-ui: "Condor CDE UI", Helvetica, "Nimbus Sans", "Liberation Sans", Arial, sans-serif;
   --condor-font-title: "Condor CDE UI", Helvetica, "Nimbus Sans", "Liberation Sans", Arial, sans-serif;

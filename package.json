@@ -25,6 +25,8 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "latest",
     "eslint": "latest",
+	"react": "latest",
+    "react-dom": "latest",
     "typescript": "latest",
     "vite": "latest",
     "vite-plugin-dts": "latest"
