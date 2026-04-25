@@ -25,13 +25,13 @@
   "devDependencies": {
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "latest",
-    "eslint": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "typescript": "latest",
-    "vite": "latest",
-    "vite-plugin-dts": "latest"
+    "@vitejs/plugin-react": "6.0.1",
+    "eslint": "10.2.1",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "typescript": "6.0.3",
+    "vite": "8.0.10",
+    "vite-plugin-dts": "4.5.4"
   },
   "style": "./dist/condor-classic-ui.css",
   "sideEffects": [
