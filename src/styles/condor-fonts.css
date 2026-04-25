@@ -1,0 +1,63 @@
+:root {
+  --condor-font-ui: "Microsoft Sans Serif", Tahoma, Arial, sans-serif;
+  --condor-font-mono: "Courier New", monospace;
+  --condor-font-size-ui: 12px;
+  --condor-font-size-mono: 12px;
+}
+
+:root[data-theme-profile="win3x"] {
+  --condor-font-ui: "MS Sans Serif", "Microsoft Sans Serif", Arial, sans-serif;
+  --condor-font-mono: "Fixedsys", "Terminal", "Courier New", monospace;
+  --condor-font-size-ui: 11px;
+}
+
+:root[data-theme-profile="win9x"] {
+  --condor-font-ui: "MS Sans Serif", "Microsoft Sans Serif", Tahoma, Arial, sans-serif;
+  --condor-font-mono: "Fixedsys", "Terminal", "Courier New", monospace;
+  --condor-font-size-ui: 11px;
+}
+
+:root[data-theme-profile="winxp"] {
+  --condor-font-ui: Tahoma, "Microsoft Sans Serif", Arial, sans-serif;
+  --condor-font-mono: "Lucida Console", "Courier New", monospace;
+  --condor-font-size-ui: 11px;
+}
+
+:root[data-theme-profile="cde"] {
+  --condor-font-ui: Helvetica, "Nimbus Sans", "Liberation Sans", Arial, sans-serif;
+  --condor-font-mono: Courier, "Nimbus Mono PS", "Liberation Mono", monospace;
+  --condor-font-size-ui: 12px;
+}
+
+:root[data-theme-profile="macos9"] {
+  --condor-font-ui: Chicago, Charcoal, Geneva, Arial, sans-serif;
+  --condor-font-mono: Monaco, "Courier New", monospace;
+  --condor-font-size-ui: 12px;
+}
+
+:root[data-theme-profile="dos"] {
+  --condor-font-ui: "Terminal", "Fixedsys", "Courier New", monospace;
+  --condor-font-mono: "Terminal", "Fixedsys", "Courier New", monospace;
+  --condor-font-size-ui: 16px;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+table,
+.window,
+.title-bar,
+.window-body,
+.status-bar {
+  font-family: var(--condor-font-ui);
+  font-size: var(--condor-font-size-ui);
+}
+
+code,
+pre,
+.condor-mono {
+  font-family: var(--condor-font-mono);
+  font-size: var(--condor-font-size-mono);
+}
