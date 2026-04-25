@@ -1,96 +1,117 @@
 # @condor/classic-ui
 
-## Development environment
+`@condor/classic-ui` is a **private shared framework** used by Condor applications to provide reusable “classic UI” primitives and styling infrastructure.
 
-This project is tested/supported with:
+## Purpose and Scope
 
-- **Node.js:** `22.13.0` (see `.nvmrc`)
-- **npm:** `10.x` (the npm release line bundled with Node.js 22)
+This package owns generic, reusable UI building blocks and cross-app theming mechanics (for example: providers, shared controls, and style contracts).
 
-If you're using `nvm`:
+- ✅ Keep **generic primitives** in this repository.
+- 🚫 Keep **app-specific workflows/business flows** in consuming applications.
 
-```bash
-nvm use
-npm install
-```
-# Condor Classic UI
+## Install from Private Git (SSH)
 
-`@condor/classic-ui` is the shared classic UI package for Condor applications.
+Consumers install this package from the private repository via SSH URL and a pinned tag (or commit SHA):
 
-## Prerequisites
-
-- **Node.js:** `20.x` (LTS recommended)
-- **npm:** `10.x` or newer
-
-> This repository uses `package-lock.json` and CI runs with Node 20 + npm cache via `npm ci`.
-
-## Install, Typecheck, and Build
-
-```bash
-npm ci
-npm run typecheck
-npm run build
+```json
+{
+  "dependencies": {
+    "@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.0"
+  }
+}
 ```
 
-## Consumer Integration
+> Use immutable refs (`#vX.Y.Z` or a commit SHA), not floating branches.
 
-Consumers should use the package stylesheet export and theme provider together.
+## App-Server SSH Access Requirement
 
-### 1) Include stylesheet
+Because installation uses a private Git SSH dependency, any environment that runs `npm install`/`npm ci` (developer machine, CI runner, app server image/build job) must have:
+
+- SSH key material with read access to `Apex-Business-Systems/condor-classic-ui`
+- `ssh-agent` configured (or equivalent key loading)
+- GitHub host key trust configured in `known_hosts`
+
+Without SSH access, dependency installation will fail.
+
+## Required Consumer Integration
+
+### 1) Import required CSS
 
 ```ts
 import '@condor/classic-ui/styles.css';
 ```
 
-### 2) Wrap app with `ClassicThemeProvider`
+### 2) Serve theme assets from required path
 
-```tsx
-import { ClassicThemeProvider } from '@condor/classic-ui';
+Classic theme/skin assets must be served at:
 
-<ClassicThemeProvider theme={activeTheme} skin={activeSkin}>
-  <App />
-</ClassicThemeProvider>
-```
+- `/classic-stylesheets/...`
 
-`ClassicThemeProvider` is responsible for loading theme assets from:
+Example concrete paths:
 
 - `/classic-stylesheets/themes/{theme}/theme.css`
 - `/classic-stylesheets/themes/{theme}/skins/{skin}.css`
 
-It uses deterministic link IDs:
+### 3) Minimal React integration (`ClassicThemeProvider`)
 
-- Theme link: `classic-theme-link`
-- Skin link: `classic-skin-link`
+```tsx
+import React from 'react';
+import { ClassicThemeProvider } from '@condor/classic-ui';
+import '@condor/classic-ui/styles.css';
 
-`assetBasePath` is normalized (trailing slash removed) before URLs are assembled.
-
-The skin link is only present for valid skins. When skin is absent/invalid, the skin link is disabled and removed.
-
-Persistence is opt-in via `persistPreferences` (defaults to `false`):
-
-- `false`: no localStorage writes
-- `true`: writes `condor.classic.theme` and `condor.classic.skin`
-- `{ theme?: string, skin?: string }`: custom localStorage keys per preference
-
-Do not manually inject theme/skin stylesheets when using `ClassicThemeProvider`.
-
-## SSH Git Dependency Prerequisites
-
-Downstream repositories install this package via private Git SSH URLs, for example:
-
-```json
-"@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.1"
+export function Root() {
+  return (
+    <ClassicThemeProvider theme="default" skin="light">
+      <App />
+    </ClassicThemeProvider>
+  );
+}
 ```
 
-Before running `npm ci` in downstream repos, ensure your CI/runtime has one of the following:
+## Example Controls Usage
 
-- **Deploy key approach:**
-  - Add a read-only deploy key to `Apex-Business-Systems/condor-classic-ui`.
-  - Register the matching private key in the consumer repo CI secrets.
-  - Configure `ssh-agent` in CI before `npm ci`.
-- **Machine user approach:**
-  - Create a machine GitHub user with least-privilege read access to the dependency repo.
-  - Store the user SSH private key in CI secrets.
-  - Configure `known_hosts` (GitHub host key) and `ssh-agent` in CI.
+```tsx
+import React from 'react';
+import { ClassicButton, ClassicInput } from '@condor/classic-ui';
 
-Also ensure consumers pin an immutable tag or commit SHA (never a floating branch ref).
+export function ExampleControls() {
+  return (
+    <div>
+      <ClassicInput label="Account" name="account" />
+      <ClassicButton variant="primary">Continue</ClassicButton>
+    </div>
+  );
+}
+```
+
+> Names above represent typical control consumption; use the exports defined by the current package version in `src/index.ts`.
+
+## Ownership Boundary
+
+To keep this package stable and reusable:
+
+- Put **design-system primitives** and **theme infrastructure** here.
+- Keep **feature orchestration**, **domain logic**, and **screen-level workflows** in consuming repos.
+
+## Release and Tagging Guidance
+
+1. Ensure local checks pass (for example: typecheck/build/tests as applicable).
+2. Update changelog and version metadata as needed.
+3. Create a release commit.
+4. Tag the release (`vX.Y.Z`) and push tag.
+5. Consumers pin that tag in `package.json`.
+
+### Initial `v0.1.0` process
+
+Once checks pass for the first consumable release:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+Then consumers can reference:
+
+```json
+"@condor/classic-ui": "git+ssh://git@github.com/Apex-Business-Systems/condor-classic-ui.git#v0.1.0"
+```
