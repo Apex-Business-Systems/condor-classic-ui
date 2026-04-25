@@ -10,20 +10,20 @@ var r = [
 	"dos"
 ], i = {
 	win9x: /* @__PURE__ */ "95.98.2000.brick.desert.eggplant.lilac.maple.marine.plum.pumpkin.rainy-day.red-white-and-blue.rose.slate.spruce.storm.teal.wheat.brick-2000.desert-2000.eggplant-2000.lilac-2000.maple-2000.marine-2000.plum-2000.pumpkin-2000.rainy-day-2000.red-white-and-blue-2000.rose-2000.slate-2000.spruce-2000.storm-2000.teal-2000.wheat-2000".split("."),
-	win3x: ["default"],
-	winxp: ["default"],
-	cde: ["default"],
-	macos9: ["default"],
-	dos: ["default"]
+	win3x: [],
+	winxp: [],
+	cde: [],
+	macos9: [],
+	dos: []
 };
 function a(e) {
 	return i[e];
 }
 function o(e) {
-	return i[e][0];
+	return i[e][0] ?? null;
 }
 function s(e, t) {
-	return i[e].includes(t);
+	return t ? i[e].includes(t) : !1;
 }
 //#endregion
 //#region src/theme/ClassicThemeProvider.tsx
@@ -34,7 +34,9 @@ function c(e) {
 function l({ theme: t, skin: n, assetBasePath: r = "/classic-stylesheets" }) {
 	return e(() => {
 		let e = c("classic-theme-link"), i = c("classic-skin-link");
-		e.href = `${r}/themes/${t}/theme.css`, i.href = `${r}/themes/${t}/skins/${n}.css`, document.documentElement.dataset.themeProfile = t, document.documentElement.dataset.themeSkin = n, localStorage.setItem("condor.classic.theme", t), localStorage.setItem("condor.classic.skin", n);
+		e.href = `${r}/themes/${t}/theme.css`;
+		let a = s(t, n) ? n : null;
+		a ? (i.disabled = !1, i.href = `${r}/themes/${t}/skins/${a}.css`, document.documentElement.dataset.themeSkin = a, localStorage.setItem("condor.classic.skin", a)) : (i.disabled = !0, i.removeAttribute("href"), delete document.documentElement.dataset.themeSkin, localStorage.removeItem("condor.classic.skin")), document.documentElement.dataset.themeProfile = t, localStorage.setItem("condor.classic.theme", t);
 	}, [
 		t,
 		n,

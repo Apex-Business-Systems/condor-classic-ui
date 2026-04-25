@@ -1,7 +1,7 @@
-import { ClassicSkin, ClassicTheme } from './classicThemes';
+import { ClassicTheme } from './classicThemes';
 export type ClassicThemeProviderProps = {
     theme: ClassicTheme;
-    skin: ClassicSkin;
+    skin?: string | null;
     assetBasePath?: string;
 };
 export declare function ClassicThemeProvider({ theme, skin, assetBasePath }: ClassicThemeProviderProps): null;
