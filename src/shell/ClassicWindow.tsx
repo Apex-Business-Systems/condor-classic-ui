@@ -1,22 +1,11 @@
-import type { ReactNode } from "react";
+import { forwardRef, type HTMLAttributes } from "react";
 
-export type ClassicWindowProps = {
-  title: ReactNode;
-  active?: boolean;
-  children: ReactNode;
-};
+import { joinClassNames } from "../utils/joinClassNames";
 
-export function ClassicWindow({ title, active = true, children }: ClassicWindowProps) {
-  return (
-    <div className={active ? "window active" : "window"}>
-      <div className="title-bar">
-        <div className="title-bar-text">{title}</div>
-      </div>
-      <div className="window-body">
-        <div className="condor-window-content">
-          {children}
-        </div>
-      </div>
-    </div>
-  );
-}
+export type ClassicWindowProps = HTMLAttributes<HTMLElement>;
+
+export const ClassicWindow = forwardRef<HTMLElement, ClassicWindowProps>(({ className, ...props }, ref) => {
+  return <section ref={ref} className={joinClassNames("window", className)} {...props} />;
+});
+
+ClassicWindow.displayName = "ClassicWindow";

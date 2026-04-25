@@ -1,13 +1,11 @@
-import type { ReactNode } from "react";
+import { forwardRef, type HTMLAttributes } from "react";
 
-export type ClassicStatusBarProps = {
-  children: ReactNode;
-};
+import { joinClassNames } from "../utils/joinClassNames";
 
-export function ClassicStatusBar({ children }: ClassicStatusBarProps) {
-  return (
-    <div className="status-bar">
-      {children}
-    </div>
-  );
-}
+export type ClassicStatusBarProps = HTMLAttributes<HTMLDivElement>;
+
+export const ClassicStatusBar = forwardRef<HTMLDivElement, ClassicStatusBarProps>(({ className, ...props }, ref) => {
+  return <footer ref={ref} className={joinClassNames("status-bar", className)} {...props} />;
+});
+
+ClassicStatusBar.displayName = "ClassicStatusBar";
