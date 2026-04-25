@@ -21,9 +21,13 @@ export default defineConfig({
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
-		  "react/jsx-runtime": "jsxRuntime"
+          "react/jsx-runtime": "jsxRuntime"
         }
       }
     }
+  },
+  test: {
+    environment: "jsdom",
+    setupFiles: "./tests/setup.ts"
   }
 });
