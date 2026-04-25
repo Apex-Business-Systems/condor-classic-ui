@@ -1,0 +1,170 @@
+.condor-workstation {
+  font-family: var(--condor-font-ui);
+  font-size: var(--condor-font-size-ui);
+  line-height: 1.0;
+}
+
+.condor-form {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 1.5em;
+  row-gap: 0.5em;
+  align-items: center;
+}
+
+.condor-form label {
+  white-space: nowrap;
+}
+
+.condor-form input,
+.condor-form textarea,
+.condor-form select {
+  box-sizing: border-box;
+}
+
+.condor-form .dropdown {
+  width: max-content;
+}
+
+/* Explicit Condor control widths */
+.condor-control-xs,
+.condor-control-xs select,
+.condor-control-xs input {
+  width: 6em;
+}
+
+.condor-control-sm,
+.condor-control-sm select,
+.condor-control-sm input {
+  width: 10em;
+}
+
+.condor-control-md,
+.condor-control-md select,
+.condor-control-md input {
+  width: 16em;
+}
+
+.condor-control-lg,
+.condor-control-lg select,
+.condor-control-lg input {
+  width: 24em;
+}
+
+.condor-control-xl,
+.condor-control-xl select,
+.condor-control-xl input {
+  width: 32em;
+}
+
+.condor-control-fill,
+.condor-control-fill select,
+.condor-control-fill input,
+.condor-control-fill textarea {
+  width: 100%;
+}
+
+.condor-textarea-sm {
+  width: 20em;
+  height: 4em;
+}
+
+.condor-textarea-md {
+  width: 28em;
+  height: 6em;
+}
+
+.condor-textarea-lg {
+  width: 40em;
+  height: 8em;
+}
+
+.condor-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+.condor-section {
+  margin-bottom: 8px;
+}
+
+.condor-compact-fieldset {
+  padding: 8px;
+}
+
+.condor-status-line {
+  margin-top: 8px;
+}
+
+.condor-workstation .title-bar {
+  padding: 0.25em;
+}
+
+:root[data-theme-profile="win3x"] .condor-workstation {
+  line-height: 1.05;
+}
+
+:root[data-theme-profile="win9x"] .condor-workstation {
+  line-height: 1.1;
+}
+
+:root[data-theme-profile="winxp"] .condor-workstation {
+  line-height: 1.15;
+}
+
+:root[data-theme-profile="cde"] .condor-workstation {
+  line-height: 1.15;
+}
+
+:root[data-theme-profile="macos9"] .condor-workstation {
+  line-height: 1.15;
+}
+
+:root[data-theme-profile="win9x"] .condor-workstation .title-bar-text,
+:root[data-theme-profile="winxp"] .condor-workstation .title-bar-text,
+:root[data-theme-profile="win3x"] .condor-workstation .title-bar-text {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+:root[data-theme-profile="cde"] .condor-workstation .title-bar {
+  padding: unset;
+}
+
+:root[data-theme-profile="cde"] .condor-workstation .title-bar-text {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+:root[data-theme-profile="macos9"] .condor-workstation .title-bar {
+  padding: unset;
+}
+
+/* Do not alter .window geometry globally.
+   Classic Stylesheets themes rely on the window box for their 3D frame. */
+
+.condor-window-content {
+  padding-left: 0.35em;
+  padding-right: 0.35em;
+  padding-top: 0.20em;
+  padding-bottom: 0.20em;
+}
+
+/* CDE is especially sensitive to extra frame spacing. */
+:root[data-theme-profile="cde"] .condor-window-content {
+  padding-left: 0.20em;
+  padding-right: 0.20em;
+  padding-top: 0.10em;
+  padding-bottom: 0.10em;
+}
+
+/* Win9x/Win3x tolerate a little more interior breathing room. */
+:root[data-theme-profile="win9x"] .condor-window-content,
+:root[data-theme-profile="win3x"] .condor-window-content {
+  padding-left: 0.35em;
+  padding-right: 0.35em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+}

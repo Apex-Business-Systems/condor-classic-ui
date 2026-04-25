@@ -12,7 +12,11 @@ export function ClassicWindow({ title, active = true, children }: ClassicWindowP
       <div className="title-bar">
         <div className="title-bar-text">{title}</div>
       </div>
-      <div className="window-body">{children}</div>
+      <div className="window-body">
+        <div className="condor-window-content">
+          {children}
+        </div>
+      </div>
     </div>
   );
 }

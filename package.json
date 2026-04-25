@@ -28,5 +28,17 @@
     "typescript": "latest",
     "vite": "latest",
     "vite-plugin-dts": "latest"
+  },
+  "style": "./dist/condor-classic-ui.css",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+  	  "types": "./dist/index.d.ts",
+  	  "import": "./dist/condor-classic-ui.js",
+  	  "require": "./dist/condor-classic-ui.umd.cjs"
+    },
+    "./styles.css": "./dist/condor-classic-ui.css"
   }
 }

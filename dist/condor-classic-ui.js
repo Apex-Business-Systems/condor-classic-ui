@@ -2,40 +2,100 @@ import { useEffect as e } from "react";
 import { jsx as t, jsxs as n } from "react/jsx-runtime";
 //#region src/theme/classicThemes.ts
 var r = [
-	"win9x",
-	"win3x",
-	"winxp",
 	"cde",
 	"macos9",
-	"dos"
+	"win3x",
+	"win9x",
+	"winxp"
 ], i = {
-	win9x: /* @__PURE__ */ "95.98.2000.brick.desert.eggplant.lilac.maple.marine.plum.pumpkin.rainy-day.red-white-and-blue.rose.slate.spruce.storm.teal.wheat.brick-2000.desert-2000.eggplant-2000.lilac-2000.maple-2000.marine-2000.plum-2000.pumpkin-2000.rainy-day-2000.red-white-and-blue-2000.rose-2000.slate-2000.spruce-2000.storm-2000.teal-2000.wheat-2000".split("."),
-	win3x: [],
-	winxp: [],
-	cde: [],
-	macos9: [],
-	dos: []
+	cde: /* @__PURE__ */ "alpine-2.alpine-4.alpine-8.arizona-2.arizona-4.arizona-8.beige-rose-2.beige-rose-4.beige-rose-8.black-white.black.broica-2.broica-4.broica-8.cabernet-2.cabernet-4.cabernet-8.camouflage-2.camouflage-4.camouflage-8.charcoal-2.charcoal-4.charcoal-8.chocolate-2.chocolate-4.chocolate-8.cinnamon-2.cinnamon-4.cinnamon-8.clay-2.clay-4.clay-8.crimson-2.crimson-4.crimson-8.crimson.dark-gold-2.dark-gold-4.dark-gold-8.default-2.default-4.default-8.default.delphinium-2.delphinium-4.delphinium-8.desert-2.desert-4.desert-8.golden-2.golden-4.golden-8.grass-2.grass-4.grass-8.gray-scale-2.gray-scale-4.gray-scale-8.lilac-2.lilac-4.lilac-8.mustard-2.mustard-4.mustard-8.neptune-2.neptune-4.neptune-8.northern-sky-2.northern-sky-4.northern-sky-8.nutmeg-2.nutmeg-4.nutmeg-8.olive-2.olive-4.olive-8.orchid-2.orchid-4.orchid-8.pbnj-2.pbnj-4.pbnj-8.sand-2.sand-4.sand-8.santa-fe-2.santa-fe-4.santa-fe-8.savannah-2.savannah-4.savannah-8.sea-foam-2.sea-foam-4.sea-foam-8.sky-red-2.sky-red-4.sky-red-8.soft-blue-2.soft-blue-4.soft-blue-8.south-west-2.south-west-4.south-west-8.summer-2.summer-4.summer-8.tundra-2.tundra-4.tundra-8.urchin-2.urchin-4.urchin-8.wheat-2.wheat-4.wheat-8.white-black.white".split("."),
+	macos9: [
+		"blueberry-oxygen",
+		"blueberry-union",
+		"bubbles",
+		"convergence",
+		"default",
+		"golden-poppy",
+		"grape-gravity",
+		"grape-mission",
+		"gray-space",
+		"lime-horizon",
+		"lime-sharp",
+		"lollipop-2",
+		"lollipop-3",
+		"lollipop-4",
+		"lollipop-5",
+		"lollipop",
+		"mono-blue",
+		"quantum-foam",
+		"rio-azul",
+		"roswell",
+		"strawberry-baby",
+		"strawberry-parabola",
+		"sunny",
+		"tangerine-fusion",
+		"tangerine-melt"
+	],
+	win3x: [
+		"3.0",
+		"3.1",
+		"arizona",
+		"black-leather-jacket",
+		"bordeaux",
+		"cinnamon",
+		"designer",
+		"emerald-city",
+		"fluorescent",
+		"high-color",
+		"hotdog-stand",
+		"lcd-reversed-dark",
+		"lcd-reversed-light",
+		"lcd",
+		"mahogany",
+		"monochrome",
+		"ocean",
+		"pastel",
+		"patchwork",
+		"plasma-power-saver",
+		"rugby",
+		"the-blues",
+		"tweed",
+		"valentine",
+		"wingtips"
+	],
+	win9x: /* @__PURE__ */ "2000.95.98.brick-2000.brick.desert-2000.desert.eggplant-2000.eggplant.lilac-2000.lilac.maple-2000.maple.marine-2000.marine.plum-2000.plum.pumpkin-2000.pumpkin.rainy-day-2000.rainy-day.red-white-and-blue-2000.red-white-and-blue.rose-2000.rose.slate-2000.slate.spruce-2000.spruce.storm-2000.storm.teal-2000.teal.wheat-2000.wheat".split("."),
+	winxp: [
+		"default",
+		"olive-green",
+		"silver"
+	]
+}, a = {
+	cde: "default",
+	macos9: "default",
+	win3x: "3.1",
+	win9x: "95",
+	winxp: "default"
 };
-function a(e) {
+function o(e) {
 	return i[e];
 }
-function o(e) {
-	return i[e][0] ?? null;
+function s(e) {
+	return a[e];
 }
-function s(e, t) {
+function c(e, t) {
 	return t ? i[e].includes(t) : !1;
 }
 //#endregion
 //#region src/theme/ClassicThemeProvider.tsx
-function c(e) {
+function l(e) {
 	let t = document.getElementById(e);
 	return t || (t = document.createElement("link"), t.id = e, t.rel = "stylesheet", document.head.appendChild(t)), t;
 }
-function l({ theme: t, skin: n, assetBasePath: r = "/classic-stylesheets" }) {
+function u({ theme: t, skin: n, assetBasePath: r = "/classic-stylesheets" }) {
 	return e(() => {
-		let e = c("classic-theme-link"), i = c("classic-skin-link");
+		let e = l("classic-theme-link"), i = l("classic-skin-link");
 		e.href = `${r}/themes/${t}/theme.css`;
-		let a = s(t, n) ? n : null;
+		let a = c(t, n) ? n : null;
 		a ? (i.disabled = !1, i.href = `${r}/themes/${t}/skins/${a}.css`, document.documentElement.dataset.themeSkin = a, localStorage.setItem("condor.classic.skin", a)) : (i.disabled = !0, i.removeAttribute("href"), delete document.documentElement.dataset.themeSkin, localStorage.removeItem("condor.classic.skin")), document.documentElement.dataset.themeProfile = t, localStorage.setItem("condor.classic.theme", t);
 	}, [
 		t,
@@ -45,7 +105,7 @@ function l({ theme: t, skin: n, assetBasePath: r = "/classic-stylesheets" }) {
 }
 //#endregion
 //#region src/controls/ClassicButton.tsx
-function u({ children: e, type: n = "button", ...r }) {
+function d({ children: e, type: n = "button", ...r }) {
 	return /* @__PURE__ */ t("button", {
 		type: n,
 		...r,
@@ -54,29 +114,29 @@ function u({ children: e, type: n = "button", ...r }) {
 }
 //#endregion
 //#region src/controls/ClassicInput.tsx
-function d(e) {
+function f(e) {
 	return /* @__PURE__ */ t("input", { ...e });
 }
 //#endregion
 //#region src/controls/ClassicTextarea.tsx
-function f(e) {
+function p(e) {
 	return /* @__PURE__ */ t("textarea", { ...e });
 }
 //#endregion
 //#region src/controls/ClassicSelect.tsx
-function p({ children: e, size: r = 1, ...i }) {
+function m({ children: e, size: r = 1, wrapperClassName: i, ...a }) {
 	return /* @__PURE__ */ n("div", {
-		className: "dropdown",
+		className: ["dropdown", i].filter(Boolean).join(" "),
 		children: [/* @__PURE__ */ t("select", {
 			size: r,
-			...i,
+			...a,
 			children: e
 		}), /* @__PURE__ */ t("div", { className: "dropdown-button" })]
 	});
 }
 //#endregion
 //#region src/controls/ClassicFieldset.tsx
-function m({ legend: e, children: r, className: i, ...a }) {
+function h({ legend: e, children: r, className: i, ...a }) {
 	return /* @__PURE__ */ n("fieldset", {
 		className: ["padding", i].filter(Boolean).join(" "),
 		...a,
@@ -85,7 +145,7 @@ function m({ legend: e, children: r, className: i, ...a }) {
 }
 //#endregion
 //#region src/shell/ClassicWindow.tsx
-function h({ title: e, active: r = !0, children: i }) {
+function g({ title: e, active: r = !0, children: i }) {
 	return /* @__PURE__ */ n("div", {
 		className: r ? "window active" : "window",
 		children: [/* @__PURE__ */ t("div", {
@@ -96,17 +156,20 @@ function h({ title: e, active: r = !0, children: i }) {
 			})
 		}), /* @__PURE__ */ t("div", {
 			className: "window-body",
-			children: i
+			children: /* @__PURE__ */ t("div", {
+				className: "condor-window-content",
+				children: i
+			})
 		})]
 	});
 }
 //#endregion
 //#region src/shell/ClassicStatusBar.tsx
-function g({ children: e }) {
+function _({ children: e }) {
 	return /* @__PURE__ */ t("div", {
 		className: "status-bar",
 		children: e
 	});
 }
 //#endregion
-export { r as CLASSIC_THEMES, i as CLASSIC_THEME_SKINS, u as ClassicButton, m as ClassicFieldset, d as ClassicInput, p as ClassicSelect, g as ClassicStatusBar, f as ClassicTextarea, l as ClassicThemeProvider, h as ClassicWindow, o as getDefaultSkinForTheme, a as getSkinsForTheme, s as isSkinValidForTheme };
+export { a as CLASSIC_DEFAULT_SKIN_BY_THEME, r as CLASSIC_THEMES, i as CLASSIC_THEME_SKINS, d as ClassicButton, h as ClassicFieldset, f as ClassicInput, m as ClassicSelect, _ as ClassicStatusBar, p as ClassicTextarea, u as ClassicThemeProvider, g as ClassicWindow, s as getDefaultSkinForTheme, o as getSkinsForTheme, c as isSkinValidForTheme };
