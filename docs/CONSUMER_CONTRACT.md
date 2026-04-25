@@ -82,6 +82,20 @@ export function AppThemeShell({ theme, skin, children }) {
 }
 ```
 
+
+### Runtime behavior contract
+
+- Provider-managed stylesheet link IDs are deterministic:
+  - Theme: `classic-theme-link`
+  - Skin: `classic-skin-link`
+- `assetBasePath` is normalized by trimming trailing `/` before href construction.
+- Theme href is always updated on `theme`/`assetBasePath` changes.
+- Skin href is updated only when `skin` is valid for the active theme.
+- If skin is invalid or absent, the skin `<link>` is disabled and removed.
+- localStorage persistence is opt-in through `persistPreferences` (default: `false`).
+  - `true` uses built-in keys `condor.classic.theme` and `condor.classic.skin`.
+  - Object form (`{ theme?: string; skin?: string }`) allows custom keys or per-key opt-out.
+
 ## Theme/skin registry API
 
 Consumers should rely on exported registry APIs rather than duplicating theme/skin data.

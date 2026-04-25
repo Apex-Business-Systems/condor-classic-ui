@@ -57,6 +57,21 @@ import { ClassicThemeProvider } from '@condor/classic-ui';
 - `/classic-stylesheets/themes/{theme}/theme.css`
 - `/classic-stylesheets/themes/{theme}/skins/{skin}.css`
 
+It uses deterministic link IDs:
+
+- Theme link: `classic-theme-link`
+- Skin link: `classic-skin-link`
+
+`assetBasePath` is normalized (trailing slash removed) before URLs are assembled.
+
+The skin link is only present for valid skins. When skin is absent/invalid, the skin link is disabled and removed.
+
+Persistence is opt-in via `persistPreferences` (defaults to `false`):
+
+- `false`: no localStorage writes
+- `true`: writes `condor.classic.theme` and `condor.classic.skin`
+- `{ theme?: string, skin?: string }`: custom localStorage keys per preference
+
 Do not manually inject theme/skin stylesheets when using `ClassicThemeProvider`.
 
 ## SSH Git Dependency Prerequisites

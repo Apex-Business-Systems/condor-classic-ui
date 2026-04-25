@@ -27,7 +27,9 @@
     "Use ClassicThemeProvider for theme and skin stylesheet links",
     "Do not duplicate CLASSIC_THEME_SKINS in consuming apps",
     "Serve classic-stylesheets assets at /classic-stylesheets",
-    "Pin package installation to a semantic tag or commit SHA"
+    "Pin package installation to a semantic tag or commit SHA",
+    "Treat skin stylesheet as optional: it is removed when skin is invalid or absent",
+    "Enable persistPreferences only when localStorage writes are desired"
   ],
   "releasePolicy": {
     "tagFormat": "vMAJOR.MINOR.PATCH",
@@ -67,5 +69,17 @@
     ],
     "dialog": [],
     "table": []
+  },
+  "themeProviderLinkIds": {
+    "theme": "classic-theme-link",
+    "skin": "classic-skin-link"
+  },
+  "preferencePersistence": {
+    "defaultPersistPreferences": false,
+    "builtinStorageKeys": {
+      "theme": "condor.classic.theme",
+      "skin": "condor.classic.skin"
+    },
+    "supportsCustomStorageKeys": true
   }
 }
