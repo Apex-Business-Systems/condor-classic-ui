@@ -1,0 +1,1 @@
+{"version":3,"file":"ClassicStatusBar.d.ts","sourceRoot":"","sources":["../../../src/shell/ClassicStatusBar.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAEvC,MAAM,MAAM,qBAAqB,GAAG;IAClC,QAAQ,EAAE,SAAS,CAAC;CACrB,CAAC;AAEF,wBAAgB,gBAAgB,CAAC,EAAE,QAAQ,EAAE,EAAE,qBAAqB,2CAMnE"}
