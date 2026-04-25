@@ -1,4 +1,4 @@
 import { TextareaHTMLAttributes } from 'react';
 export type ClassicTextareaProps = TextareaHTMLAttributes<HTMLTextAreaElement>;
-export declare function ClassicTextarea(props: ClassicTextareaProps): import("react/jsx-runtime").JSX.Element;
+export declare const ClassicTextarea: import('react').ForwardRefExoticComponent<ClassicTextareaProps & import('react').RefAttributes<HTMLTextAreaElement>>;
 //# sourceMappingURL=ClassicTextarea.d.ts.map
