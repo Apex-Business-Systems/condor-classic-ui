@@ -1,6 +1,17 @@
 # Warning for Humans
 Unless you've been instructed to specifically use `@condor/classic-ui`, turn back now. Seriously. This should be a private repo but I am too lazy to do some automation tasks with Github deploy keys so... here it is... Good luck... Stay away...
 
+If you want to use this, use https://nielssp.github.io/classic-stylesheets.
+
+# License
+
+This repository is public for deployment convenience only.
+
+This is not open-source software. No license is granted for public use, redistribution, modification, hosting, deployment, or incorporation into other projects. See `/LICENSE`.
+
+Issues, pull requests, forks, and third-party use are not solicited.
+
+
 # @condor/classic-ui
 
 `@condor/classic-ui` is a **private shared framework** used by Condor applications to provide reusable “classic UI” primitives and styling infrastructure.
