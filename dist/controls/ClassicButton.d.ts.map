@@ -1,0 +1,1 @@
+{"version":3,"file":"ClassicButton.d.ts","sourceRoot":"","sources":["../../src/controls/ClassicButton.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAc,KAAK,oBAAoB,EAAE,KAAK,SAAS,EAAE,MAAM,OAAO,CAAC;AAI9E,MAAM,MAAM,kBAAkB,GAAG,oBAAoB,CAAC,iBAAiB,CAAC,GAAG;IACzE,QAAQ,EAAE,SAAS,CAAC;CACrB,CAAC;AAEF,eAAO,MAAM,aAAa;cAHd,SAAS;qDAWpB,CAAC"}
