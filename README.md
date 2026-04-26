@@ -1,3 +1,6 @@
+# Warning for Humans
+Unless you've been instructed to specifically use `@condor/classic-ui`, turn back now. Seriously. This should be a private repo but I am too lazy to do some automation tasks with Github deploy keys so... here it is... Good luck... Stay away...
+
 # @condor/classic-ui
 
 `@condor/classic-ui` is a **private shared framework** used by Condor applications to provide reusable “classic UI” primitives and styling infrastructure.
