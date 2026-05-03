@@ -33,3 +33,5 @@ export * from "./dialog/ClassicDialog";
 export * from "./dialog/ClassicDialogTitle";
 export * from "./dialog/ClassicDialogBody";
 export * from "./dialog/ClassicDialogActions";
+
+export * from "./examples/C5ModifyIncidentReference";

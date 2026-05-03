@@ -1,0 +1,17 @@
+.c5-reference { width: 1280px; height: 860px; display: flex; flex-direction: column; overflow: hidden; }
+.c5-body { display: flex; flex-direction: column; gap: 8px; flex: 1; min-height: 0; overflow: hidden; }
+.c5-summary-strip { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; font-weight: 600; }
+.c5-hazard-strip { padding: 4px 8px; background: #f7f5e4; }
+.c5-active { color: #0a8a24; }
+.c5-columns { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 10px; flex: 1; min-height: 0; overflow: hidden; }
+.c5-left, .c5-right { display: flex; flex-direction: column; gap: 8px; min-height: 0; overflow: hidden; }
+.c5-grid-two { display: grid; grid-template-columns: 190px 1fr; gap: 6px 10px; align-items: center; }
+.c5-units { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 6px; }
+.c5-unit-btn { min-height: 36px; font-weight: 700; }
+.c5-scroll-region { height: 210px; overflow: auto; }
+.c5-comments-log p { margin: 0; padding: 8px 10px; border-bottom: 1px solid #c3c3c3; }
+.c5-actions { margin-top: 8px; display: flex; justify-content: flex-end; gap: 8px; }
+.c5-right .textarea { width: 100%; }
+.c5-reference .status-bar { margin-top: auto; }
+.c5-reference .status-bar-field { white-space: nowrap; }
+.c5-reference[data-testid='c5-reference-window'] { overflow: hidden; }

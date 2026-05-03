@@ -345,4 +345,206 @@ var K = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("footer", {
 }));
 K.displayName = "ClassicDialogActions";
 //#endregion
-export { o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, N as ClassicPanel, T as ClassicSelect, M as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
+//#region src/examples/C5ModifyIncidentReference.tsx
+var q = [
+	[
+		"09:15:42",
+		"SYSTEM",
+		"CAD",
+		"Incident created by 1432"
+	],
+	[
+		"09:15:48",
+		"FIELD",
+		"1432",
+		"Call received from Acme Security"
+	],
+	[
+		"09:16:03",
+		"COMMENT",
+		"1432",
+		"Panel reports front door contact open"
+	],
+	[
+		"09:17:21",
+		"UNIT",
+		"E201",
+		"Unit enroute"
+	],
+	[
+		"09:17:35",
+		"UNIT",
+		"C12",
+		"Unit on scene"
+	],
+	[
+		"09:18:02",
+		"COMMENT",
+		"1432",
+		"Keyholder en route to location"
+	],
+	[
+		"09:19:11",
+		"HAZARD",
+		"SYSTEM",
+		"Premise Hazard: Caution note available"
+	],
+	[
+		"09:19:47",
+		"UNIT",
+		"E204",
+		"Unit on scene"
+	]
+];
+function J() {
+	return /* @__PURE__ */ r(O, {
+		className: "c5-reference",
+		"data-testid": "c5-reference-window",
+		children: [
+			/* @__PURE__ */ n(j, { children: "Modify Incident" }),
+			/* @__PURE__ */ r(A, {
+				className: "c5-body",
+				"data-testid": "c5-reference-body",
+				children: [
+					/* @__PURE__ */ r(N, {
+						className: "c5-summary-strip",
+						children: [
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "INCIDENT TYPE:" }), " Alarm"] }),
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "LOCATION 1:" }), " 100 Main St"] }),
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "LOCATION 2:" }), " Suite 200"] }),
+							/* @__PURE__ */ r("div", { children: [
+								/* @__PURE__ */ n("strong", { children: "STATUS:" }),
+								" ",
+								/* @__PURE__ */ n("span", {
+									className: "c5-active",
+									children: "ACTIVE"
+								})
+							] }),
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "DISPOSITION:" }), " N/A"] })
+						]
+					}),
+					/* @__PURE__ */ r(N, {
+						className: "c5-hazard-strip",
+						children: [/* @__PURE__ */ n("strong", { children: "Premise Hazard:" }), " Caution note available"]
+					}),
+					/* @__PURE__ */ r("div", {
+						className: "c5-columns",
+						children: [/* @__PURE__ */ r("div", {
+							className: "c5-left",
+							children: [
+								/* @__PURE__ */ n(E, {
+									legend: "Incident Details",
+									children: /* @__PURE__ */ r("div", {
+										className: "c5-grid-two",
+										children: [
+											/* @__PURE__ */ n("label", { children: "Incident Type" }),
+											/* @__PURE__ */ n(T, { children: /* @__PURE__ */ n("option", { children: "Alarm" }) }),
+											/* @__PURE__ */ n("label", { children: "Summary" }),
+											/* @__PURE__ */ n(C, {
+												value: "Commercial Burglar Alarm",
+												readOnly: !0
+											}),
+											/* @__PURE__ */ n("label", { children: "Location 1" }),
+											/* @__PURE__ */ n(C, {
+												value: "100 Main St",
+												readOnly: !0
+											}),
+											/* @__PURE__ */ n("label", { children: "Location 2" }),
+											/* @__PURE__ */ n(C, {
+												value: "Suite 200",
+												readOnly: !0
+											}),
+											/* @__PURE__ */ n("label", { children: "City" }),
+											/* @__PURE__ */ n(C, {
+												value: "Riverview",
+												readOnly: !0
+											}),
+											/* @__PURE__ */ n("label", { children: "Caller Name" }),
+											/* @__PURE__ */ n(C, {
+												value: "Acme Security",
+												readOnly: !0
+											})
+										]
+									})
+								}),
+								/* @__PURE__ */ n(E, {
+									legend: "Attached Units",
+									children: /* @__PURE__ */ n("div", {
+										className: "c5-units",
+										role: "list",
+										children: [
+											"E201",
+											"E204",
+											"C12",
+											"M7"
+										].map((e) => /* @__PURE__ */ n(S, {
+											role: "listitem",
+											className: "c5-unit-btn",
+											children: e
+										}, e))
+									})
+								}),
+								/* @__PURE__ */ n(E, {
+									legend: "Activity",
+									children: /* @__PURE__ */ n(k, {
+										className: "c5-scroll-region",
+										"data-testid": "activity-scroll-region",
+										children: /* @__PURE__ */ r(R, { children: [/* @__PURE__ */ n("thead", { children: /* @__PURE__ */ r("tr", { children: [
+											/* @__PURE__ */ n("th", { children: "Time" }),
+											/* @__PURE__ */ n("th", { children: "Type" }),
+											/* @__PURE__ */ n("th", { children: "Source" }),
+											/* @__PURE__ */ n("th", { children: "Event" })
+										] }) }), /* @__PURE__ */ n("tbody", { children: q.map((e) => /* @__PURE__ */ n("tr", { children: e.map((e) => /* @__PURE__ */ n("td", { children: e }, e)) }, `${e[0]}-${e[3]}`)) })] })
+									})
+								})
+							]
+						}), /* @__PURE__ */ r("div", {
+							className: "c5-right",
+							children: [/* @__PURE__ */ n(E, {
+								legend: "Comments",
+								children: /* @__PURE__ */ n(k, {
+									className: "c5-scroll-region",
+									"data-testid": "comments-scroll-region",
+									children: /* @__PURE__ */ r("div", {
+										className: "c5-comments-log",
+										children: [
+											/* @__PURE__ */ r("p", { children: [/* @__PURE__ */ n("strong", { children: "09:17:35 1432 (Dispatch)" }), " C12 is on scene."] }),
+											/* @__PURE__ */ r("p", { children: [/* @__PURE__ */ n("strong", { children: "09:16:03 1432 (Dispatch)" }), " Keypad reports: Front Door Contact - OPEN."] }),
+											/* @__PURE__ */ r("p", { children: [/* @__PURE__ */ n("strong", { children: "09:15:48 SYSTEM" }), " ALARM EVENT: BURGLAR ALARM."] }),
+											/* @__PURE__ */ r("p", { children: [/* @__PURE__ */ n("strong", { children: "09:15:42 SYSTEM" }), " Incident INC-1 created."] })
+										]
+									})
+								})
+							}), /* @__PURE__ */ r(E, {
+								legend: "New Comment",
+								children: [/* @__PURE__ */ n(w, {
+									rows: 7,
+									defaultValue: ""
+								}), /* @__PURE__ */ r("div", {
+									className: "c5-actions",
+									children: [/* @__PURE__ */ n(S, { children: "Clear" }), /* @__PURE__ */ n(S, { children: "Submit" })]
+								})]
+							})]
+						})]
+					})
+				]
+			}),
+			/* @__PURE__ */ r(M, { children: [
+				/* @__PURE__ */ n("p", {
+					className: "status-bar-field",
+					children: "Status: N/A"
+				}),
+				/* @__PURE__ */ n("p", {
+					className: "status-bar-field",
+					children: "Last Update: 05/23/2026 09:22:34"
+				}),
+				/* @__PURE__ */ n("p", {
+					className: "status-bar-field",
+					children: "Timer: 00:10:11"
+				})
+			] })
+		]
+	});
+}
+//#endregion
+export { J as C5ModifyIncidentReference, o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, N as ClassicPanel, T as ClassicSelect, M as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
