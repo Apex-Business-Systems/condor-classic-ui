@@ -15,7 +15,8 @@
     "typecheck": "tsc --noEmit",
     "prepare": "npm run build",
     "test": "vitest run",
-    "check:exports": "node scripts/check-exports.mjs"
+    "check:exports": "node scripts/check-exports.mjs",
+    "preview:c5-modify-incident-reference": "vite examples/c5-modify-incident-reference-preview.html"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
