@@ -35,6 +35,13 @@ const activity = [
   ["09:19:11", "HAZARD", "SYSTEM", "Premise Hazard: Caution note available"]
 ] as const;
 
+const attachedUnits = [
+  { id: "E201", status: "ENROUTE", context: "ETA 02:14", category: "enroute" },
+  { id: "E204", status: "ON SCENE", context: "ARR 09:17:03", category: "scene" },
+  { id: "C12", status: "ON SCENE", context: "ARR 09:17:35", category: "scene" },
+  { id: "M7", status: "STANDBY", context: "HOLDING", category: "standby" }
+] as const;
+
 export function C5ModifyIncidentReference() {
   return (
     <ClassicWindow className="c5-modify-incident" aria-label="Modify Incident reference window">
@@ -50,7 +57,7 @@ export function C5ModifyIncidentReference() {
             <div><strong>STATUS:</strong> <span className="c5-active">ACTIVE</span></div>
             <div><strong>DISPOSITION:</strong> N/A</div>
           </section>
-          <section className="c5-hazard">⚠ Premise Hazard: Caution note available</section>
+          <section className="c5-hazard"><strong>Premise Hazard:</strong> Caution note available</section>
 
           <main className="c5-columns">
             <section className="c5-left">
@@ -67,24 +74,40 @@ export function C5ModifyIncidentReference() {
 
               <ClassicFieldset legend="Attached Units">
                 <div className="c5-units-strip">
-                  <ClassicInput aria-label="Dispatch Unit" placeholder="Dispatch Unit" />
+                  <label>Dispatch Unit <ClassicInput aria-label="Dispatch Unit" placeholder="Dispatch Unit" /></label>
                   <ClassicButton type="button">Attach</ClassicButton>
                   <ClassicButton type="button">Recommendations...</ClassicButton>
                 </div>
-                <div className="c5-unit-cards">
-                  <div>E201 · ENROUTE</div><div>E204 · ON SCENE</div><div>C12 · ON SCENE</div><div>M7 · STANDBY</div>
+                <div className="c5-unit-list" role="list" aria-label="Attached units">
+                  {attachedUnits.map((unit) => (
+                    <div key={unit.id} role="listitem" className={`c5-unit-token c5-unit-${unit.category}`}>
+                      <span className="c5-unit-id">{unit.id}</span>
+                      <span className="c5-unit-status">{unit.status}</span>
+                      <span className="c5-unit-context">{unit.context}</span>
+                    </div>
+                  ))}
                 </div>
               </ClassicFieldset>
 
               <ClassicFieldset legend="Activity" className="c5-activity-fieldset">
-                <div className="c5-tabs"><ClassicButton type="button">Events (1)</ClassicButton><ClassicButton type="button">Alarms (3)</ClassicButton></div>
                 <div className="c5-scroll c5-activity-scroll">
                   <ClassicDetailedTable>
                     <ClassicDetailedTableHead>
-                      <tr><ClassicDetailedTableHeaderCell>Time</ClassicDetailedTableHeaderCell><ClassicDetailedTableHeaderCell>Type</ClassicDetailedTableHeaderCell><ClassicDetailedTableHeaderCell>Source</ClassicDetailedTableHeaderCell><ClassicDetailedTableHeaderCell>Event</ClassicDetailedTableHeaderCell></tr>
+                      <tr>
+                        <ClassicDetailedTableHeaderCell>Time</ClassicDetailedTableHeaderCell>
+                        <ClassicDetailedTableHeaderCell>Type</ClassicDetailedTableHeaderCell>
+                        <ClassicDetailedTableHeaderCell>Source</ClassicDetailedTableHeaderCell>
+                        <ClassicDetailedTableHeaderCell>Event</ClassicDetailedTableHeaderCell>
+                      </tr>
                     </ClassicDetailedTableHead>
                     <ClassicDetailedTableBody>
-                      {activity.map((row) => <tr key={row.join("-")}>{row.map((cell) => <ClassicDetailedTableCell key={cell}>{cell}</ClassicDetailedTableCell>)}</tr>)}
+                      {activity.map((row) => (
+                        <tr key={row.join("-")}>
+                          {row.map((cell) => (
+                            <ClassicDetailedTableCell key={cell}>{cell}</ClassicDetailedTableCell>
+                          ))}
+                        </tr>
+                      ))}
                     </ClassicDetailedTableBody>
                   </ClassicDetailedTable>
                 </div>
@@ -94,7 +117,24 @@ export function C5ModifyIncidentReference() {
             <section className="c5-right">
               <ClassicFieldset legend="Comments" className="c5-comments-fieldset">
                 <div className="c5-scroll c5-comments-scroll">
-                  {comments.map((comment) => <article key={`${comment.time}-${comment.actor}`} className={`c5-comment ${comment.kind}`}><strong>{comment.time} {comment.actor}</strong><p>{comment.body}</p></article>)}
+                  <ClassicDetailedTable>
+                    <ClassicDetailedTableHead>
+                      <tr>
+                        <ClassicDetailedTableHeaderCell>Time</ClassicDetailedTableHeaderCell>
+                        <ClassicDetailedTableHeaderCell>Source</ClassicDetailedTableHeaderCell>
+                        <ClassicDetailedTableHeaderCell>Comment</ClassicDetailedTableHeaderCell>
+                      </tr>
+                    </ClassicDetailedTableHead>
+                    <ClassicDetailedTableBody>
+                      {comments.map((comment) => (
+                        <tr key={`${comment.time}-${comment.actor}`}>
+                          <ClassicDetailedTableCell>{comment.time}</ClassicDetailedTableCell>
+                          <ClassicDetailedTableCell>{comment.actor}</ClassicDetailedTableCell>
+                          <ClassicDetailedTableCell>{comment.body}</ClassicDetailedTableCell>
+                        </tr>
+                      ))}
+                    </ClassicDetailedTableBody>
+                  </ClassicDetailedTable>
                 </div>
               </ClassicFieldset>
               <ClassicFieldset legend="New Comment" className="c5-new-comment-fieldset">
