@@ -345,4 +345,267 @@ var K = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("footer", {
 }));
 K.displayName = "ClassicDialogActions";
 //#endregion
-export { o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, N as ClassicPanel, T as ClassicSelect, M as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
+//#region src/examples/C5ModifyIncidentReference.tsx
+var q = [
+	{
+		time: "09:17:35",
+		actor: "1432 (Dispatch)",
+		body: "C12 is on scene.",
+		kind: "dispatch"
+	},
+	{
+		time: "09:16:03",
+		actor: "1432 (Dispatch)",
+		body: "Keypad reports: Front Door Contact - OPEN.",
+		kind: "dispatch"
+	},
+	{
+		time: "09:15:48",
+		actor: "SYSTEM",
+		body: "ALARM: BURGLAR ALARM · Zone: Front Door Contact",
+		kind: "system"
+	},
+	{
+		time: "09:15:42",
+		actor: "SYSTEM",
+		body: "Incident INC-1 created.",
+		kind: "system"
+	},
+	{
+		time: "09:15:42",
+		actor: "1432 (Dispatch)",
+		body: "100 Main St",
+		kind: "dispatch"
+	}
+], J = [
+	[
+		"09:15:42",
+		"SYSTEM",
+		"CAD",
+		"Incident created by 1432"
+	],
+	[
+		"09:15:48",
+		"FIELD",
+		"1432",
+		"Call received from Acme Security"
+	],
+	[
+		"09:16:03",
+		"COMMENT",
+		"1432",
+		"Panel reports front door contact open"
+	],
+	[
+		"09:17:21",
+		"UNIT",
+		"E201",
+		"Unit enroute"
+	],
+	[
+		"09:17:35",
+		"UNIT",
+		"C12",
+		"Unit on scene"
+	],
+	[
+		"09:19:11",
+		"HAZARD",
+		"SYSTEM",
+		"Premise Hazard: Caution note available"
+	]
+], Y = [
+	{
+		id: "E201",
+		status: "ENROUTE",
+		context: "ETA 02:14",
+		category: "enroute"
+	},
+	{
+		id: "E204",
+		status: "ON SCENE",
+		context: "ARR 09:17:03",
+		category: "scene"
+	},
+	{
+		id: "C12",
+		status: "ON SCENE",
+		context: "ARR 09:17:35",
+		category: "scene"
+	},
+	{
+		id: "M7",
+		status: "STANDBY",
+		context: "HOLDING",
+		category: "standby"
+	}
+];
+function X() {
+	return /* @__PURE__ */ r(O, {
+		className: "c5-modify-incident",
+		"aria-label": "Modify Incident reference window",
+		children: [
+			/* @__PURE__ */ n(j, { children: /* @__PURE__ */ n("div", {
+				className: "title-bar-text",
+				children: "Modify Incident"
+			}) }),
+			/* @__PURE__ */ n(k, { children: /* @__PURE__ */ r(A, {
+				className: "c5-body",
+				children: [
+					/* @__PURE__ */ r("section", {
+						className: "c5-summary",
+						"aria-label": "Incident summary",
+						children: [
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "INCIDENT TYPE:" }), " Alarm"] }),
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "LOCATION 1:" }), " 100 Main St"] }),
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "LOCATION 2:" }), " Suite 200"] }),
+							/* @__PURE__ */ r("div", { children: [
+								/* @__PURE__ */ n("strong", { children: "STATUS:" }),
+								" ",
+								/* @__PURE__ */ n("span", {
+									className: "c5-active",
+									children: "ACTIVE"
+								})
+							] }),
+							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "DISPOSITION:" }), " N/A"] })
+						]
+					}),
+					/* @__PURE__ */ r("section", {
+						className: "c5-hazard",
+						children: [/* @__PURE__ */ n("strong", { children: "Premise Hazard:" }), " Caution note available"]
+					}),
+					/* @__PURE__ */ r("main", {
+						className: "c5-columns",
+						children: [/* @__PURE__ */ r("section", {
+							className: "c5-left",
+							children: [
+								/* @__PURE__ */ n(E, {
+									legend: "Incident Details",
+									children: /* @__PURE__ */ r("div", {
+										className: "c5-grid2",
+										children: [
+											/* @__PURE__ */ r("label", { children: ["Incident Type ", /* @__PURE__ */ n(T, {
+												defaultValue: "Alarm",
+												children: /* @__PURE__ */ n("option", { children: "Alarm" })
+											})] }),
+											/* @__PURE__ */ r("label", { children: ["Summary ", /* @__PURE__ */ n(C, { defaultValue: "Commercial Burglar Alarm" })] }),
+											/* @__PURE__ */ r("label", { children: ["Location 1 ", /* @__PURE__ */ n(C, { defaultValue: "100 Main St" })] }),
+											/* @__PURE__ */ r("label", { children: ["Location 2 ", /* @__PURE__ */ n(C, { defaultValue: "Suite 200" })] }),
+											/* @__PURE__ */ r("label", { children: ["City ", /* @__PURE__ */ n(C, { defaultValue: "Riverview" })] }),
+											/* @__PURE__ */ r("label", { children: ["Caller Name ", /* @__PURE__ */ n(C, { defaultValue: "Acme Security" })] })
+										]
+									})
+								}),
+								/* @__PURE__ */ r(E, {
+									legend: "Attached Units",
+									children: [/* @__PURE__ */ r("div", {
+										className: "c5-units-strip",
+										children: [
+											/* @__PURE__ */ r("label", { children: ["Dispatch Unit ", /* @__PURE__ */ n(C, {
+												"aria-label": "Dispatch Unit",
+												placeholder: "Dispatch Unit"
+											})] }),
+											/* @__PURE__ */ n(S, {
+												type: "button",
+												children: "Attach"
+											}),
+											/* @__PURE__ */ n(S, {
+												type: "button",
+												children: "Recommendations..."
+											})
+										]
+									}), /* @__PURE__ */ n("div", {
+										className: "c5-unit-list",
+										role: "list",
+										"aria-label": "Attached units",
+										children: Y.map((e) => /* @__PURE__ */ r("div", {
+											role: "listitem",
+											className: `c5-unit-token c5-unit-${e.category}`,
+											children: [
+												/* @__PURE__ */ n("span", {
+													className: "c5-unit-id",
+													children: e.id
+												}),
+												/* @__PURE__ */ n("span", {
+													className: "c5-unit-status",
+													children: e.status
+												}),
+												/* @__PURE__ */ n("span", {
+													className: "c5-unit-context",
+													children: e.context
+												})
+											]
+										}, e.id))
+									})]
+								}),
+								/* @__PURE__ */ n(E, {
+									legend: "Activity",
+									className: "c5-activity-fieldset",
+									children: /* @__PURE__ */ n("div", {
+										className: "c5-scroll c5-activity-scroll",
+										children: /* @__PURE__ */ r(R, { children: [/* @__PURE__ */ n(z, { children: /* @__PURE__ */ r("tr", { children: [
+											/* @__PURE__ */ n(H, { children: "Time" }),
+											/* @__PURE__ */ n(H, { children: "Type" }),
+											/* @__PURE__ */ n(H, { children: "Source" }),
+											/* @__PURE__ */ n(H, { children: "Event" })
+										] }) }), /* @__PURE__ */ n(B, { children: J.map((e) => /* @__PURE__ */ n("tr", { children: e.map((e) => /* @__PURE__ */ n(V, { children: e }, e)) }, e.join("-"))) })] })
+									})
+								})
+							]
+						}), /* @__PURE__ */ r("section", {
+							className: "c5-right",
+							children: [/* @__PURE__ */ n(E, {
+								legend: "Comments",
+								className: "c5-comments-fieldset",
+								children: /* @__PURE__ */ n("div", {
+									className: "c5-scroll c5-comments-scroll",
+									children: /* @__PURE__ */ r(R, { children: [/* @__PURE__ */ n(z, { children: /* @__PURE__ */ r("tr", { children: [
+										/* @__PURE__ */ n(H, { children: "Time" }),
+										/* @__PURE__ */ n(H, { children: "Source" }),
+										/* @__PURE__ */ n(H, { children: "Comment" })
+									] }) }), /* @__PURE__ */ n(B, { children: q.map((e) => /* @__PURE__ */ r("tr", { children: [
+										/* @__PURE__ */ n(V, { children: e.time }),
+										/* @__PURE__ */ n(V, { children: e.actor }),
+										/* @__PURE__ */ n(V, { children: e.body })
+									] }, `${e.time}-${e.actor}`)) })] })
+								})
+							}), /* @__PURE__ */ r(E, {
+								legend: "New Comment",
+								className: "c5-new-comment-fieldset",
+								children: [/* @__PURE__ */ n(w, {
+									"aria-label": "New Comment",
+									rows: 7
+								}), /* @__PURE__ */ r("div", {
+									className: "c5-actions",
+									children: [/* @__PURE__ */ n(S, {
+										type: "button",
+										children: "Clear"
+									}), /* @__PURE__ */ n(S, {
+										type: "button",
+										children: "Submit"
+									})]
+								})]
+							})]
+						})]
+					})
+				]
+			}) }),
+			/* @__PURE__ */ r(M, { children: [
+				/* @__PURE__ */ n("p", {
+					className: "status-bar-field",
+					children: "Status: N/A"
+				}),
+				/* @__PURE__ */ n("p", {
+					className: "status-bar-field",
+					children: "Last Update: 05/23/2026 09:22:34"
+				}),
+				/* @__PURE__ */ n("p", {
+					className: "status-bar-field",
+					children: "Timer: 00:10:11"
+				})
+			] })
+		]
+	});
+}
+//#endregion
+export { X as C5ModifyIncidentReference, o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, N as ClassicPanel, T as ClassicSelect, M as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
