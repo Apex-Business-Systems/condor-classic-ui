@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 
-import "../src/styles.css";
 import {
   C5ModifyIncidentReference,
   ClassicThemeProvider,
