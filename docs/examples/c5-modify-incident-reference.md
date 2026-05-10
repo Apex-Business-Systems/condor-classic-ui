@@ -24,11 +24,11 @@ npm install
 npm run preview:c5-modify-incident-reference
 ```
 
-Vite will print a local URL (typically `http://localhost:5173`). Open it in a browser.
+Vite will print a local URL (typically `http://localhost:5173`). Open `/examples/c5-modify-incident-reference-preview.html` under that URL in a browser.
 
 ## How to perform the review
 
-1. Launch the preview with `npm run preview:c5-modify-incident-reference`.
+1. Launch the preview with `npm run preview:c5-modify-incident-reference` and open `/examples/c5-modify-incident-reference-preview.html`.
 2. In the **Profile** selector, choose `cde/default` and review the entire `Modify Incident` reference screen.
 3. Switch to `win9x/2000` and repeat review.
 4. Confirm layout, spacing, typography, field groupings, tables, and status bar render correctly in both profiles.
