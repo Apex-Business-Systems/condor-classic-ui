@@ -6,11 +6,17 @@ import {
   ClassicDetailedTableHead,
   ClassicDetailedTableHeaderCell,
   ClassicFieldset,
+  ClassicFormGrid,
   ClassicInput,
+  ClassicNoticeStrip,
+  ClassicOperatorDialogLayout,
+  ClassicScrollRegion,
   ClassicSelect,
   ClassicStatusBar,
+  ClassicSummaryStrip,
   ClassicTextarea,
   ClassicTitleBar,
+  ClassicUnitToken,
   ClassicWindow,
   ClassicWindowBody,
   ClassicWindowFrame
@@ -50,26 +56,26 @@ export function C5ModifyIncidentReference() {
       </ClassicTitleBar>
       <ClassicWindowFrame>
         <ClassicWindowBody className="c5-body">
-          <section className="c5-summary" aria-label="Incident summary">
+          <ClassicSummaryStrip className="c5-summary" aria-label="Incident summary">
             <div><strong>INCIDENT TYPE:</strong> Alarm</div>
             <div><strong>LOCATION 1:</strong> 100 Main St</div>
             <div><strong>LOCATION 2:</strong> Suite 200</div>
             <div><strong>STATUS:</strong> <span className="c5-active">ACTIVE</span></div>
             <div><strong>DISPOSITION:</strong> N/A</div>
-          </section>
-          <section className="c5-hazard"><strong>Premise Hazard:</strong> Caution note available</section>
+          </ClassicSummaryStrip>
+          <ClassicNoticeStrip className="c5-hazard"><strong>Premise Hazard:</strong> Caution note available</ClassicNoticeStrip>
 
-          <main className="c5-columns">
+          <ClassicOperatorDialogLayout className="c5-columns">
             <section className="c5-left">
               <ClassicFieldset legend="Incident Details">
-                <div className="c5-grid2">
+                <ClassicFormGrid className="c5-grid2">
                   <label>Incident Type <ClassicSelect defaultValue="Alarm"><option>Alarm</option></ClassicSelect></label>
                   <label>Summary <ClassicInput defaultValue="Commercial Burglar Alarm" /></label>
                   <label>Location 1 <ClassicInput defaultValue="100 Main St" /></label>
                   <label>Location 2 <ClassicInput defaultValue="Suite 200" /></label>
                   <label>City <ClassicInput defaultValue="Riverview" /></label>
                   <label>Caller Name <ClassicInput defaultValue="Acme Security" /></label>
-                </div>
+                </ClassicFormGrid>
               </ClassicFieldset>
 
               <ClassicFieldset legend="Attached Units">
@@ -80,17 +86,13 @@ export function C5ModifyIncidentReference() {
                 </div>
                 <div className="c5-unit-list" role="list" aria-label="Attached units">
                   {attachedUnits.map((unit) => (
-                    <div key={unit.id} role="listitem" className={`c5-unit-token c5-unit-${unit.category}`}>
-                      <span className="c5-unit-id">{unit.id}</span>
-                      <span className="c5-unit-status">{unit.status}</span>
-                      <span className="c5-unit-context">{unit.context}</span>
-                    </div>
+                    <ClassicUnitToken key={unit.id} role="listitem" unitId={unit.id} status={unit.status} context={unit.context} statusTone={unit.category} className="c5-unit-token" />
                   ))}
                 </div>
               </ClassicFieldset>
 
               <ClassicFieldset legend="Activity" className="c5-activity-fieldset">
-                <div className="c5-scroll c5-activity-scroll">
+                <ClassicScrollRegion className="c5-scroll c5-activity-scroll">
                   <ClassicDetailedTable>
                     <ClassicDetailedTableHead>
                       <tr>
@@ -110,13 +112,13 @@ export function C5ModifyIncidentReference() {
                       ))}
                     </ClassicDetailedTableBody>
                   </ClassicDetailedTable>
-                </div>
+                </ClassicScrollRegion>
               </ClassicFieldset>
             </section>
 
             <section className="c5-right">
               <ClassicFieldset legend="Comments" className="c5-comments-fieldset">
-                <div className="c5-scroll c5-comments-scroll">
+                <ClassicScrollRegion className="c5-scroll c5-comments-scroll">
                   <ClassicDetailedTable>
                     <ClassicDetailedTableHead>
                       <tr>
@@ -135,14 +137,14 @@ export function C5ModifyIncidentReference() {
                       ))}
                     </ClassicDetailedTableBody>
                   </ClassicDetailedTable>
-                </div>
+                </ClassicScrollRegion>
               </ClassicFieldset>
               <ClassicFieldset legend="New Comment" className="c5-new-comment-fieldset">
                 <ClassicTextarea aria-label="New Comment" rows={7} />
                 <div className="c5-actions"><ClassicButton type="button">Clear</ClassicButton><ClassicButton type="button">Submit</ClassicButton></div>
               </ClassicFieldset>
             </section>
-          </main>
+          </ClassicOperatorDialogLayout>
         </ClassicWindowBody>
       </ClassicWindowFrame>
       <ClassicStatusBar>

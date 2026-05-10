@@ -345,8 +345,71 @@ var K = e(({ className: e, ...t }, r) => /* @__PURE__ */ n("footer", {
 }));
 K.displayName = "ClassicDialogActions";
 //#endregion
+//#region src/primitives/ClassicOperatorDialogLayout.tsx
+function q({ className: e, ...t }) {
+	return /* @__PURE__ */ n("main", {
+		className: x("classic-operator-dialog-layout", e),
+		...t
+	});
+}
+//#endregion
+//#region src/primitives/ClassicSummaryStrip.tsx
+function J({ className: e, ...t }) {
+	return /* @__PURE__ */ n("section", {
+		className: x("classic-summary-strip", e),
+		...t
+	});
+}
+//#endregion
+//#region src/primitives/ClassicNoticeStrip.tsx
+function Y({ className: e, ...t }) {
+	return /* @__PURE__ */ n("section", {
+		className: x("classic-notice-strip", e),
+		...t
+	});
+}
+//#endregion
+//#region src/primitives/ClassicFormGrid.tsx
+function X({ className: e, ...t }) {
+	return /* @__PURE__ */ n("div", {
+		className: x("classic-form-grid", e),
+		...t
+	});
+}
+//#endregion
+//#region src/primitives/ClassicUnitToken.tsx
+function Z({ unitId: e, status: t, context: i, statusTone: a = "default", className: o, ...s }) {
+	return /* @__PURE__ */ r("article", {
+		className: x("classic-unit-token", `classic-unit-token--${a}`, o),
+		"data-status-tone": a,
+		...s,
+		children: [
+			/* @__PURE__ */ n("span", {
+				className: "classic-unit-token__id",
+				children: e
+			}),
+			/* @__PURE__ */ n("span", {
+				className: "classic-unit-token__status",
+				children: t
+			}),
+			i ? /* @__PURE__ */ n("span", {
+				className: "classic-unit-token__context",
+				children: i
+			}) : null
+		]
+	});
+}
+//#endregion
+//#region src/primitives/ClassicScrollRegion.tsx
+function Q({ className: e, ...t }) {
+	return /* @__PURE__ */ n("div", {
+		className: x("classic-scroll-region", e),
+		...t
+	});
+}
+//#endregion
 //#region src/examples/C5ModifyIncidentReference.tsx
-var q = [
+var $ = [
 	{
 		time: "09:17:35",
 		actor: "1432 (Dispatch)",
@@ -377,7 +440,7 @@ var q = [
 		body: "100 Main St",
 		kind: "dispatch"
 	}
-], J = [
+], ee = [
 	[
 		"09:15:42",
 		"SYSTEM",
@@ -414,7 +477,7 @@ var q = [
 		"SYSTEM",
 		"Premise Hazard: Caution note available"
 	]
-], Y = [
+], te = [
 	{
 		id: "E201",
 		status: "ENROUTE",
@@ -440,7 +503,7 @@ var q = [
 		category: "standby"
 	}
 ];
-function X() {
+function ne() {
 	return /* @__PURE__ */ r(O, {
 		className: "c5-modify-incident",
 		"aria-label": "Modify Incident reference window",
@@ -452,7 +515,7 @@ function X() {
 			/* @__PURE__ */ n(k, { children: /* @__PURE__ */ r(A, {
 				className: "c5-body",
 				children: [
-					/* @__PURE__ */ r("section", {
+					/* @__PURE__ */ r(J, {
 						className: "c5-summary",
 						"aria-label": "Incident summary",
 						children: [
@@ -470,18 +533,18 @@ function X() {
 							/* @__PURE__ */ r("div", { children: [/* @__PURE__ */ n("strong", { children: "DISPOSITION:" }), " N/A"] })
 						]
 					}),
-					/* @__PURE__ */ r("section", {
+					/* @__PURE__ */ r(Y, {
 						className: "c5-hazard",
 						children: [/* @__PURE__ */ n("strong", { children: "Premise Hazard:" }), " Caution note available"]
 					}),
-					/* @__PURE__ */ r("main", {
+					/* @__PURE__ */ r(q, {
 						className: "c5-columns",
 						children: [/* @__PURE__ */ r("section", {
 							className: "c5-left",
 							children: [
 								/* @__PURE__ */ n(E, {
 									legend: "Incident Details",
-									children: /* @__PURE__ */ r("div", {
+									children: /* @__PURE__ */ r(X, {
 										className: "c5-grid2",
 										children: [
 											/* @__PURE__ */ r("label", { children: ["Incident Type ", /* @__PURE__ */ n(T, {
@@ -518,37 +581,27 @@ function X() {
 										className: "c5-unit-list",
 										role: "list",
 										"aria-label": "Attached units",
-										children: Y.map((e) => /* @__PURE__ */ r("div", {
+										children: te.map((e) => /* @__PURE__ */ n(Z, {
 											role: "listitem",
-											className: `c5-unit-token c5-unit-${e.category}`,
-											children: [
-												/* @__PURE__ */ n("span", {
-													className: "c5-unit-id",
-													children: e.id
-												}),
-												/* @__PURE__ */ n("span", {
-													className: "c5-unit-status",
-													children: e.status
-												}),
-												/* @__PURE__ */ n("span", {
-													className: "c5-unit-context",
-													children: e.context
-												})
-											]
+											unitId: e.id,
+											status: e.status,
+											context: e.context,
+											statusTone: e.category,
+											className: "c5-unit-token"
 										}, e.id))
 									})]
 								}),
 								/* @__PURE__ */ n(E, {
 									legend: "Activity",
 									className: "c5-activity-fieldset",
-									children: /* @__PURE__ */ n("div", {
+									children: /* @__PURE__ */ n(Q, {
 										className: "c5-scroll c5-activity-scroll",
 										children: /* @__PURE__ */ r(R, { children: [/* @__PURE__ */ n(z, { children: /* @__PURE__ */ r("tr", { children: [
 											/* @__PURE__ */ n(H, { children: "Time" }),
 											/* @__PURE__ */ n(H, { children: "Type" }),
 											/* @__PURE__ */ n(H, { children: "Source" }),
 											/* @__PURE__ */ n(H, { children: "Event" })
-										] }) }), /* @__PURE__ */ n(B, { children: J.map((e) => /* @__PURE__ */ n("tr", { children: e.map((e) => /* @__PURE__ */ n(V, { children: e }, e)) }, e.join("-"))) })] })
+										] }) }), /* @__PURE__ */ n(B, { children: ee.map((e) => /* @__PURE__ */ n("tr", { children: e.map((e) => /* @__PURE__ */ n(V, { children: e }, e)) }, e.join("-"))) })] })
 									})
 								})
 							]
@@ -557,13 +610,13 @@ function X() {
 							children: [/* @__PURE__ */ n(E, {
 								legend: "Comments",
 								className: "c5-comments-fieldset",
-								children: /* @__PURE__ */ n("div", {
+								children: /* @__PURE__ */ n(Q, {
 									className: "c5-scroll c5-comments-scroll",
 									children: /* @__PURE__ */ r(R, { children: [/* @__PURE__ */ n(z, { children: /* @__PURE__ */ r("tr", { children: [
 										/* @__PURE__ */ n(H, { children: "Time" }),
 										/* @__PURE__ */ n(H, { children: "Source" }),
 										/* @__PURE__ */ n(H, { children: "Comment" })
-									] }) }), /* @__PURE__ */ n(B, { children: q.map((e) => /* @__PURE__ */ r("tr", { children: [
+									] }) }), /* @__PURE__ */ n(B, { children: $.map((e) => /* @__PURE__ */ r("tr", { children: [
 										/* @__PURE__ */ n(V, { children: e.time }),
 										/* @__PURE__ */ n(V, { children: e.actor }),
 										/* @__PURE__ */ n(V, { children: e.body })
@@ -608,4 +661,4 @@ function X() {
 	});
 }
 //#endregion
-export { X as C5ModifyIncidentReference, o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, N as ClassicPanel, T as ClassicSelect, M as ClassicStatusBar, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
+export { ne as C5ModifyIncidentReference, o as CLASSIC_DEFAULT_SKIN_BY_THEME, d as CLASSIC_SKIN_LINK_ID, p as CLASSIC_SKIN_STORAGE_KEY, i as CLASSIC_THEMES, u as CLASSIC_THEME_LINK_ID, a as CLASSIC_THEME_SKINS, f as CLASSIC_THEME_STORAGE_KEY, S as ClassicButton, D as ClassicDesktop, R as ClassicDetailedTable, B as ClassicDetailedTableBody, V as ClassicDetailedTableCell, z as ClassicDetailedTableHead, H as ClassicDetailedTableHeaderCell, U as ClassicDialog, K as ClassicDialogActions, G as ClassicDialogBody, W as ClassicDialogTitle, E as ClassicFieldset, X as ClassicFormGrid, C as ClassicInput, F as ClassicMenu, P as ClassicMenuBar, I as ClassicMenuItem, L as ClassicMenuStrip, Y as ClassicNoticeStrip, q as ClassicOperatorDialogLayout, N as ClassicPanel, Q as ClassicScrollRegion, T as ClassicSelect, M as ClassicStatusBar, J as ClassicSummaryStrip, w as ClassicTextarea, b as ClassicThemeProvider, j as ClassicTitleBar, Z as ClassicUnitToken, O as ClassicWindow, A as ClassicWindowBody, k as ClassicWindowFrame, c as getDefaultSkinForTheme, s as getSkinsForTheme, l as isSkinValidForTheme };
