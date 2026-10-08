@@ -1,0 +1,62 @@
+.condor-workstation {
+  font-family: var(--condor-font-ui);
+  font-size: var(--condor-font-size-ui);
+  line-height: 1.0;
+}
+
+.condor-workstation .window-body {
+  padding-left: 0.35em;
+  padding-right: 0.35em;
+  padding-top: 0.10em;
+  padding-bottom: 0.10em;
+}
+
+.condor-form {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 1.5em;
+  row-gap: 0.5em;
+  align-items: center;
+}
+
+.condor-form label {
+  white-space: nowrap;
+}
+
+.condor-form input,
+.condor-form textarea,
+.condor-form select {
+  min-width: 180px;
+}
+
+.condor-form textarea {
+  width: 320px;
+  height: 64px;
+}
+
+.condor-form .dropdown {
+  width: max-content;
+}
+
+.condor-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+.condor-section {
+  margin-bottom: 8px;
+}
+
+.condor-compact-fieldset {
+  padding: 8px;
+}
+
+.condor-status-line {
+  margin-top: 8px;
+}
+
+.title-bar {
+  padding: 0.25em;
+}

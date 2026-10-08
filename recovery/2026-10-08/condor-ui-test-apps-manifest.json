@@ -1,0 +1,2653 @@
+{
+  "purpose": "WIP preservation checkpoint. No deployment or functional acceptance claimed. Original worktree and index are unchanged.",
+  "base": "28559d90dd423d4d622229b91969307a06fd0bcb",
+  "files": [
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\.gitignore",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/.gitignore",
+      "size": 253,
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+      "git_blob": "a547bf36d8d11a4f89c59c144f24795749086dd1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\eslint.config.js",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/eslint.config.js",
+      "size": 591,
+      "sha256": "cf80a7510234dcd5ae594b30b44682b8b45ba13c0fcb5bf8928bea143802aa1c",
+      "git_blob": "ef614d25c11dd1e89a8df0b2eaf934170b44daa8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\index.html",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/index.html",
+      "size": 374,
+      "sha256": "4e63f083e135aa0e7085add7c1da97955e698d632c5c3f5258f1d225c9d21123",
+      "git_blob": "e25a369065e1a8a8e35610cce8eb2c69460a8390"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\package-lock.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/package-lock.json",
+      "size": 97223,
+      "sha256": "2de152f89b5daf370bc94c7b85f4170a27ffef75b487bae1fdf367f9576e9411",
+      "git_blob": "f3c76984343e5a03bbde5d02ba6d1d2c3cc6637d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\package.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/package.json",
+      "size": 816,
+      "sha256": "51fd24756fc623ec32dcaae7f947e85d709da1751f2392155dc908897da45c24",
+      "git_blob": "dae30d57cb4721c6e9ac6c1589980f65ed7aa668"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\README.md",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/README.md",
+      "size": 2425,
+      "sha256": "8dc9e0ee2281acb3324624fbe6eb7e1377cc626f616ea4dc90e3a90ae094374d",
+      "git_blob": "7dbf7ebf3b2a3d84ad526bc47810d1d211331b8b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\tsconfig.app.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/tsconfig.app.json",
+      "size": 617,
+      "sha256": "b1eac9ba6cd1c01d59ebca159805e052c798d9d4ab904680b79ce3e306ea0bbd",
+      "git_blob": "7f42e5f7cd2e79c7b5a25b753e56b1bcf94e1381"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\tsconfig.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/tsconfig.json",
+      "size": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808",
+      "git_blob": "1ffef600d959ec9e396d5a260bd3f5b927b2cef8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\tsconfig.node.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/tsconfig.node.json",
+      "size": 591,
+      "sha256": "90a22c920cbc14624fb4658b58f15c875abf3234224f3933f211849c3ada3242",
+      "git_blob": "d3c52ea64c6cd6bad118474410f5322f48e257a6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\vite.config.ts",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/vite.config.ts",
+      "size": 500,
+      "sha256": "62d95c776e1295d36534994d78edf38484ea688223f0e12d22219e573dab9f5a",
+      "git_blob": "471bd6cf1ca60f5177e6661b719e2594ac17845a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\favicon.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/favicon.svg",
+      "size": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "git_blob": "6893eb13237060adc0c968a690149a49faa2d7d3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\icons.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/icons.svg",
+      "size": 5031,
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "git_blob": "e9522193d9f796a9748e9ad8c952a5df73c87db9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\layout.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/layout.css",
+      "size": 3046,
+      "sha256": "5067ca90ad24a0f2c1b2bd9617fa2d7f739691de1f9eda497617df6c44972ba6",
+      "git_blob": "64034ea348814dd23f97e6574225baab0db368f8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\arrow-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/arrow-right.svg",
+      "size": 496,
+      "sha256": "ca5ed64136cd6562397b6f7609d3aaee267c0beda043d1e8d0a7574392d74d1a",
+      "git_blob": "9d7952640100ade81af9a85285d4bfc079dad26a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/checkmark.svg",
+      "size": 235,
+      "sha256": "7790de358b599f3d9a96bb88a983463b854cf61cb75d01f781c5b276825cc59d",
+      "git_blob": "f9d47f93afd60caa0ee9a61d863e1b729ebae27a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\close.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/close.svg",
+      "size": 581,
+      "sha256": "6fa69abd8d6ac9e7ce089517febbd3ccf7f959bbe8a723c74562e65fb7801cc8",
+      "git_blob": "af4d8a4d3a6d8e5d2eab75146a8558b2f77956c1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\collapse.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/collapse.svg",
+      "size": 188,
+      "sha256": "29960de4ee827447ef854d89b06d08e364359dfe05deab32b0ebf9fe6a9d846e",
+      "git_blob": "62a0dc1e4b289cc348cabfc734131793061eca6a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\convert.py",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/convert.py",
+      "size": 6420,
+      "sha256": "48353c34e586650305885188ad0c89fdf0ae0efae06b9a65c4f3c4d160a99f1c",
+      "git_blob": "2dedd0f72e9db6cc571730e680a65f39f878e7f9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\convertall.sh",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/convertall.sh",
+      "size": 1606,
+      "sha256": "2477bf06f642b6f82505e220b95bb24711618c87bad362f6d6b47d77a0c19e6a",
+      "git_blob": "48df1e15f440d625fc215d4df644e0906d2c4c70"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\expand.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/expand.svg",
+      "size": 207,
+      "sha256": "d2d75770647e4f8e4c9005eddddb782e0abc00ca9f375efcdc3c9f000712643f",
+      "git_blob": "01b368ac6153b7187d23066bcee65ebd74fab513"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\maximize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/maximize.svg",
+      "size": 275,
+      "sha256": "09c6e46aa7b81dd41d4dd508aadac5591ccc8489e1f964df7c1a2a38203359a2",
+      "git_blob": "c163d60d8dec95c479f1a9caef71719b69f9fa75"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\menu-checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/menu-checkmark.svg",
+      "size": 253,
+      "sha256": "9f7985111478bf2af25a6e8660de3ae3a29b8011986107b23361b7cb0ce10b08",
+      "git_blob": "7f0376c3709b7b726a9c1608c9fa58c94fea0797"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\minimize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/minimize.svg",
+      "size": 268,
+      "sha256": "5f5d27ae70c60ca36f8946d400415f6fcc4a9e59713bbe00fa94ef4c2600be84",
+      "git_blob": "f80dc0a44d70cd100e6a1159faf4df04b59b2241"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\restore.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/restore.svg",
+      "size": 275,
+      "sha256": "7106287d4e7855517150b004dfecaec784fe153b84425f5aab73315c35c5922d",
+      "git_blob": "7a4a20c7effb495187dc45f935eeb6dee6577ca6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\scroll-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/scroll-down.svg",
+      "size": 633,
+      "sha256": "e2857ef5f3aea9477daab49799fd768370ba50c1b8f50f7d6e37cbc1fe6c18fc",
+      "git_blob": "b7fed55545b760f73582fc3195d00dbda0823f49"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\scroll-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/scroll-left.svg",
+      "size": 585,
+      "sha256": "cec00be67742dd093a592a4e91ea2b0b3ce786bada9a6a181e1eb207e09d1607",
+      "git_blob": "24552a868eda6fd220629f9560ad86a6e366e61e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\scroll-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/scroll-right.svg",
+      "size": 595,
+      "sha256": "4b18cfa1fc9a51c8c2d63f7f272c18384a00220060e35b37fb6942dc6422225e",
+      "git_blob": "cada6686a1700243b5efa14d3644cdff3ce39bb0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\scroll-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/scroll-up.svg",
+      "size": 671,
+      "sha256": "c3578ace744f6c7be3a532ccc72e260d00693d02d47453ccfd69653ab6cf9f08",
+      "git_blob": "8adf809074c23117b76175bde4552fb31b00c58c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\select.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/select.svg",
+      "size": 268,
+      "sha256": "1db833f93d2798ab2231ff9c65ca9df4a19112b9d9c67915f0a2c26e31725a78",
+      "git_blob": "84fbe3e599a122fdde70d315e37659228b70c663"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\theme.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/theme.css",
+      "size": 35337,
+      "sha256": "d161e32d950e603336dda6eb9dfbd123f3f4ad7cd400aa75edb8483392860e4a",
+      "git_blob": "ac8914623b630991c08584bfe5400612d26c7145"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\theme.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/theme.scss",
+      "size": 152,
+      "sha256": "38d543bab86241474eae81109c7a324a1292a5c99edbaca9f79335b0059a160e",
+      "git_blob": "9ae61e8614ddd86fbe3e411ccf7749734243f21e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_buttons.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_buttons.scss",
+      "size": 1530,
+      "sha256": "8bcb9f686e66a23feba5a66dc3252c0ff2f8bcf38cb6cdca9fa3d3865ecf92ca",
+      "git_blob": "8f0ceb90d7646023c59dea082a10ce143e49c364"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_inputs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_inputs.scss",
+      "size": 5599,
+      "sha256": "0697be33bb2890df96c4a3417b9402e766914e8ca2def285e5df46d0e2d14a13",
+      "git_blob": "93e894dc4ecadb7122fdee514f6c4f9c184658ea"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_lists.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_lists.scss",
+      "size": 5899,
+      "sha256": "504471b6affe0ca9a9f4a5010f93f92a8d5adbf3c7918510c482b2366e8c5bad",
+      "git_blob": "1cf91461e8196ec7959c5d22ac5530d9627cffbf"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_menus.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_menus.scss",
+      "size": 3788,
+      "sha256": "04e01cc40b6162a90b0dec7bc4f4c7c58c1a5bb52b78412db128458ba344d5df",
+      "git_blob": "b47f55e16d41ddbd35dcce1e9fadc419104b37ac"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_panels.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_panels.scss",
+      "size": 1065,
+      "sha256": "b26509a37fce34b4ba92818e179c5390640a68facc3a9c6316ea200a2b869db1",
+      "git_blob": "584f451adf1a6e532f199ceb2a4958a3b577accb"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_progress.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_progress.scss",
+      "size": 1265,
+      "sha256": "3ad94e9f9d2cc8e9e419548159b0320271ece4ab25771a4022148245ca80c12d",
+      "git_blob": "82e92a992646034174d468dac96b973adf8ef5e1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_root.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_root.scss",
+      "size": 1415,
+      "sha256": "8cc938e8df6baf39e7d9cc3afc7fd68dec8e763b642275a0f9feb6613dbcac9d",
+      "git_blob": "634d60dc969deb481ee0db545a4c162503d5961e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_scrollbars.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_scrollbars.scss",
+      "size": 3771,
+      "sha256": "25624ef92aa33fa43ab128ba9d63f7136e57354e3830ee54f78a85ef7810bb92",
+      "git_blob": "b33f108723a082258d3fae81b00e4d066306eb4b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_tabs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_tabs.scss",
+      "size": 561,
+      "sha256": "a11b96d91c682775e5193aae819552784baea6da7745a3b5024158ceeb22345c",
+      "git_blob": "0c5dbd489a224b447b58196058d996c59c89cc21"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\_windows.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/_windows.scss",
+      "size": 5315,
+      "sha256": "799cfc96e8ca7ac5283274afa79093bb3808a8ea09566e08ee3dd2ea59d35130",
+      "git_blob": "81174654a4a6ef832e0f1b8c0cb8e13ad1efc284"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\alpine-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/alpine-2.css",
+      "size": 780,
+      "sha256": "cfa46e77462c092711330e374615ec980dfd3d00e881ce4549bcd987ef2b38b1",
+      "git_blob": "14bfe93e36fa3473d7b6ee46bbd67bbf27b6234f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\alpine-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/alpine-4.css",
+      "size": 780,
+      "sha256": "04f02c5d14b66a63e6becc2e021056e62b506c70d1ceafb159f464fb00f099e3",
+      "git_blob": "743f898195e85854ace02b1b7a5b88246b2d09d6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\alpine-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/alpine-8.css",
+      "size": 780,
+      "sha256": "10b3607375a1ca10ad3ff3e80d6f3e68b22857a2e96e1d98b3563ac4990e6a38",
+      "git_blob": "5741aeac1fde3946c897771118e9c2e711444d9d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\arizona-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/arizona-2.css",
+      "size": 780,
+      "sha256": "a95eba100fd73708453904349c324f12fc71e5612398c5cfb74e2eddea6422c1",
+      "git_blob": "19d002fbaf746d970ae4401bd520ac2b556a2ed3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\arizona-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/arizona-4.css",
+      "size": 780,
+      "sha256": "9c3116d2949bae6ff71f6f161633f2b1a4aae3faafaee21342ee5f2db3191a0c",
+      "git_blob": "f4daf7b3e517d14b1c40bb0ee15fae5bd564bd66"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\arizona-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/arizona-8.css",
+      "size": 780,
+      "sha256": "4497af4c5db4ee10b7e97205c3c9f0d75ad97cee22a6847b920b4284fea36a95",
+      "git_blob": "a527d9f95d3c97c5561a0e1b5d50c0988db268f3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\beige-rose-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/beige-rose-2.css",
+      "size": 780,
+      "sha256": "6b686ef1388f1a85be613152121f46521268f1538ed86935fc9d5f7aea148936",
+      "git_blob": "2da40595094fdfd9941138c493833ff58820d32e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\beige-rose-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/beige-rose-4.css",
+      "size": 780,
+      "sha256": "78ca0f7ac91b4fd226c1a49a66cd38db96406f8b1a17f07576aefb516d777b57",
+      "git_blob": "ff304ddd81d8b6c5d66f5e826ddd453643fa7fc2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\beige-rose-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/beige-rose-8.css",
+      "size": 780,
+      "sha256": "d9e4f5ee7a552a935ed4608d44f4ce09c25da7d0da428028bedfe48e190cb6ca",
+      "git_blob": "a03efa15cb3ef9cddb54620782ed2080c11130a0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\black-white.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/black-white.css",
+      "size": 780,
+      "sha256": "657d66c72e9fcb44d2af0bdeda40839dbbc439102f4db39028dafb1b8dbe7499",
+      "git_blob": "0d410220037ee7d6781ccce06e306f85cf7fec95"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\black.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/black.css",
+      "size": 780,
+      "sha256": "182eaf13e06caf25e52cec3f37c24d4708dad79f1ee34ebc134fe7151745f320",
+      "git_blob": "8c51d174f648256557e573338a19ed776c6014c6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\broica-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/broica-2.css",
+      "size": 780,
+      "sha256": "bb6e3bff02a4d27b559668bc47f70ca69bf976bebfff8104fd39d401b70189b8",
+      "git_blob": "624f566f02e0621c2da33e1f852014233a0ea061"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\broica-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/broica-4.css",
+      "size": 780,
+      "sha256": "22ee79a41463ea000c13d700b7c12ac048d706cbac05297b8d263af8bd356f34",
+      "git_blob": "5032b358caf19dfa47dfc7a632f25d64bead71e5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\broica-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/broica-8.css",
+      "size": 780,
+      "sha256": "5f985ead942f7b317f27f5f2e06ffded0ef464b6488725c2477c1f5cc16e1d64",
+      "git_blob": "99017273585848946b5f24c7a2a65d0fbe9866f0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\cabernet-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/cabernet-2.css",
+      "size": 780,
+      "sha256": "6da6caf17727f27ebb3cff4c9368e0d7bdd0a07f4f3e331a80ccff291d1510f8",
+      "git_blob": "b87cc7aae2af54f878ec898ca9e8cbff5a72ffc0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\cabernet-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/cabernet-4.css",
+      "size": 780,
+      "sha256": "e2bb4ca592189fe12caaaebf775d5496bc3389d84971c2442fceba8b6c866053",
+      "git_blob": "d2a6f7f212e6fe52e2e8f05afaf43ce1ed4dc0a0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\cabernet-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/cabernet-8.css",
+      "size": 780,
+      "sha256": "ddad8e66d25fc8745e139790719feae9017e52897535e4cc7f2c93b5f4d88bf0",
+      "git_blob": "bdd424bf2d81ecff33b360d5e45260c502cf4d6d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\camouflage-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/camouflage-2.css",
+      "size": 780,
+      "sha256": "f39f596b2fc52f0fa63c8df7ba69b63a7d05648ddb73a3909a1e2afe48859e32",
+      "git_blob": "9f9432bda29f9af91bbcca4297714365e576bd92"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\camouflage-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/camouflage-4.css",
+      "size": 780,
+      "sha256": "0602156e4ea9bee8185712fb27db55778972ecb20ed5c83087b1e127ae6da39e",
+      "git_blob": "69d1bf8dfd13510bf0a23a59217477351539f217"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\camouflage-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/camouflage-8.css",
+      "size": 780,
+      "sha256": "b9bbd51a98ae4bd7192a66549b0b7c0add101bed8685c210a2211b0ae72fd049",
+      "git_blob": "fb2dc9f5dbab941d64b7481e68d577afb1296475"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\charcoal-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/charcoal-2.css",
+      "size": 780,
+      "sha256": "28d836b60c06c96c8f2659bc6703f78970a1be3de306c88a512a52d0b9c65ca3",
+      "git_blob": "daf55aaf316a619c9ed7042286bf58721bfed1e6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\charcoal-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/charcoal-4.css",
+      "size": 780,
+      "sha256": "8463c3a9577897014c189eed89075db90b89dc9c71db12fd247b671449c1501e",
+      "git_blob": "87dde3757c1ebf73fd1eaa0766d20575f3791896"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\charcoal-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/charcoal-8.css",
+      "size": 780,
+      "sha256": "3a8d2af47f77402e8669e01af2453d62c52d0b16b392e4cba522e692bb0777a3",
+      "git_blob": "7ce7cbcf68ded4c25762205f023b5ba2cb52f100"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\chocolate-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/chocolate-2.css",
+      "size": 780,
+      "sha256": "6b54c97d8ec6a916cb78444a0d5352c3c984e30772a8f923f113f2bd0bf2ee9f",
+      "git_blob": "5c3e2a7b64d03fea7b0d94c3bc74fb9cf937232c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\chocolate-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/chocolate-4.css",
+      "size": 780,
+      "sha256": "04f31ec1780ceb32cf18b0860048860fc9155c7e1db3d90083aaa1d834b928ca",
+      "git_blob": "74ec94c8756b635cc5cb9bf815b44b2c109d37f7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\chocolate-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/chocolate-8.css",
+      "size": 780,
+      "sha256": "58f073947415d4592afbe13c6e1a0254b6be9270000a453ae4872fbbd406bff7",
+      "git_blob": "c9327e3742154c4438b7eb36f50e78e3bb34e4f7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\cinnamon-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/cinnamon-2.css",
+      "size": 780,
+      "sha256": "ff1aae7f6d909dcf52a97d3935075b7dbff50d05b9e8003abc5e7fd114881986",
+      "git_blob": "9c207ad64fcbe408acfbbc7c484f07d0fb5e0798"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\cinnamon-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/cinnamon-4.css",
+      "size": 780,
+      "sha256": "7b558eebc921e774d2e45cd84ebb633311d3f1eab10431b0e4c4d7fe43e9cf8e",
+      "git_blob": "220b956ef399f9d1af527c9c9ca8c68c9892d08a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\cinnamon-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/cinnamon-8.css",
+      "size": 780,
+      "sha256": "702d16676580d1270b28a495c3fac44c1684e5530121aeaeab5ec3d30e048297",
+      "git_blob": "40d11c5bd5d5da93d132a98fadbb5b0dc2b073a0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\clay-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/clay-2.css",
+      "size": 780,
+      "sha256": "2255adbbd547eb4eb92e947260c4b5a7a4f09130795c4a409ef19330ace37a52",
+      "git_blob": "c015457812c88d747abe4058746f7bfabfb18dee"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\clay-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/clay-4.css",
+      "size": 780,
+      "sha256": "a9ca89838bd7313615715276aa4217554c396a2fd8e04c3cfefe357713b3c711",
+      "git_blob": "c8f94d7255db0b45446df29dd24a3ef16b4d8af6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\clay-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/clay-8.css",
+      "size": 780,
+      "sha256": "be4bd9f5b65a75683ae0ea6d02dd52d05b8b4baf834fd7a44c03d564af62c138",
+      "git_blob": "1b2adc6cfcd46291c5d8492d315b0de9ceeedf46"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\crimson-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/crimson-2.css",
+      "size": 780,
+      "sha256": "fea172c42d2635da8a5533891d678313f924fe8600fbbb9f178191c9f0ee831f",
+      "git_blob": "f26147726927ba07d7612a823b92fe29f63bb217"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\crimson-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/crimson-4.css",
+      "size": 780,
+      "sha256": "0274a61f35a0a50c532321d9bb9035c7baa1a4708612b93a030d08ef7ae34c9c",
+      "git_blob": "f97ac12e1e6a6185ef56eb728d7afcc57c6d3adc"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\crimson-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/crimson-8.css",
+      "size": 780,
+      "sha256": "e0ac5a030a0cf291a1487b7fa740abe09b3c80928714a79844a6b33dbeff278c",
+      "git_blob": "f1995e8673316411524da03a0ab9adb776769693"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\crimson.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/crimson.css",
+      "size": 494,
+      "sha256": "7518fed28b0759af475874be5ca57e105fe1d2230e4b0c8052a85d8bc1322c16",
+      "git_blob": "02ac087db00ccf8b307107de90eccebb24ae43ca"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\dark-gold-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/dark-gold-2.css",
+      "size": 780,
+      "sha256": "53d4cd39f647676b6f3b297d7829c2d442cfef5588ae04fdcbefa1e4e4f8c60f",
+      "git_blob": "a98904c03c8eaeaa90a62315c92962560a34bb8b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\dark-gold-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/dark-gold-4.css",
+      "size": 780,
+      "sha256": "0615d2455842b47f8c6d1afe4a108cc880e22a927241613fa129f00c022a42a0",
+      "git_blob": "26a0505eb116056da4c76342b4e044cc9ce166c3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\dark-gold-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/dark-gold-8.css",
+      "size": 780,
+      "sha256": "a6fbeb004ce5d91300e2df72ef6aa003a7a3f12d55f0f6aa8f6624c5e0edaba6",
+      "git_blob": "451a24393abe61684b1f125d043974bbdd06aff8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\default-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/default-2.css",
+      "size": 780,
+      "sha256": "bb6e3bff02a4d27b559668bc47f70ca69bf976bebfff8104fd39d401b70189b8",
+      "git_blob": "624f566f02e0621c2da33e1f852014233a0ea061"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\default-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/default-4.css",
+      "size": 780,
+      "sha256": "22ee79a41463ea000c13d700b7c12ac048d706cbac05297b8d263af8bd356f34",
+      "git_blob": "5032b358caf19dfa47dfc7a632f25d64bead71e5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\default-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/default-8.css",
+      "size": 780,
+      "sha256": "5f985ead942f7b317f27f5f2e06ffded0ef464b6488725c2477c1f5cc16e1d64",
+      "git_blob": "99017273585848946b5f24c7a2a65d0fbe9866f0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\default.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/default.css",
+      "size": 843,
+      "sha256": "954448842b24ffbb7b0224cf46cba71e685413acbb709b1d32f83533bf17b138",
+      "git_blob": "d5f42630e175f6f1a224a234d33fea6115399215"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\delphinium-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/delphinium-2.css",
+      "size": 780,
+      "sha256": "d73b46087966c341e6b86cd66567cca39058cccbe398e70bd3c298fb44eb1de1",
+      "git_blob": "83d0aee8ccd0339b20a08df1987db127ec64a1d0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\delphinium-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/delphinium-4.css",
+      "size": 780,
+      "sha256": "80bc383521233fe07fb771b03b05241992a26f4e65d2946a92570d8b5eedd229",
+      "git_blob": "2fbba2ff551218e63c150e3e8c0533a1ad63795a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\delphinium-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/delphinium-8.css",
+      "size": 780,
+      "sha256": "7a838dd4cd6224ab80b4887c1a7fe43d983d49cfbbfb4ea871fdda7de248d0b3",
+      "git_blob": "d62432f5292303d79109da8c32872a10f33f7fa8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\desert-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/desert-2.css",
+      "size": 780,
+      "sha256": "bb686ffc541153925f6cc6c823293b46a3f92ab143d881376bef838c1a6ebf6d",
+      "git_blob": "8c801af9d735af987d4e2c6b600a4fb6e5918e9e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\desert-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/desert-4.css",
+      "size": 780,
+      "sha256": "9411dfebceca83ef9b80d4b637715e4893171adcd4a51c710d9636fc78a1e2e9",
+      "git_blob": "494cc625b01e5708e726c771facb9cf72a5b73ca"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\desert-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/desert-8.css",
+      "size": 780,
+      "sha256": "17056be63a8cc237737716099921f96277b81b89f7df62cf3b592011ce6f438a",
+      "git_blob": "d8019101f2a2215e37da04900dca66a96326a24c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\golden-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/golden-2.css",
+      "size": 780,
+      "sha256": "16b10bec1d100c230e124a98a020d655216d4e8537473d52681ef63a9c9a1c41",
+      "git_blob": "f18e6bfddc10341a66a74fb803b58df4a8b5d551"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\golden-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/golden-4.css",
+      "size": 780,
+      "sha256": "299f42176596cfcdf017cc982526f2840ec0a9a7b8677530614a5b3e42dc9700",
+      "git_blob": "571104fb6c62a0a9ce60b0ca59209032e340e404"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\golden-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/golden-8.css",
+      "size": 780,
+      "sha256": "fcb045990d97f855f32bfa7dff3c95590dbde38b3918955dfce5992bbad9d9ed",
+      "git_blob": "e54dcf019d4251ba3cf9fa50b6b98b43f4f8b766"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\grass-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/grass-2.css",
+      "size": 780,
+      "sha256": "40c1bef766cc887ebe2a0d9f7eaea7e1944d2b8507d6caffc9853f40be5fe66b",
+      "git_blob": "c8d84c895cf4b46d7c75f8c5f702de1ec0a7ca6a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\grass-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/grass-4.css",
+      "size": 780,
+      "sha256": "1996d7dda979750db52b815374c1a3da997bcd7a00e5b136c0f96601b111f0c1",
+      "git_blob": "248e3f67991e0f68ed297065681cb58ba65b8f61"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\grass-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/grass-8.css",
+      "size": 780,
+      "sha256": "6dae121a28d2c3608e960b2553eff6484b892c51857d52f1fae569883ddb1514",
+      "git_blob": "96081b6153e83bc842ce94a5073e2df75b1bed3a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\gray-scale-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/gray-scale-2.css",
+      "size": 780,
+      "sha256": "a65a15de7710b80811c417e369d4be2f623ec92493e426177594e2a694d7f2d0",
+      "git_blob": "48f7d30a1c6b93e1cee04c24d8d6465e94d4f1aa"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\gray-scale-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/gray-scale-4.css",
+      "size": 780,
+      "sha256": "81b2407591d2ba2601366267b57b20e45350e3876b34d17a941a79925a17d7dd",
+      "git_blob": "6619175d25bacd3befbcd964b922c26f0344e168"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\gray-scale-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/gray-scale-8.css",
+      "size": 780,
+      "sha256": "30fdfa4a8e57266c1f30a363c231c3c0124c4476a79408d651196656cac48774",
+      "git_blob": "5f3016f3f88ffe35a3f1a32df5e62778eba81fd0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\lilac-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/lilac-2.css",
+      "size": 780,
+      "sha256": "387fe029d8da6d5c36929980a7f1e953ce43c5f71cc522f58d450eac8ea6d146",
+      "git_blob": "92787e9bdaebdee61c204a6098eaefbd34a434c4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\lilac-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/lilac-4.css",
+      "size": 780,
+      "sha256": "0ddfdf143c096dca86902e80f54ea69f189501d6e067f298f31e52ae9f115a58",
+      "git_blob": "646f704ad74f36fdeece431e68e11d1bc8706675"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\lilac-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/lilac-8.css",
+      "size": 780,
+      "sha256": "a32e1f392ca97ecf96335479930b621271f66c864e2e352e90ba58e008248db8",
+      "git_blob": "7a50ed206082f7fb232f3390b6e5e076327128b9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\mustard-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/mustard-2.css",
+      "size": 780,
+      "sha256": "8cda6b4c949ca50f5b66596d59ea1124543f526e9b5e6cd15d550c7fcb0127f9",
+      "git_blob": "bdf0e3704932c07ac788e211a77a45a27990d56a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\mustard-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/mustard-4.css",
+      "size": 780,
+      "sha256": "f3cdd1661e4975762fe650a4d19450600af62bdd03b80db9cec06205e5756348",
+      "git_blob": "45a62c4e037fea26812747958c42b79be467fdec"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\mustard-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/mustard-8.css",
+      "size": 780,
+      "sha256": "58d2e0d15991bc3cacbb75e8321fc6b9aa48416bf61bdd05b3ffd5e2f7833492",
+      "git_blob": "63bcac6b793eb4fc775addc2c5f6a9ab5ab4e55d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\neptune-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/neptune-2.css",
+      "size": 780,
+      "sha256": "dcfaec0ff8ba444d7aaa14b9740454556713fa7a5329db93311b43aa6bb90d41",
+      "git_blob": "7592800456c29af2ad0f182b6f61ebf66f1b12d6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\neptune-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/neptune-4.css",
+      "size": 780,
+      "sha256": "07ed708a1c8cc99a884677a057846bf0cfdc9b9d054d7a3cb5e868293664557b",
+      "git_blob": "3796116565e5409f51ffae1d4649d40e88de1584"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\neptune-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/neptune-8.css",
+      "size": 780,
+      "sha256": "83cb48026d2181a66660cbdf72741dfbe45a87fd11dd763e8e8fad17332eb6bb",
+      "git_blob": "cbd6d3000212509721e1bc2e63d8cae60e6a875b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\northern-sky-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/northern-sky-2.css",
+      "size": 780,
+      "sha256": "8d54e5062e80f1b06b25ac8b73e75267b49859ae85c8ca8e24840b99ea0bb39d",
+      "git_blob": "2e3ef7f077356e81b8e11e5b58f80a9425d4d1b0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\northern-sky-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/northern-sky-4.css",
+      "size": 780,
+      "sha256": "edd28996cfd8a2e1a51ed8ba0483da80e8d26664239d1afb0aed17ef30978805",
+      "git_blob": "76e233fd350983a9f3a66782d091a1ab48c6f750"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\northern-sky-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/northern-sky-8.css",
+      "size": 780,
+      "sha256": "102bf189f67137f07dc18949f39b1623e62e39abf83c3907ab448b70f450c1ef",
+      "git_blob": "cb6351864c478a71d23fba448bf39fdace42bdaa"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\nutmeg-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/nutmeg-2.css",
+      "size": 780,
+      "sha256": "9843173d51693cc6fc2e2412d19e93a4a7667097ea5123d8bc5e23e4338fd90b",
+      "git_blob": "f87c51d7b82710dedf02c46dbada9762f39ff5fd"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\nutmeg-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/nutmeg-4.css",
+      "size": 780,
+      "sha256": "d62a8e75de492882ab5a4487694954626a5778e3059ffb480ce06e5de67ae660",
+      "git_blob": "b2963a131422939a808e4f1603946747fd0855ab"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\nutmeg-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/nutmeg-8.css",
+      "size": 780,
+      "sha256": "a5531e9f3076748b09a27345b127df972a1b22c666c4362c71f40e61e7c60ab9",
+      "git_blob": "005daaa7a35d78af8418d9cf37e6c5a56eec9ec2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\olive-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/olive-2.css",
+      "size": 780,
+      "sha256": "3eb482768d336454532395f5aa83319f16f78f1d00179a3495f7c2ffce7e842d",
+      "git_blob": "4788e112d631b88c0dbfe6a9b2d2b62614ece2ad"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\olive-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/olive-4.css",
+      "size": 780,
+      "sha256": "d9e8a1ec3f9c5c3248d231da7bc59faa395e9cb1d5688505426f39d86a315efa",
+      "git_blob": "91cbdc01b5452b981b8d7d06c15a6051aa730ac9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\olive-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/olive-8.css",
+      "size": 780,
+      "sha256": "c83532d376cfc23ccfdff9017a0e71af5dcdd5515d0c1f9e001c16b593656a5a",
+      "git_blob": "08addb08156e579fff658098a260b7470b2549e5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\orchid-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/orchid-2.css",
+      "size": 780,
+      "sha256": "3a2b5f2ae882864beabe1cccf167d88b8ae57913e4567087cf97fd68a4547c79",
+      "git_blob": "6f107daf85c624e254858507419eaa13500b4866"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\orchid-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/orchid-4.css",
+      "size": 780,
+      "sha256": "a91314ef8d8d9796807e75bd724a9c592d8c457bc878d1c0edc9c1cb18c7438b",
+      "git_blob": "bea9cef3f4ea3c0de0851e27d68265eab51b555a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\orchid-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/orchid-8.css",
+      "size": 780,
+      "sha256": "97b260cfefdc0da4e9080175ce712cb3b3c1fde5357b3a88fed8a10065d8c85b",
+      "git_blob": "5c3941f66629bf1925ea1b90ddf97b0d2e6182b7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\pbnj-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/pbnj-2.css",
+      "size": 780,
+      "sha256": "833920aa5a745c87f8cea1ba2dbfcaf7410f4a19155e2536a9f1b8096b28fb4c",
+      "git_blob": "8a1e0824d7c0e5c3f66a43c7d4310f62017220bc"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\pbnj-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/pbnj-4.css",
+      "size": 780,
+      "sha256": "6be4a6ff312434a9ecc249a325de1932ed8d11a5e2dd32a6556cf6843dffb687",
+      "git_blob": "8ff88b0bd028ad2659997d47e1b921ac34a5cc9f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\pbnj-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/pbnj-8.css",
+      "size": 780,
+      "sha256": "3fa5df590e657cad3a71b88279127fb6f02cfd714b52ee5252d6edf9d97cf5cd",
+      "git_blob": "2d6fef5e24b41365471217258041aafa376caca7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sand-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sand-2.css",
+      "size": 780,
+      "sha256": "5c6be4f203a4daab2e6a7db048b03b3220c74f4179a9b451208daa531957fb5a",
+      "git_blob": "fd1aa633897c5abd45cc9deb9c65f0402fe06038"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sand-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sand-4.css",
+      "size": 780,
+      "sha256": "0fcbb0a6555853dfe4e88c9c1db1cd0efe74d698418a7b975d8a4892385aeb48",
+      "git_blob": "1afcdf7ee5d536640002e0190a69f69ac1ae3987"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sand-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sand-8.css",
+      "size": 780,
+      "sha256": "cc4205d3048946296a750d13de089e169812c1081570c433251c67148323b89e",
+      "git_blob": "617d9e7dbca843d07031b9b3f6cc203d347fdeca"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\santa-fe-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/santa-fe-2.css",
+      "size": 780,
+      "sha256": "7362a1ed3a1e621a49b4a08a94ea3023616ec97c6a6b7fd85d881f3ce7a47de0",
+      "git_blob": "a45524495586e5ab1278d4274455cb7af3afb3db"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\santa-fe-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/santa-fe-4.css",
+      "size": 780,
+      "sha256": "9bc4f7375b3d67b410f9007b8eb7e0f8ab2432e7d38f43fcb18fd179850ab830",
+      "git_blob": "ce74cd534d459b38233d4b438fcc738dd8c0c844"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\santa-fe-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/santa-fe-8.css",
+      "size": 780,
+      "sha256": "8e12ca4b28ec5a9bbc687224cde5399716f4d93542bf53f64ffca1fea8895720",
+      "git_blob": "76caa5c9720caa36e1eebab516e92452c9a436df"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\savannah-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/savannah-2.css",
+      "size": 780,
+      "sha256": "2779226bdaabe184f099059b380b49e7bdfe2280de9297a59f545ba0b24af6b7",
+      "git_blob": "bed10f3e77e9e274ad5f37edd37509e28ec7e928"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\savannah-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/savannah-4.css",
+      "size": 780,
+      "sha256": "24549d6989f122f7c0b0ae28320f65c0ec67af537607c56c2b4e875c0ff8ac24",
+      "git_blob": "36419eed2b61fa1a7b0eff7854c1c9a7cb548c5e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\savannah-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/savannah-8.css",
+      "size": 780,
+      "sha256": "77257e6489494763a19ab8a8b363078f78d78626a02fa7adf6247e1814f8eb44",
+      "git_blob": "ab1c12833cba09d075fed18bbd56f17e469d8575"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sea-foam-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sea-foam-2.css",
+      "size": 780,
+      "sha256": "55db43ccf15686241e960de5d9c6d68145861ffb3eb1bb4b004295d588fc7810",
+      "git_blob": "72921ca8eeda746584527c1709ae18b3e70ff26d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sea-foam-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sea-foam-4.css",
+      "size": 780,
+      "sha256": "97ec0311f5c06559135bfc2dbac0778a7ec5d884b6b8f972a0c80ab3d03073d6",
+      "git_blob": "11e52ee9777ff1520629517fc018393c8a278123"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sea-foam-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sea-foam-8.css",
+      "size": 780,
+      "sha256": "5bc991e6601b4c20406a7f049acdf89b43eac4ae0d2899959757fa20c145cd54",
+      "git_blob": "378c6169e2a3ac77f0db4ee1cb2fb38b335648b5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sky-red-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sky-red-2.css",
+      "size": 780,
+      "sha256": "63dd4b80c99c94f723d65be7a14fd0d3a87b537549618d6ddb34175b9fa88bfe",
+      "git_blob": "aa778d4b143eba6305ea392e5835f4ab829177cd"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sky-red-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sky-red-4.css",
+      "size": 780,
+      "sha256": "8dd3cf15d132c17333ed09f5994f49e908ed2badb39ee19c0dfc6b136f890dbf",
+      "git_blob": "373bd4ca2bb4414f8ef00fa2f552c8a0b276cf58"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\sky-red-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/sky-red-8.css",
+      "size": 780,
+      "sha256": "dfbcf259e1b030c1fdce646c43e15337dfb7950beecb3b1e3327e28796bfc15c",
+      "git_blob": "f061481c7a1964f3f0d5ea39bed5472b29baa0c3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\soft-blue-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/soft-blue-2.css",
+      "size": 780,
+      "sha256": "d074ff4ce08d8e42d3cd6d43f21843bc489962bae5d7fb0f0cd47468be04dd59",
+      "git_blob": "4f95b46187db6c280f54f53de46d2d6833d5d012"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\soft-blue-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/soft-blue-4.css",
+      "size": 780,
+      "sha256": "745fba97a6c45bca3b9488a5c40edf787f60aa811244754effb33a3826df3a73",
+      "git_blob": "fd633b930fc252f1c9d4ccd459f297835b2eb4f9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\soft-blue-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/soft-blue-8.css",
+      "size": 780,
+      "sha256": "4cb6e4825554824e12c1c5d1537794260235c637fa1f1893a485e690f7a4ffbb",
+      "git_blob": "115c6d030435c3f02eb533004e4467e02e59e6c1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\south-west-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/south-west-2.css",
+      "size": 780,
+      "sha256": "69506282da0132bb408017e6700676206f13337561f4a63373baa3ebb3e9a328",
+      "git_blob": "982b7da89e8439161a3e3b28afba196ccf4dafbd"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\south-west-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/south-west-4.css",
+      "size": 780,
+      "sha256": "5fd4e00a6b9e24d01729af80b1e4de5b27a6c941a2a2a9702d76076850d95e52",
+      "git_blob": "fc65435ee7cdbbc58f4551e7e8990994d9d8f317"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\south-west-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/south-west-8.css",
+      "size": 780,
+      "sha256": "9125afd9845ef34b9058b263c1a0e7ceaf8df5d24324bd0e35aceb282315a9a6",
+      "git_blob": "7f87100bb38a79d847e74eb809fc92c7a6cd66d9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\summer-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/summer-2.css",
+      "size": 780,
+      "sha256": "752523fe149f88c20ebd61a97ca72d7cdb564e9280fb8874ecb1e4941aaa5325",
+      "git_blob": "4a89dd06c5e68fb018f8519f9c86d7b34a5cee30"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\summer-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/summer-4.css",
+      "size": 780,
+      "sha256": "5435fd73122804cfc104f6df9756c909b7802b5ff531240af28c453fd1e4762b",
+      "git_blob": "6a820301a48888e3e5a474bbf8ea78719a32c22a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\summer-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/summer-8.css",
+      "size": 780,
+      "sha256": "27b6ca3265d32203e600cd605d81aba5e4b28b5baa47e416bc7dd58b9dbd26e4",
+      "git_blob": "70b4b6e3714e3b689b9f26e2b23dea3bf946a950"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\tundra-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/tundra-2.css",
+      "size": 780,
+      "sha256": "225ecbb1671b27d69cafff463a152eef6f2d6834d66993eaab262995bc0d3c79",
+      "git_blob": "4283da4fe646b67bb963858b336e96fae5fc4bad"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\tundra-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/tundra-4.css",
+      "size": 780,
+      "sha256": "021f3dc2b570ca401e7ee45e548e54cf64e471742b74d134ed82896cae510f45",
+      "git_blob": "b93568eee25ab9cacd34245f1de7c41b889e06f9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\tundra-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/tundra-8.css",
+      "size": 780,
+      "sha256": "cb0abf45230afe8c9cd440dfec724debd10c714fdc971661c4aadade7c99cd6b",
+      "git_blob": "9382e3201cee957780d1ab88421f8d5500326ae5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\urchin-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/urchin-2.css",
+      "size": 780,
+      "sha256": "e0aa02256b69a6fb33e4a94947ff01309c9674a41afd4fa73f6c59c3222a7c5e",
+      "git_blob": "f9be244d13ef9880e5b044007c3c907375f69273"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\urchin-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/urchin-4.css",
+      "size": 780,
+      "sha256": "92b2f5c420892ba35806338dc8df442b4ec495980f33beaaef9938a7c3ac715b",
+      "git_blob": "2af5fd5a4fc6d2115e98c7c2b664727cf67a3db3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\urchin-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/urchin-8.css",
+      "size": 780,
+      "sha256": "fa099f1d5da1b7d420363a01b903e62ac8d941b118d1bd4bf6a8e465a1a86cb6",
+      "git_blob": "ba442ffe63bcc81dd3a06b1d83dd0e8d3cec7924"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\wheat-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/wheat-2.css",
+      "size": 780,
+      "sha256": "d3f3ad01ba47fa7954ce0429730c99a61ef5e342c99db5332cff71b123807906",
+      "git_blob": "87cd7c40fc02aeffc65f119039f4a1eabbe395e1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\wheat-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/wheat-4.css",
+      "size": 780,
+      "sha256": "328cad24f6bf4f5eeed1d0053839da250605d120a68f00b7bf5379e6ed164bee",
+      "git_blob": "e28ee3ceda5b82b9d8a7a0c9625c2608a4514122"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\wheat-8.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/wheat-8.css",
+      "size": 780,
+      "sha256": "5293d486a80c8c7f174472034c7a31830367d767af2f6c2dfa2c98fb098becde",
+      "git_blob": "8cf8509c516e28623f764d513581f06ba446e1e0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\white-black.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/white-black.css",
+      "size": 780,
+      "sha256": "3ffef0e3ec34b795edc01c6c29b849306693533f1e50ea336e50023bcf967bee",
+      "git_blob": "9fd86279ec12a2ed562e5dda9de7a76a46f5d845"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\cde\\skins\\white.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/cde/skins/white.css",
+      "size": 780,
+      "sha256": "20aa07cf2600d47fdc7919f56cb8839ed06f8f4fc534461b01bf370eae7fae0d",
+      "git_blob": "7fe26b6c588ab7fbfb081bb65ec96cafddfa3ca3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\arrow-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/arrow-down.svg",
+      "size": 184,
+      "sha256": "f64ce115f1fc3ee0e7904591c7eb3ac13272140032d72daa6cb47b7cc49a1b77",
+      "git_blob": "103b945f1fa26a9ed0540593b80d28e7f5340d68"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\arrow-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/arrow-left.svg",
+      "size": 219,
+      "sha256": "53a51a7c31de1bd6689f19cd20e729a9f4f975ab1517a0a191611075c8cbe677",
+      "git_blob": "ea40a0019b31b54c834e69428127667497236df6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\arrow-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/arrow-right.svg",
+      "size": 219,
+      "sha256": "a72f1d217611b9ef39f8990529d08516f3cc450f34b0adf44198a1cb07ecfcaa",
+      "git_blob": "d3aab68853b73a8b4694ca03e9b53dc4044617a7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\arrow-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/arrow-up.svg",
+      "size": 184,
+      "sha256": "c066d6f855bf90de0c67989b15aca53ec28cfc712679dfa857e51d1c1348b42b",
+      "git_blob": "d597e9767991a38a413837db2fb06ddfa25dc67c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/checkmark.svg",
+      "size": 221,
+      "sha256": "8cfd6dcf2cb48842fef4b70bda820a7a35f76409c00eca82d8d9d9c26d88207b",
+      "git_blob": "156b29f069b36d6d1443aec2d49152d5cdab52c4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\dropdown.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/dropdown.svg",
+      "size": 230,
+      "sha256": "60c4fdd7991bae672253fc9985a6fe0667be8036f719119fb09cdf4f876d93c3",
+      "git_blob": "243bb7bf7932c4e03d24d1cbf44528ee9b348da4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\expandcollapse-mask.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/expandcollapse-mask.svg",
+      "size": 316,
+      "sha256": "814930358bb0d4ed8973de16c184d255eb6c9b082f7bdaa5cb2e9eb6fa27881b",
+      "git_blob": "bca921cc7ef07b0f0e39f917b9b41d898a7d46c6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\expandcollapse.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/expandcollapse.svg",
+      "size": 3757,
+      "sha256": "bcfc0e43b3b907f8941e35192e7ebd1406fca2f5167a4f9505cb2714763ffd90",
+      "git_blob": "be8aaed23fca0b897a3a7f12e03a6dff3b67b2cf"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\expandcollapse.svg.2025_03_01_11_29_12.0.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/expandcollapse.svg.2025_03_01_11_29_12.0.svg",
+      "size": 2753,
+      "sha256": "e5de955f056e686d3bb3d160cb29ace2280f4f508d8fa65e91ad2b9a03c8ed44",
+      "git_blob": "99add3cf490f7480a7a7ce105a9364a2d73da84a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\menu-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/menu-right.svg",
+      "size": 190,
+      "sha256": "b676a9ec421a058ade4baefbebe3c2d3133aafc7f41a1d0cf9b2d98503f1aabc",
+      "git_blob": "3e4627fe06809ac4148b55a62637343002c51c0e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\tab-active.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/tab-active.svg",
+      "size": 846,
+      "sha256": "ad2fc118d6b7a05d8a90ee784389bc2b76e7bc8bf1a91a2b7a006d1f79e65597",
+      "git_blob": "16ba47fb1d860f89fc11634ab0aa64e305be1720"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\tab-selected.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/tab-selected.svg",
+      "size": 843,
+      "sha256": "bbf2e1de81c11811a0a3c43b0b9fe9010c29e3e8bca70e7255221060aceec536",
+      "git_blob": "1caafce96d4c693f30f6aac7218a51b67a1bb4e6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\tab.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/tab.svg",
+      "size": 846,
+      "sha256": "78e0ce71ff332e21b7aa98d36bdff1792eb5245dae1a973715cf926ac25c2e70",
+      "git_blob": "5f4f7bee5660d68a6614f5e5b9caeee6228cfa84"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\theme.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/theme.css",
+      "size": 38275,
+      "sha256": "ee25c5eb0dfc1ff3e23d74c442fc8cc119033e2405d2381eca7f926f5abac1b9",
+      "git_blob": "716208b5db1b73a57670269ea8da6b64ff532615"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\theme.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/theme.scss",
+      "size": 152,
+      "sha256": "38d543bab86241474eae81109c7a324a1292a5c99edbaca9f79335b0059a160e",
+      "git_blob": "9ae61e8614ddd86fbe3e411ccf7749734243f21e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_buttons.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_buttons.scss",
+      "size": 1294,
+      "sha256": "2746483a1471c4ddd98c4153fc48cc63ad1f0b071b38996ea29a858d8aceec22",
+      "git_blob": "1a11e55567ec08136112f94c28a9f6494bd04515"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_inputs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_inputs.scss",
+      "size": 6341,
+      "sha256": "61109d2fdcf07e1f7221d0520f9105559db046ce9ecd9f55697fc1c9320b4fdf",
+      "git_blob": "42280a62fe3ed1c6f68b3c87ecddd9feb11b4acf"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_lists.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_lists.scss",
+      "size": 4890,
+      "sha256": "5df1c0998847644f7940010547f8dab59f0715f9b88cd94bb2b23b63b8eab1a3",
+      "git_blob": "2fce2bb807301a933bf0e1ff2cba63eb16da08bc"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_menus.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_menus.scss",
+      "size": 2278,
+      "sha256": "c138439a4bfa289875a966dfddd02c1ee133873d281390fb8d706aafeae81afc",
+      "git_blob": "19824d6c060fa0ea7cc21efe3dfd6ef48bec5632"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_panels.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_panels.scss",
+      "size": 758,
+      "sha256": "3db812f16864de11cb9692b0bebc68acad7c48324cb904fd0b014fa4498e398d",
+      "git_blob": "8d42e7c4fcc72fd903d6b7b49d41f475e50db22d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_progress.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_progress.scss",
+      "size": 1696,
+      "sha256": "82e9492c954b52395aba4f7e3e668f321cdc6103753c423c6cc184211966907e",
+      "git_blob": "985debcb7ec02abe1b6c502926e361514f65dccb"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_root.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_root.scss",
+      "size": 644,
+      "sha256": "cab207e3ac1568fea6a8a04d8f1e94bc26a9491f2806d17aaf77d0ae2282fed8",
+      "git_blob": "04530809f0352cc5821852ed416a1bcbf2c2fbe1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_scrollbars.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_scrollbars.scss",
+      "size": 8808,
+      "sha256": "6b68dc116be763b0176814b50600db513de4a6d900d598baa619ddeec92faa20",
+      "git_blob": "4e94d878fa8431334b09a6a4a7c2f8cbe47a09b0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_tabs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_tabs.scss",
+      "size": 1846,
+      "sha256": "170a6f9990c9df53b22f24583593aacf5e6746aabfbfa8621ca876cf84a79501",
+      "git_blob": "6ffb2c240418a9579f473815f5b77c7486f7ef71"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\_windows.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/_windows.scss",
+      "size": 2773,
+      "sha256": "e8d7ec8dd579971f51881e2a6236535c81c4b399df860d74bef8581199246225",
+      "git_blob": "206a3d7e4fb7715fc541685c3be230003eaa8987"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\blueberry-oxygen.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/blueberry-oxygen.css",
+      "size": 192,
+      "sha256": "64221036e59fcbdca67d58223ad78975d3e74bb6474760298d003b90acca8179",
+      "git_blob": "295dc2b8af395a0dd641b1a784dcd04878de3993"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\blueberry-union.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/blueberry-union.css",
+      "size": 190,
+      "sha256": "af400f67eb00390391128523feb3295d6b8eb886da289e7b430c8307c225c976",
+      "git_blob": "019eda6ba8f222379db3414b9babd4e79aba1c3c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\bubbles.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/bubbles.css",
+      "size": 205,
+      "sha256": "b35538eab2a7d63f1ca5e733b2fcf33302914a3cd1a6e5109030dde65d77404b",
+      "git_blob": "4aba2ae4eb1dcf5a6ff29b50d551bc8551bafa51"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\convergence.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/convergence.css",
+      "size": 206,
+      "sha256": "46bab991925d819f7937bce83f0e81496090a7c0a6c925e176b87c427feb6a24",
+      "git_blob": "eb4cd1bdc29fc8e9780730111264094a35dfab4e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\default.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/default.css",
+      "size": 187,
+      "sha256": "6e91666e1bfc093eb80524667d6952e4340770f165ab402cba8ea30404dfd3b3",
+      "git_blob": "943af945ceef3a0c0b6896b7008cbbe0a01a1cd7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\golden-poppy.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/golden-poppy.css",
+      "size": 206,
+      "sha256": "09b8324f959d28d0937b667c396da70837f584d8ea13cf73ee1472d393d7442c",
+      "git_blob": "a0b625f0ed702517af3cc410dbfcce5103a15ccb"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\grape-gravity.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/grape-gravity.css",
+      "size": 209,
+      "sha256": "6817a6b6943f4b006ac012fe43e067945431cde4af348af6b990cfd84f525929",
+      "git_blob": "cd409efe5ce5b2eba7c4bfa98535c0f0261efaa2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\grape-mission.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/grape-mission.css",
+      "size": 191,
+      "sha256": "5319ebfddf7cd464edee6ffab66c95a37156f1237a371f44728378bda0e54721",
+      "git_blob": "05422e346e02d600caf3e330747f42b6b9411015"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\gray-space.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/gray-space.css",
+      "size": 187,
+      "sha256": "11151c0e2ee815bb7df2894d0f4bf114702e00b4103ad2e9be74b163bc6c7046",
+      "git_blob": "6ba392502333e3cd93dab55a33dfb84db9e546ad"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lime-horizon.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lime-horizon.css",
+      "size": 189,
+      "sha256": "41a787da2971e1f4151aa162fa38783694653c488d0377fdafdcae209a7a50c9",
+      "git_blob": "499ca47d83889537b01f76bfc3fad96fafaf288f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lime-sharp.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lime-sharp.css",
+      "size": 191,
+      "sha256": "c319096886ced1db674bd081ac9be7a26faabf45e69d44f42b2c44d45f201d93",
+      "git_blob": "f2c290502994ff16266872d508eb3bb5f6fd1a5d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lollipop-2.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lollipop-2.css",
+      "size": 208,
+      "sha256": "7dd49d603a3341dde25ebae98b76a625e9375d0e379e682133bd61447e236985",
+      "git_blob": "7681ec5d7dc7e3ed33f563386ab8c4c3396ad01f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lollipop-3.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lollipop-3.css",
+      "size": 208,
+      "sha256": "42e97689b8a73dd476c69b780bbcc2c4025cbfb6966f9746e206bb6be9c5e2bb",
+      "git_blob": "3c4f14440181c3e3d9330941701e291be110a6c2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lollipop-4.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lollipop-4.css",
+      "size": 208,
+      "sha256": "1869792e111472008573bf0cf665a6d257b128814246a98d8041ca507777b87c",
+      "git_blob": "cfcbffd78eb3e1d2238114fe1e5bb70709bea574"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lollipop-5.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lollipop-5.css",
+      "size": 185,
+      "sha256": "60fbf9f7ee18919812371dbbb3b55e390bd230ce8ee715640b26c090e1ec631e",
+      "git_blob": "6569a289757a307cf22734b1f84991a1071baa1f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\lollipop.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/lollipop.css",
+      "size": 190,
+      "sha256": "2fb7e22e1cc31bac3615722eb40fdb89db9f89c8437d27195add675c67af26eb",
+      "git_blob": "b15de58fa7c99de5729a683742a4f63975cb716c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\mono-blue.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/mono-blue.css",
+      "size": 208,
+      "sha256": "d7e09022a9213520a8ffa1b0777fb77af75c216e3462a64d824a37f9d08cc786",
+      "git_blob": "38ba227a3aa98b725c25d659181a448d8239623b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\quantum-foam.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/quantum-foam.css",
+      "size": 188,
+      "sha256": "b06404eb81fd91ca7c6d3fa822a4a8e2e3bad39b038b3b7784264012a5d9c38d",
+      "git_blob": "50ce8a2dcb3db13e32800239e082e759788d1bdb"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\rio-azul.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/rio-azul.css",
+      "size": 191,
+      "sha256": "100918835a326527b94ec29364d07136a59573262770abf68f9feb6a88973828",
+      "git_blob": "89810de4b1999d84adb0a8179a9baa6c363dd4ac"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\roswell.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/roswell.css",
+      "size": 208,
+      "sha256": "452e50af7db58724405fc52ac3d2f8b81cfd3499c4039a4b5fcdc3b00a0e3168",
+      "git_blob": "daa6c43771152bc62bcf08d0512528c0b80d0c3d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\strawberry-baby.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/strawberry-baby.css",
+      "size": 188,
+      "sha256": "0f920480af0956d0daf1d7d587b5ca55f58b1942dca373d77a28b25b7920e665",
+      "git_blob": "862c5ebef26ee512c42cd7aaca6c9646476f9472"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\strawberry-parabola.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/strawberry-parabola.css",
+      "size": 192,
+      "sha256": "a9407c71895c6fcd1ea92037d9d25845e1d0eb437fa24b2ae42c4493692421de",
+      "git_blob": "ba2460c23fcfa191563151814edf78cacd7e7eef"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\sunny.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/sunny.css",
+      "size": 209,
+      "sha256": "d90341aeeb811257b26b8e015e2069aed851e8d9585579fe81025baf3d730697",
+      "git_blob": "611e73a011661a155127c56f33afd0e061fa3847"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\tangerine-fusion.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/tangerine-fusion.css",
+      "size": 206,
+      "sha256": "40dc1bd6fa509673ff6e104a09eed5c940cbfef1e6555bf0a83fab9652dea6c4",
+      "git_blob": "d27163b14248d1de5df2d918476e7a5932787158"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\macos9\\skins\\tangerine-melt.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/macos9/skins/tangerine-melt.css",
+      "size": 208,
+      "sha256": "31bf2e73c91d4a42a3dc1a782ec7c3a8017b94e7a2158d76bfc4ec7304a2fe88",
+      "git_blob": "e2e6ba77a4b578eea5f00352067d2170b5410200"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\arrow-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/arrow-right.svg",
+      "size": 188,
+      "sha256": "8a0ad70acb30e8963346078f55f361d99b216cdf7f72bff633a0335e7e51f7a4",
+      "git_blob": "ea6d6a90389cc84719402923de969d07a1147aa4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/checkmark.svg",
+      "size": 245,
+      "sha256": "bb9c1a22286d4ffd5aa5bccb29fbbbd5ff2335cb027364c090bf733b1efc0183",
+      "git_blob": "b297f46924e1a6ca66915756cb715e4b78cb7bde"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\close.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/close.svg",
+      "size": 249,
+      "sha256": "78998be4b5700274fb016bb57894db002e6b1dcb4b76444a65caac88a2236e5e",
+      "git_blob": "5f07e38bfd4d218468328bd4e8c73906a0a72cae"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\collapse.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/collapse.svg",
+      "size": 183,
+      "sha256": "9fcd1d556cc8cbe2a65a629e8468975a84cd17f70e07307dfaa50b08786992ad",
+      "git_blob": "556de6c5b2a538ecde60048f7c87873bafd6a3ce"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\dropdown-arrow.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/dropdown-arrow.svg",
+      "size": 239,
+      "sha256": "ce91e470d156f4c65539dbcc88e9ab110599fc08897cb00e1373e0e13f7e037e",
+      "git_blob": "86ba15c196b079c845f95a45809eb50c77a1c824"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\expand.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/expand.svg",
+      "size": 203,
+      "sha256": "362ec89c90e7a7d42a57d78485fd42c51065a5f96e4054f82ae319a7517a75f8",
+      "git_blob": "cb81d04aa2094313a34333bdc070462b8b87cc55"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\maximize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/maximize.svg",
+      "size": 188,
+      "sha256": "bdee5335763298ddb288de6927c0a9077bf9b6dc94b70b3e60ba828a9548808f",
+      "git_blob": "9225210c0061b00a8239fbcf5a757c74ecec6ce6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\menu-checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/menu-checkmark.svg",
+      "size": 250,
+      "sha256": "24daa375fb7bbe2bf52854708fea262cf6fc44be019a7cc3c5f6f04a40aa0ced",
+      "git_blob": "892980d2cd65a183193306b8de291adb8e460e0e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\minimize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/minimize.svg",
+      "size": 188,
+      "sha256": "ea67f8fc5ee9f90b40ae9a1bf869e221bbc28c757b2cc1dac2862b2139c7e99c",
+      "git_blob": "9fe9262e317e8d1695572431985e17a9fa5defe1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\restore.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/restore.svg",
+      "size": 222,
+      "sha256": "73031b635fe1932d51448351e564a3f1978238e2aec2821905d6f7de589ee499",
+      "git_blob": "ef548251626ac5469ac1d4b927b558b4753b82e6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\scroll-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/scroll-down.svg",
+      "size": 201,
+      "sha256": "4bcd6002bc6071b24000718f657afda8b2812949288e3678bf399a7de656812d",
+      "git_blob": "258a61ae7c8e43abd1800fbdcd8ab6ebb43dc6a0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\scroll-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/scroll-left.svg",
+      "size": 202,
+      "sha256": "e90221d469f052fca3398c0241ac39568dfc66296bd9f71a11e03f206bdeb626",
+      "git_blob": "d1953ca4d2d05c5a59b7c29f34a9b1b6acffc3ce"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\scroll-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/scroll-right.svg",
+      "size": 200,
+      "sha256": "047ff119a01a96939f72271c1458debcf447d5b527174fb5ce5e4913e85320e7",
+      "git_blob": "4b9bdc230db31918ec545898432374e208c386f4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\scroll-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/scroll-up.svg",
+      "size": 202,
+      "sha256": "3a85afb5105a857bfe85e2ed3641607f8f7d11e56cff23ee5a7a0116fed780d8",
+      "git_blob": "abb234c54b74c27538b625e540f53afc205d2416"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\theme.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/theme.css",
+      "size": 28735,
+      "sha256": "8c54f4c7fc51f02836373308bc4b6341dbd8ecdbcf714812a4ff20fb4749124f",
+      "git_blob": "35ed23094262086faf7c114c90ecc58d74f52329"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\theme.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/theme.scss",
+      "size": 152,
+      "sha256": "38d543bab86241474eae81109c7a324a1292a5c99edbaca9f79335b0059a160e",
+      "git_blob": "9ae61e8614ddd86fbe3e411ccf7749734243f21e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_buttons.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_buttons.scss",
+      "size": 2366,
+      "sha256": "614eec59f46450006850e9c70ec7b9d3161d7c0aa94f219731b447b582ccaa5f",
+      "git_blob": "afea7945ad7960026f102a7bea7df1b873d14915"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_inputs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_inputs.scss",
+      "size": 5508,
+      "sha256": "6a86a3f961967c03931d5a396af8ba172f8b03a4397b1a97154ce9d483b8182b",
+      "git_blob": "42e69740c703fec3e24eb40cbb222e9ec59dc8e5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_lists.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_lists.scss",
+      "size": 5340,
+      "sha256": "d70361bf35194bbe6513bc316960c21ee47ce70ff6f516aec1411cd0c26c668e",
+      "git_blob": "414fa421f8d41bb7d727d1da547a2d5fa1c5120f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_menus.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_menus.scss",
+      "size": 2141,
+      "sha256": "8a2a0420d94d6ed60e36598f4b1a311b928fe069056592741fa94f6df4ef2e7b",
+      "git_blob": "9f256eb5e6204c1ecb203b92b27f89c6e2cec593"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_panels.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_panels.scss",
+      "size": 963,
+      "sha256": "4e68d1192331ebdee7f37f10d275a2fad068ccfabbd66d4e5db6c6ad225408a9",
+      "git_blob": "cb3bb0492a8ccc85ae49fa12cd630764a0c3cac2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_progress.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_progress.scss",
+      "size": 1159,
+      "sha256": "ae20baf61451ae233ab1567fde17e478e52ffcc4d7950322cea76de0e1f68f00",
+      "git_blob": "073ac6689b049023e301b58ae595aaddca485881"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_root.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_root.scss",
+      "size": 1097,
+      "sha256": "95921ed6c4fb0a649ee0bd2c458e4f7c0692177c841f6c4dafef296f1262f2e8",
+      "git_blob": "61e218de4b919aeec2658b51e60fcf3fd1f4b835"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_scrollbars.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_scrollbars.scss",
+      "size": 3430,
+      "sha256": "f8d58b8f13eb3e23b571407cf5fdfa78fa58b4987fe5fa5418a090ddf6f8f26f",
+      "git_blob": "21383a4af744d1233aac7c68a925c01708afd65c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_tabs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_tabs.scss",
+      "size": 886,
+      "sha256": "ce7cfecd6bbbcbc5c53aeae2e6134aaa5ba1d57fae50391338e069cbc0e225e2",
+      "git_blob": "d56d8b6c0b40bcccdee881e234dbc5172a4497d2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\_windows.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/_windows.scss",
+      "size": 2389,
+      "sha256": "3ef1e08acdd604f8c45bd0cb9478c6784deb656b47dd10e6adc83aad22b41db9",
+      "git_blob": "7fcd3174f70a4e761cbd2b1e2fdd448f75a99faa"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\3.0.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/3.0.css",
+      "size": 504,
+      "sha256": "1e5afc00709ff6dad566bb003231cb44d516eb120ea243726b1fb74661e64f11",
+      "git_blob": "658276f4a48b0c974219f89891ff104f0dfe7bec"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\3.1.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/3.1.css",
+      "size": 470,
+      "sha256": "4b367aebbf382c07a477393dabf6f6ce072cb615ef9e6e006661730898c14c13",
+      "git_blob": "0be056e51679c4cb2254a44b6d5ceba611804329"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\arizona.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/arizona.css",
+      "size": 430,
+      "sha256": "a972ef43bea230600c429c09c9d55aea3bbcf70e648e9e4e935a4221997d988e",
+      "git_blob": "b403a8f4e2b6afc28354ad62967db2c7d328fd42"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\black-leather-jacket.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/black-leather-jacket.css",
+      "size": 458,
+      "sha256": "8c85fa04ae43501c80cfc30e57af164d38da9b15997312954f1a027a486fec1d",
+      "git_blob": "bf069c1eab9753832abd38626ecd6295fc884cf2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\bordeaux.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/bordeaux.css",
+      "size": 430,
+      "sha256": "1da2018c96dfe8826b55cd394fbbe31db59f19261c72429756e8bad434d42783",
+      "git_blob": "154c41d3fbff001bae710ecb6fcd3e7af170a5ee"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\cinnamon.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/cinnamon.css",
+      "size": 430,
+      "sha256": "9093fb154d366d9b2a0c70d6848252b90bd120ac2347cc0bcb3d86e05529545c",
+      "git_blob": "78f70134d60cbe215beaa5e1caff29f713304081"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\designer.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/designer.css",
+      "size": 430,
+      "sha256": "cba1686de26fc9a1af65c27938b926446bef51c6ae4d23e945334135e3d833c2",
+      "git_blob": "3c64fb2ad38e41a752134ece139a0642f6b097a3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\emerald-city.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/emerald-city.css",
+      "size": 430,
+      "sha256": "194c5d4cface3fcdd18738a815e40508dd0a9fc514cf385c185f07367b549628",
+      "git_blob": "c72c7fdf3efd4f1ef75a7e71d7d5763ec1e32e69"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\fluorescent.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/fluorescent.css",
+      "size": 430,
+      "sha256": "91e8a83b4c492b651f01595652cee4b18834a955319a69cd8cf73a8faa94bfe0",
+      "git_blob": "1ed214a3d48ea63abc240d513ffaf4e131e812b0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\high-color.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/high-color.css",
+      "size": 430,
+      "sha256": "2be693a0904a602b97f86d27151149a6decd5c76c32396a03c1a966b219cd4c3",
+      "git_blob": "2c8063913d677e69a491a19312a721dffd5a356b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\hotdog-stand.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/hotdog-stand.css",
+      "size": 430,
+      "sha256": "b6a9e89183d4dfcac888f223f29df0f887c0465b50a2d4cc0cb3578313508d6b",
+      "git_blob": "530e2c2a50db361172ecd6962bf90814457f721a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\lcd-reversed-dark.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/lcd-reversed-dark.css",
+      "size": 482,
+      "sha256": "6653b08965b3df194ae877557b9cfd1bb628770bc3156739e609bc60da30c4b0",
+      "git_blob": "f2103fb06ab6d2a8391ebe501c056229b863e4de"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\lcd-reversed-light.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/lcd-reversed-light.css",
+      "size": 452,
+      "sha256": "16575f76e1a4434e823cd681538d854642ecfbdfbabb011823b541b10a24523e",
+      "git_blob": "b70c922e5ee0f9c8c0c0d9099b43ac1206d5196d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\lcd.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/lcd.css",
+      "size": 430,
+      "sha256": "50b151f4a5616f3ae46bca4ae99e0eeeeb0b15c8b838a6638ac664a5de1f010b",
+      "git_blob": "6f78046e301c9480a73456fecd7941557b81bc03"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\mahogany.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/mahogany.css",
+      "size": 430,
+      "sha256": "dfbf3d63deae1ed7c705d09a5b5b4f241afe46db3c32f89a13324475aa866f46",
+      "git_blob": "1a80fee67b27f4d8dcbc20ae51ee50da147e88fc"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\monochrome.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/monochrome.css",
+      "size": 458,
+      "sha256": "7fd8c62bac0b1de930e6a3c7587023a33a885e9ba88635138bfb2597b7acfe46",
+      "git_blob": "fa872d6591294b7e5ccef744242576ac62e35144"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\ocean.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/ocean.css",
+      "size": 430,
+      "sha256": "da5a94e5a725f9b49de019b675279aa2e70867bc45e9a46d889fd1845102b36d",
+      "git_blob": "9ce02b4a984138d570d7acd0647062111dfd0272"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\pastel.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/pastel.css",
+      "size": 452,
+      "sha256": "88be37afeaec8f7211592606a1a802b77f219bdd3846949718dff7bbe0d35fea",
+      "git_blob": "b3e6b5bb0eb1a0907525655dd7e597548e116dba"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\patchwork.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/patchwork.css",
+      "size": 430,
+      "sha256": "9c05fb143052571d8e9f465e5fac08aa8f3d5ab5bc6233e2954e0d8e5848f45d",
+      "git_blob": "fdac0e1481d366b2b87e94ff340bbadf7f1d280d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\plasma-power-saver.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/plasma-power-saver.css",
+      "size": 480,
+      "sha256": "3ab82ee2211a8538c0bb9fa14e7377f42fe5557018bf4e7efc960cfff5d31533",
+      "git_blob": "dc2c5d4960cb0d57c72f5cb7f62bdc20164f13d6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\rugby.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/rugby.css",
+      "size": 430,
+      "sha256": "9731c5202d2c95410cf25cd82ef8bf3986b96a5d20b7e41060e715319e5d4487",
+      "git_blob": "f49a9914555166c709c9047b2433a038a2eeb261"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\the-blues.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/the-blues.css",
+      "size": 430,
+      "sha256": "0ffad4dad69fde4d60a27de522ed73ed35e9935c3683569fda63c1e4b1462b70",
+      "git_blob": "b0715bf9f07fe5882abe129eacad8089c330a93b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\tweed.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/tweed.css",
+      "size": 458,
+      "sha256": "70c091a20618da3e3f4b555366603a105684b958cd08b90acba88f5076a714c1",
+      "git_blob": "9dd2da50203958a3d1ba61109047faaa0784a212"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\valentine.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/valentine.css",
+      "size": 430,
+      "sha256": "83c8dd0914956c5f994a628871cff7d49145a4b1f5044ef4caba07ee28478908",
+      "git_blob": "47b05269e54fa9ac10d2c9ee1b428907527b3222"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win3x\\skins\\wingtips.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win3x/skins/wingtips.css",
+      "size": 458,
+      "sha256": "8b47bcb893ce95dff52b587f21c37bcb00b29f5f4aacf92ff9d0a6bfb364f1a7",
+      "git_blob": "482b87569e7f1ecdf02ecb2efcb8382f45f6e85d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\arrow-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/arrow-down.svg",
+      "size": 188,
+      "sha256": "7cc790812e3c04b44a6f8dbefc0ca0720d4fb30196bd4cf2fb677c8142f1c6f5",
+      "git_blob": "d22024e3a934e41710bb17eac9a638cb7a5493f8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\arrow-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/arrow-left.svg",
+      "size": 188,
+      "sha256": "b9d8d3167969806f9bdca3dfb3e83d09016284cae94d6a2f65b4d5fb9eb9a579",
+      "git_blob": "3164de1c19bf3f91beb75ca24a27c64ce5ff592d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\arrow-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/arrow-right.svg",
+      "size": 188,
+      "sha256": "8a0ad70acb30e8963346078f55f361d99b216cdf7f72bff633a0335e7e51f7a4",
+      "git_blob": "ea6d6a90389cc84719402923de969d07a1147aa4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\arrow-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/arrow-up.svg",
+      "size": 188,
+      "sha256": "0e58591598e79ecf601d16eb8005e5c5f5a64c838ed6f78f05ce141388dede9c",
+      "git_blob": "3d3277727dd1d8a7ed6ab76fb7835883c88d81ff"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/checkmark.svg",
+      "size": 247,
+      "sha256": "d7a22f452aa006f58c270867a524616f9d9a14a60629348a8801775e14abcecf",
+      "git_blob": "97d80a64ccabd8729ceb0619f0d5bc847606e5f6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\close.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/close.svg",
+      "size": 245,
+      "sha256": "166bea9fd8da441328d22ca1cd57c26ebc3541e46a9fbb2edb7386f23cb6036b",
+      "git_blob": "d3fafd1c57ab13f3d2f2f503713d338974f12c52"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\collapse.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/collapse.svg",
+      "size": 183,
+      "sha256": "bce43e32eff8b6fe6d40924a72e671202f8fb2f86ba8eb5858b5c054ec55a923",
+      "git_blob": "74b94a4e56b230a4dd50502e5d6133ce34b49943"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\expand.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/expand.svg",
+      "size": 203,
+      "sha256": "362ec89c90e7a7d42a57d78485fd42c51065a5f96e4054f82ae319a7517a75f8",
+      "git_blob": "cb81d04aa2094313a34333bdc070462b8b87cc55"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\maximize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/maximize.svg",
+      "size": 209,
+      "sha256": "32e092c2eb0bc2065dc82b63e93ff6647b2fe773b9c7ebec5904efe35fb06f4f",
+      "git_blob": "1eb022d689616484f8fd078674e1d1bc9a891a21"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\minimize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/minimize.svg",
+      "size": 189,
+      "sha256": "1b74ec9034f03b6c26a3be8b523083130587172c089c62c2c165a3700a330166",
+      "git_blob": "d7f40185788a19c1254f993bc4126550f0031934"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\restore.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/restore.svg",
+      "size": 225,
+      "sha256": "42b29aee885b89191cfffcdcaf0e0f351dba8524634e942102ece42000303881",
+      "git_blob": "a0ca2b6792780f34087986d0a042c1d1765e3a3c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\sort-asc.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/sort-asc.svg",
+      "size": 292,
+      "sha256": "41e58daaff748035993fbbd94d7f928b6cec5c3b82c3328f5286aacdb6b2e10a",
+      "git_blob": "79e6ded855cdb3177981c31dbc660a98d1ce240d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\sort-desc.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/sort-desc.svg",
+      "size": 290,
+      "sha256": "cab4a4fbe8596ae63d4d1dc7722e6e37a5115c1eb0d897044f14f59e904ae105",
+      "git_blob": "abf1e6a3d45377d9623b8d48b071f9980ced1201"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\theme.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/theme.css",
+      "size": 34255,
+      "sha256": "dabf30f3389643d938366f52cfe8d454924554d2d33d2f54bc42d9c606164824",
+      "git_blob": "02af20873acc498251cd8f934ddeb111ba23f5e1"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\theme.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/theme.scss",
+      "size": 152,
+      "sha256": "38d543bab86241474eae81109c7a324a1292a5c99edbaca9f79335b0059a160e",
+      "git_blob": "9ae61e8614ddd86fbe3e411ccf7749734243f21e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_buttons.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_buttons.scss",
+      "size": 1403,
+      "sha256": "8f4131ebb5c78de0ee732a13cb71c5027cdedae4233388d439e54a5043878e07",
+      "git_blob": "7eaff7125a37f8d69ffe02e0bf1a08d641f7b9a7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_inputs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_inputs.scss",
+      "size": 6651,
+      "sha256": "f4e5382f6c370730dd894d1b8708b86b228789ab121f0fbf587fe3263499801c",
+      "git_blob": "520d0e0855fb718807bc9f12c9524e0dbbc06f10"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_lists.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_lists.scss",
+      "size": 7012,
+      "sha256": "3772a59a67584740a5a5e94b0ba8f8200678b5d038c7750157583b4206801d07",
+      "git_blob": "072b189df328466e96c75eec09a7cca7466edd08"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_menus.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_menus.scss",
+      "size": 3646,
+      "sha256": "4502c8806280239013da4c13eaf588887ee3a2d5dd366f193c54c07847a9c141",
+      "git_blob": "0450dc70891d97160fe65b5df7f4b7bd1b5dca37"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_panels.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_panels.scss",
+      "size": 1313,
+      "sha256": "443c554ac249381d337507e0e7ad8dee389693cd075aeb802733db6586d3a8fc",
+      "git_blob": "7e5b6efb3ada2f44154f4d5efceca6a21d5dce9d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_progress.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_progress.scss",
+      "size": 1379,
+      "sha256": "e110a140cb003ed31f5ef2d1636ecf465f615233ad9b77f7ad5fcb7414d6b1d3",
+      "git_blob": "733eb2753c2a4b19e773f8160ec455adf91f7148"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_root.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_root.scss",
+      "size": 988,
+      "sha256": "870550f6414e428725720088bd3677e1f511919cf7a839ee373d54bdb6889b11",
+      "git_blob": "28f60c825fa3b93a915eb6b8ee994bb63cda1ef0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_scrollbars.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_scrollbars.scss",
+      "size": 4198,
+      "sha256": "b25550129b0690524d027c105a7e3d3da78b1fc53b133cbdf87b86fd2c4ea090",
+      "git_blob": "8037a657d18d4b67420e17d9419899bda770e7ed"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_tabs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_tabs.scss",
+      "size": 1154,
+      "sha256": "0db1351d740ee120d196fe4e6f2a3437543244b1811b157a1f849f9aecf4dd31",
+      "git_blob": "3550db2662c3d679e79faeeadeb256b05ff07b77"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\_windows.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/_windows.scss",
+      "size": 2240,
+      "sha256": "ea0f843c9f862a591a2063df7a50c84e7336234915e2dcd388bec0fe629a80fb",
+      "git_blob": "13f5f4437fafe3fcf770655d18f36cebb79d91d8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/2000.css",
+      "size": 726,
+      "sha256": "7fb0f0be39c86d3a409c9255bb490fc83cda726f046f36d0993798a58f0526c4",
+      "git_blob": "4c99afa7bcfd1254c684d23e50a645272be7b882"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\95.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/95.css",
+      "size": 2710,
+      "sha256": "f6ad5cddacf5743b2ed50838a5fb2bb4df45322d17e803cb79d2378d464a6d3f",
+      "git_blob": "92ebad1a138a7d427920dab9db64236f2811180d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\98.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/98.css",
+      "size": 298,
+      "sha256": "13fdfae0da18692ce80d501ef93e8159c8e25afc3579b43e2729c6c02ae36c76",
+      "git_blob": "b8e2c28b944598a2e170a17d4f13241d59efcb7e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\brick-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/brick-2000.css",
+      "size": 196,
+      "sha256": "dce81a8cb8ba44c3ee36e3263d041f9ccb154a07bce5eb8eadab3e228653b872",
+      "git_blob": "67098c77d708a971c1f73269249ca1bbc54c5050"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\brick.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/brick.css",
+      "size": 517,
+      "sha256": "78fe3c614acc88cbcd053822bc6946150a0bc4b9562a13ea6003fb597cb87532",
+      "git_blob": "1db2323e43bf7b208648b827c3c2f1cb06dc6aa9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\desert-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/desert-2000.css",
+      "size": 197,
+      "sha256": "aebdbcda70352ed1f72d6932df03432be61b5966689a652bf0b7896b53c697af",
+      "git_blob": "9e41f805d3be8f2fc64c1587ae2a48b501758732"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\desert.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/desert.css",
+      "size": 517,
+      "sha256": "6311f7ba6cf5b93f52463c53a2b192993547c10a65f380e74d0229575bd89142",
+      "git_blob": "34a3aad528b5e7e502717c06ee92d6c4013945fd"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\eggplant-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/eggplant-2000.css",
+      "size": 199,
+      "sha256": "d5aa3017466778d20870f41aa30aebc0ae2fc691ce546f1302043c0740c0003e",
+      "git_blob": "c3ff12f7167a0feff6122e0045778e031f1c99db"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\eggplant.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/eggplant.css",
+      "size": 517,
+      "sha256": "af60d02dd422bd97f0a39dc92bb2e1a0c14ad245a363380910859a7edb205a43",
+      "git_blob": "99185255807b0a9aa898b446ce2d52c95e3818ff"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\lilac-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/lilac-2000.css",
+      "size": 256,
+      "sha256": "36296c47216160079f63880b3983bb6167a64356fad49bd6bc992ec14eb28289",
+      "git_blob": "2bdd89247e97293e6bcf9853993919dd1b91d37e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\lilac.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/lilac.css",
+      "size": 517,
+      "sha256": "58d1d2e35afe9c937b55ee29c5b05396ba13ae73149d829d05bbbb4402bfe70e",
+      "git_blob": "5c36f8c62866e58a9bbe76a65675e9d50fe4321c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\maple-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/maple-2000.css",
+      "size": 196,
+      "sha256": "1a7ae88a1da105c50ca4386ec73d7ae1470c2fd9ee6c90433022ab7b64f09de3",
+      "git_blob": "4ff8d8fb90a01da449abee2eb9e430560921f6f6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\maple.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/maple.css",
+      "size": 517,
+      "sha256": "2430e255c98d129ad5fe21b1fc35d1bea9d4650a98ff98273aa498db71685056",
+      "git_blob": "7e68392f04ef8492b0c0c7b7f3ab9229c1221d35"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\marine-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/marine-2000.css",
+      "size": 284,
+      "sha256": "4b9a58d7735a9654a491cd4c15e3c62b18331a9f3b6c9a50f21aeb9c2f01de78",
+      "git_blob": "4ba34dbb4fde3d65f09604011088fb390236a55f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\marine.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/marine.css",
+      "size": 517,
+      "sha256": "1b97d6397d97acaa7d1f3b4f33f6ec1032c379939657246fc92b029ccf6148fb",
+      "git_blob": "7d2b03b59133cfd9936d7a1fdb7a6c1b23ff529a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\plum-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/plum-2000.css",
+      "size": 282,
+      "sha256": "8bd1a27afca2da3bb4ab880712dcb9332eea966e4cf5042974bb1c3ad10e3faf",
+      "git_blob": "1229527d51000ddc02ced1d17e267325094b3515"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\plum.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/plum.css",
+      "size": 517,
+      "sha256": "1c627dfdee9274a78602386aa0c033d32d2b1ee4eb2a0650f5d70991e7949d90",
+      "git_blob": "800b4358a23bbafd6696a9476cbce6d5a96d93e2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\pumpkin-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/pumpkin-2000.css",
+      "size": 258,
+      "sha256": "7c7956eca9565c3e795ff31c4c3a79734bbd5f1a3c8dd45cb4ac40bd16ccb416",
+      "git_blob": "40ae4abc1618dcc23163d0a9b366342868aa458c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\pumpkin.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/pumpkin.css",
+      "size": 517,
+      "sha256": "6ba9a12ba316f5eada83ba18a92f9e590c4191befefb69cd80f2d19663ff4930",
+      "git_blob": "9862d32c7d91d7c13368936891358791b6bd8cec"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\rainy-day-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/rainy-day-2000.css",
+      "size": 200,
+      "sha256": "5e9b1f52e590572cf9508cfa596a6d49364225e4d4e780a3446222c393ce4bf9",
+      "git_blob": "fb3b078836c546384b1dcab077f7aeace656db37"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\rainy-day.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/rainy-day.css",
+      "size": 517,
+      "sha256": "67b9c88104dc5e29a606007dc441f20addbcc6b29ac51ce7391b88aa4527f01e",
+      "git_blob": "a2bf018a40003fa28ccab047806afb0db315263c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\red-white-and-blue-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/red-white-and-blue-2000.css",
+      "size": 209,
+      "sha256": "e5b7ca3d295d2ceed40ae4c71db986a5dbe0bcbe2af300f58cb3683d913d36fa",
+      "git_blob": "7fe9f8071098aca427b687abafb9ee6d36946de9"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\red-white-and-blue.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/red-white-and-blue.css",
+      "size": 517,
+      "sha256": "c3ab988b08f64b2f30b90b4a7c618f1cdc6261928f10f03f5d10c5babf9beffe",
+      "git_blob": "515213b70c6761d44e8c1802737fc5fa13cdc705"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\rose-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/rose-2000.css",
+      "size": 195,
+      "sha256": "4f9b0c8b7c81fe07dfc3a4b39eabca2dd344b2b901733708f4da355a029de7d0",
+      "git_blob": "127d4d19741dd4771ace72a10e9adf2b386f2151"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\rose.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/rose.css",
+      "size": 517,
+      "sha256": "bb2b9b889cad9117d3c3cd85ded633832ce72537961c15dd5aa7f3b84f2ff921",
+      "git_blob": "12914f6d246f95cf00b53e90eae2e729ba90478f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\slate-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/slate-2000.css",
+      "size": 196,
+      "sha256": "6d18b93b86ade6b0a8d2eeb8bc035b5adad9e0957fada6ae83c081574ddf547a",
+      "git_blob": "0bbb42a7295f7d913ed3ae88d213061bf08bf86a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\slate.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/slate.css",
+      "size": 517,
+      "sha256": "bea3a02ece62c6ae8fbc6d29ce24744cd4969c0b62caf3ef8c9753b44e5ed017",
+      "git_blob": "3be271bf729ed2ca75871978ee7df7d9b39e7c07"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\spruce-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/spruce-2000.css",
+      "size": 257,
+      "sha256": "9c59ecec80b9e535451b92eb146af29ac1f27f1cf91b59c2cf855f2374b50b9b",
+      "git_blob": "4d2fdedf908241683007df78375c028771c7e111"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\spruce.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/spruce.css",
+      "size": 517,
+      "sha256": "09fe8cbe774ded4e60a1b1efb6ead8be59026ab6763ca8af50645b70d93051dd",
+      "git_blob": "076fb096ea249274c0f36fd9f0e8e7d951cf1555"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\storm-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/storm-2000.css",
+      "size": 196,
+      "sha256": "1310a4e4a09392e50ecc9923e65925350a52d9227d595dc94a86e4e0e5b297d7",
+      "git_blob": "f5bd6177219701a34c42cd275a2f434ecfee159d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\storm.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/storm.css",
+      "size": 517,
+      "sha256": "b8b74dec76e497539580c3b138f8fabfb1e8fe42117a63365c77604f1bd800de",
+      "git_blob": "8cb3296f86c1c78970c98cc41aa659d97daeb36f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\teal-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/teal-2000.css",
+      "size": 195,
+      "sha256": "8eafbc7fdcd5ba0b62098e384b477c3fbf3fd86b8570d94162bd87770b71b98d",
+      "git_blob": "9e3328608cb79f861f1418a76c982854f7c94d39"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\teal.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/teal.css",
+      "size": 517,
+      "sha256": "84898275be536661e5392c8e67a9b526aeb7b6d7e40e727e8b0fffbfc5432c37",
+      "git_blob": "ba457bc49838d0a4bdc5dfdf0314d37ae6b053ee"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\wheat-2000.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/wheat-2000.css",
+      "size": 196,
+      "sha256": "6c52dce5e87e657bdb6f229f09f7294ff018e233eab14710ff8c92b0158124bd",
+      "git_blob": "04e5ac28b3d556bb8fccdfc2924c22c7a8aa4116"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\win9x\\skins\\wheat.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/win9x/skins/wheat.css",
+      "size": 517,
+      "sha256": "7379847c5eae6845b4d033845c4dc2bf84095351b8d021e6953bf8250bfa62ec",
+      "git_blob": "77d424f7d94f240b1c9906f01e60d1ff807c88b6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\arrow-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/arrow-down.svg",
+      "size": 210,
+      "sha256": "40484cb25ad1d842648c73f1e7cebda5b13a09b39ddb73edfffd2299c11a7880",
+      "git_blob": "5ae64f68b4f952096a6234bd28bff3e696c7d561"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\arrow-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/arrow-left.svg",
+      "size": 249,
+      "sha256": "0b7a7576beab0a4adcc553a8032d57a5801ea46e6c23a86f137164ff30f10345",
+      "git_blob": "3b79885c129e625418490d2f8854fec0651ad850"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\arrow-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/arrow-right.svg",
+      "size": 249,
+      "sha256": "09df7af6e014e53b974dee4b23776d1999eabfeb719f597597233ab9cf65db3b",
+      "git_blob": "aadb2a02d8e75ad00a672ea8c2d48dc56e5e80ee"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\arrow-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/arrow-up.svg",
+      "size": 210,
+      "sha256": "7cdef401126b92e189837497b7c534808cbb51fa044e96273afdf59bb968bc83",
+      "git_blob": "b9f41d95fc5108a3686984a08f0ab3ee8fcbc554"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\checkmark.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/checkmark.svg",
+      "size": 247,
+      "sha256": "d7a22f452aa006f58c270867a524616f9d9a14a60629348a8801775e14abcecf",
+      "git_blob": "97d80a64ccabd8729ceb0619f0d5bc847606e5f6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\close.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/close.svg",
+      "size": 242,
+      "sha256": "24722426225df36700845d21edd62bccdf95a9e4d46fc07ef98bc80ccd385735",
+      "git_blob": "568a4ac21df73f76c2873d8243f020c942b9cfb6"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\collapse.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/collapse.svg",
+      "size": 183,
+      "sha256": "bce43e32eff8b6fe6d40924a72e671202f8fb2f86ba8eb5858b5c054ec55a923",
+      "git_blob": "74b94a4e56b230a4dd50502e5d6133ce34b49943"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\expand.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/expand.svg",
+      "size": 203,
+      "sha256": "362ec89c90e7a7d42a57d78485fd42c51065a5f96e4054f82ae319a7517a75f8",
+      "git_blob": "cb81d04aa2094313a34333bdc070462b8b87cc55"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\maximize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/maximize.svg",
+      "size": 202,
+      "sha256": "56d9a45b9dbf17239ada253d356b5b56680e0ba88f64b9d4d3aa0170842427c2",
+      "git_blob": "6fe01fe686b3876c47713d975cc516c08e45c1b5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\menu-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/menu-right.svg",
+      "size": 188,
+      "sha256": "8a0ad70acb30e8963346078f55f361d99b216cdf7f72bff633a0335e7e51f7a4",
+      "git_blob": "ea6d6a90389cc84719402923de969d07a1147aa4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\minimize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/minimize.svg",
+      "size": 189,
+      "sha256": "f04480c20428b7cb757e223282f2d6af486c494a97d0feb5a4168a58f891f499",
+      "git_blob": "752cdd9d3c26415653297cb8391b704ce1473c7b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\restore.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/restore.svg",
+      "size": 220,
+      "sha256": "81fa416720cbb6017fabf27b1ed02d4b7934080f895348681a0768d9fef6f50b",
+      "git_blob": "f045f1182c2d4acb6e067c35f54eef6278f4e55f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\scroll-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/scroll-down.svg",
+      "size": 4582,
+      "sha256": "037c8ccdb3fe6a86203ec4cd8015d1dd53549e378454f549eed75d2ed443e738",
+      "git_blob": "be14567e4ef654c6682d9b15c8ac3a118c31f545"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\scroll-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/scroll-left.svg",
+      "size": 4587,
+      "sha256": "a4c13895341144327b94b457ad4ababbcb95922c3945c7367220c31c9a37c9f8",
+      "git_blob": "10c0f9484ecc1a70b003bd6e2eda6df520ee6f5c"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\scroll-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/scroll-right.svg",
+      "size": 4588,
+      "sha256": "98e3cbfdc32f0a8c7f2eaa0a0fd0f2586d6c15bca6a10a999691904f58a94db7",
+      "git_blob": "a886fc38f62c6e3415673f212af9b024d058c66f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\scroll-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/scroll-up.svg",
+      "size": 4591,
+      "sha256": "ded8fbc42ee6bb2e83f97f02d8626175338129716ddaf92adf07e282e85c906d",
+      "git_blob": "f8b4959f61ad48e95c420b54ace2b6539b0a915b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\sort-asc.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/sort-asc.svg",
+      "size": 203,
+      "sha256": "63e3e83e3e335eb765a69aae99c1394c44b6818939fbcfcd32914593347c8211",
+      "git_blob": "85c6b3859791775ea6ebb41e191b4654db3d737d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\sort-desc.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/sort-desc.svg",
+      "size": 203,
+      "sha256": "f360ae7d5897b9f236833a73e7c57b91d21cbc66f71165b8b4813240585125ea",
+      "git_blob": "28fcc473fd1b3bf259568aef11f2fed66abcd42a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\theme.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/theme.css",
+      "size": 39860,
+      "sha256": "d99c78bce5fad4fc0f1ab7992eae8725a89c8d77de841b1e9e4b8fff657fb319",
+      "git_blob": "893c4c70d1f7195d96bd09e1ab512dac47d89b3d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\theme.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/theme.scss",
+      "size": 152,
+      "sha256": "38d543bab86241474eae81109c7a324a1292a5c99edbaca9f79335b0059a160e",
+      "git_blob": "9ae61e8614ddd86fbe3e411ccf7749734243f21e"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_buttons.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_buttons.scss",
+      "size": 1593,
+      "sha256": "8c63a9e3632f9157b47872faff31718567304005642c236361cadaab1562408b",
+      "git_blob": "5717676dd8c477dab05ec3ef0524e2322903c6a0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_inputs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_inputs.scss",
+      "size": 5995,
+      "sha256": "749ffcc8da32e21129b3ef262bee4e761a3c62b030f6759444ca673447c5ce23",
+      "git_blob": "ad8dcfca1c2f98e82ee19bc671f68e2b567680b5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_lists.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_lists.scss",
+      "size": 7190,
+      "sha256": "44b264fe9576ddc0ebabb3bef2deeb5758a621a07e9ddd334652e278bc0bf828",
+      "git_blob": "bb0545704f19e80ee85bad0f48a6c1dc28407a9a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_menus.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_menus.scss",
+      "size": 2548,
+      "sha256": "6952287d00acab4cc211e40e63535850105cb4e25940d7301ca85fb7d88305cd",
+      "git_blob": "e35c87075bcba84bce38f9ab31e0060256840be2"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_panels.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_panels.scss",
+      "size": 1753,
+      "sha256": "c5e221322db2ef946fda7037f533bd1180e9dae37eafb09661f4c25a1840ff9d",
+      "git_blob": "33fd6ed94b0732471ee47752415456c0d2244cad"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_progress.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_progress.scss",
+      "size": 1400,
+      "sha256": "47c8a55cfd2b0573160a88bf2ab61ce0f7460c5031d53e3852fd0b1c52a25202",
+      "git_blob": "df296375aa511c7d13c6758e03ec6f71049598c7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_root.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_root.scss",
+      "size": 685,
+      "sha256": "ea62467c41d659a7b50086e8dfde80c2d17557b6391b1a388f6ef1daef02e7e9",
+      "git_blob": "2586e1ee7b08aacc64d72fea1286f4e1f99a809a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_scrollbars.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_scrollbars.scss",
+      "size": 6056,
+      "sha256": "0a4d54fe7d0656141432bfa8b45d5f9b01207a6061e976cd8337dd35f5288a89",
+      "git_blob": "ae222d35bedb087e5d479b82cbe529c79cbf0a0f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_tabs.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_tabs.scss",
+      "size": 1539,
+      "sha256": "44bc39c5c6242c416467c612103935bdc54f6fe3eb675e14df82b5917bb6b655",
+      "git_blob": "c1194a056a40f67b5e4fc5b6ef7c7160a3bfa9e5"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\_windows.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/_windows.scss",
+      "size": 4745,
+      "sha256": "0da9b19f4148184c409288fae7efcb69ab71729c983eae827064fe475325c7bd",
+      "git_blob": "17496cbf42b3fd7280cf678fa8977a21953c8168"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\default.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/default.css",
+      "size": 10,
+      "sha256": "71ca8fb8f7b69ca52f1fcca99b6fdc21441ae6bf08eb7b2999bb4760db3f635b",
+      "git_blob": "5a4260fca2a5725ce30d50987db6ed53e781260f"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\olive-green-scroll-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/olive-green-scroll-down.svg",
+      "size": 4634,
+      "sha256": "abb91c431f871f918cecc2655608d4062cd503e4a06345d17ef72a763e320ed2",
+      "git_blob": "5bbfdb7a210d2e9fa0b8c067dc9c7f5d6763c546"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\olive-green-scroll-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/olive-green-scroll-left.svg",
+      "size": 4600,
+      "sha256": "11b56be41f4644f2159c34d89890fcd19314f2a9f1044716a363fd8ee0b69820",
+      "git_blob": "666c366951069c113ed3a9891b7036dc41ef00d7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\olive-green-scroll-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/olive-green-scroll-right.svg",
+      "size": 4601,
+      "sha256": "fc653916fd2f189b29ae87940f459dc6629ed35369f778ae59be62b61ceb7682",
+      "git_blob": "afa877b408de5cb65c4be70b8db448801fba7a53"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\olive-green-scroll-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/olive-green-scroll-up.svg",
+      "size": 4581,
+      "sha256": "09e523d0f45a59c288cf44deb491f2d702942fc0dfd08ca751a74ea3dfb391f3",
+      "git_blob": "34afcbc0b48d404bdb0c4f084b335a1426f8f5bf"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\olive-green.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/olive-green.css",
+      "size": 15136,
+      "sha256": "d1643ca3bbd313f17e316709cbc7c447f417d0de21bee599c3924b6b54fbc0a0",
+      "git_blob": "e5afae75933db7418d419d99f5ecc8413f3dfa49"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\olive-green.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/olive-green.scss",
+      "size": 11419,
+      "sha256": "62dc22d5c9407f39e8c65424df3ea43aa70b5c3cca7d1d54ef4edf7b01a072dd",
+      "git_blob": "b9ac9eba25a2d3a7baa34bb8eb061b7166e96d33"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-close.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-close.svg",
+      "size": 455,
+      "sha256": "529b100523d0f34eca17a8a81f1283336c46e3de5f319e0a4df684bba042688c",
+      "git_blob": "35845b04af3a5aeee8c2647717b2db0bdcb499f3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-maximize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-maximize.svg",
+      "size": 392,
+      "sha256": "390df552cc9ca09ed60f8b81a56f6a99b041b39e7e48c7718599870668aa80d5",
+      "git_blob": "0ce276326b0843fb580553a91cbfbd1b82a2bf97"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-minimize.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-minimize.svg",
+      "size": 328,
+      "sha256": "81528a8200258a1fa36651137c4bfee1ee27dffe6ddfdc5f7da86d23cf91f0f4",
+      "git_blob": "5bc15123fc236ee7724214c8f5d8cacde0e96a26"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-restore.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-restore.svg",
+      "size": 624,
+      "sha256": "a04cd5d415c06f7b6b879b86d06d3b7dbb7e51acae81721fd71d552371f19201",
+      "git_blob": "e06f53f1dd83fed4ed705085ad8c8613bea3b9c0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-scroll-down.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-scroll-down.svg",
+      "size": 4130,
+      "sha256": "060c946d79ea076b934a58e0214158044c5283e1f2ba798203b5d9fa06aad814",
+      "git_blob": "020eb7d5e1bc655aff720e310b5a244ed68e7c74"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-scroll-left.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-scroll-left.svg",
+      "size": 4120,
+      "sha256": "3454eff89b6be1952e5c4e77ccf20a5418c6dd85bfc29a8675c8d6013d572096",
+      "git_blob": "539655ef5a7d180b1f202107bc01a8f2f29bad1b"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-scroll-right.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-scroll-right.svg",
+      "size": 4121,
+      "sha256": "213b490e51e5061debd39229f659eb781e914f44174f648d9e4df32c348520db",
+      "git_blob": "bb22c4271bbe4866a16f0334b3aeab59a64d8ae7"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver-scroll-up.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver-scroll-up.svg",
+      "size": 4127,
+      "sha256": "ed3a4c25c64e02fb53598a235c5d734dfbb4b633e56acf0b3b49caed45727a65",
+      "git_blob": "370045908e55796f079262dec42a8c8cada055f0"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver.css",
+      "size": 17771,
+      "sha256": "456334c668e453e487e6f515aa584c50a3986aadfef43d340d3afeb074e0983c",
+      "git_blob": "d1856a96591b476359e70651d319e445dc787094"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\public\\classic-stylesheets\\themes\\winxp\\skins\\silver.scss",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/public/classic-stylesheets/themes/winxp/skins/silver.scss",
+      "size": 13384,
+      "sha256": "55d5f7c07fad4b3f718a21b6b70d395522adff63102381e8d1d6289f9feca3ee",
+      "git_blob": "08e79fcfce80aa3d8559d8acf4f74a905b90f104"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\App.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/App.css",
+      "size": 2891,
+      "sha256": "6e25a776d3e8102da5bacb3cb99f4a5fc662a2e01e6143140671a556d28c3d5c",
+      "git_blob": "f90339d8f765fa2c69d9a341959a8ddb9fff5720"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\App.tsx",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/App.tsx",
+      "size": 3726,
+      "sha256": "07edf59d6db43fbfe30f36b3640b6878568ff4e442e581bc1e292564d3774a1d",
+      "git_blob": "34ff1843500924502846daaedcdd2288cee389b3"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\index.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/index.css",
+      "size": 208,
+      "sha256": "e6b93b7ddf1e612efe90bc214b65ec3084a47cf0702e8fcfef18f683133326fc",
+      "git_blob": "38177b364a010c0948ff113e7ef2bf1fc97198f8"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\main.tsx",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/main.tsx",
+      "size": 230,
+      "sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2",
+      "git_blob": "bef5202a32cbd0632c43de40f6e908532903fd42"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\assets\\hero.png",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/assets/hero.png",
+      "size": 13057,
+      "sha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c",
+      "git_blob": "02251f4b956c55af2d76fd0788124d7eee2b45eb"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\assets\\react.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/assets/react.svg",
+      "size": 4126,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "git_blob": "6c87de9bb3358469122cc991d5cf578927246184"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\assets\\vite.svg",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/assets/vite.svg",
+      "size": 8709,
+      "sha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f",
+      "git_blob": "5101b674df391399da71c767aa5c976426c9dc7a"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\styles\\condor-density.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/styles/condor-density.css",
+      "size": 974,
+      "sha256": "267e2ea4d5b494e69afeb9ce62c8eec094b8cd8a300068c3b317464401e75d23",
+      "git_blob": "48983f7d71add388428f776b66845d0775b290e4"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\styles\\condor-fonts-local.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/styles/condor-fonts-local.css",
+      "size": 897,
+      "sha256": "89bd056a97e282ee97c96fd327fb8b54483e1c289010cd3c14d8bcaa1db2d8ed",
+      "git_blob": "5937425fe1199d147cb324a6b6156c62f60c3fee"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-test\\src\\styles\\condor-fonts.css",
+      "dest": "recovery/2026-10-08/condor-classic-ui-test/src/styles/condor-fonts.css",
+      "size": 1836,
+      "sha256": "e44be21e427a97c06760d13f67ec77d042b5e19ba14555220e147f3e72ce64aa",
+      "git_blob": "1e1687cf0088c00624ddd7ca0e74d83383d9240d"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-install-test\\package-lock.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-install-test/package-lock.json",
+      "size": 2170,
+      "sha256": "b258a928c8590b91e09f3b21df6f50b18f924737fdf90821dfb9764d025f2a9f",
+      "git_blob": "adee30e02e44a930f1df27cc50ece893ef22b036"
+    },
+    {
+      "source": "C:\\Users\\bryce\\condor-classic-ui-install-test\\package.json",
+      "dest": "recovery/2026-10-08/condor-classic-ui-install-test/package.json",
+      "size": 371,
+      "sha256": "d59d6bbee468ea0a19d7a00bd11bde66f8dd59f8ea792b8bec17a5c8e0e6d71d",
+      "git_blob": "5549594303a3cc5efbc031abfdbfebd4d2e4cbf0"
+    }
+  ],
+  "excluded": []
+}

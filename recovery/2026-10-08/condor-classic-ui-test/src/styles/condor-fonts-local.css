@@ -1,0 +1,30 @@
+/*
+  LOCAL ONLY.
+  Do not commit this if it references proprietary fonts.
+*/
+
+@font-face {
+  font-family: "Condor Local Win31 UI";
+  src: url("/local-fonts/win31-ui.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Condor Local CDE UI";
+  src: url("/local-fonts/cde-ui.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root[data-theme-profile="win3x"] {
+  --condor-font-ui: "Condor Local Win31 UI", "MS Sans Serif", "Microsoft Sans Serif", Arial, sans-serif;
+  --condor-font-title: "Condor Local Win31 UI", "MS Sans Serif", "Microsoft Sans Serif", Arial, sans-serif;
+}
+
+:root[data-theme-profile="cde"] {
+  --condor-font-ui: "Condor Local CDE UI", Helvetica, Arial, sans-serif;
+  --condor-font-title: "Condor Local CDE UI", Helvetica, Arial, sans-serif;
+}
